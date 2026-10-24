@@ -1,0 +1,132 @@
+[
+  {
+    "id": "01",
+    "A": "Group receipts by supplier.",
+    "B": "Group receipts by supplier."
+  },
+  {
+    "id": "02",
+    "A": "Folders organize files.",
+    "B": "Folders organize files."
+  },
+  {
+    "id": "03",
+    "A": "Compare document versions side by side.",
+    "B": "Compare document versions side by side."
+  },
+  {
+    "id": "04",
+    "A": "Uploaded documents are sent to Acme for processing and retained there for 30 days.",
+    "B": "Uploaded documents are sent to Acme for processing and retained for 30 days."
+  },
+  {
+    "id": "05",
+    "A": "The email is written and ready for review. It has not been sent.",
+    "B": "The email draft is ready. It hasn\u2019t been sent."
+  },
+  {
+    "id": "06",
+    "A": "All 42 unit tests passed locally. Run the database migration in staging and verify it before deployment.",
+    "B": "All 42 unit tests passed locally. Run and verify the database migration in staging before deploying."
+  },
+  {
+    "id": "07",
+    "A": "The upload failed.",
+    "B": "The upload failed."
+  },
+  {
+    "id": "08",
+    "A": "We estimate the migration will take 2\u20134 hours, depending on file size.",
+    "B": "We estimate the migration will take 2\u20134 hours, depending on file size."
+  },
+  {
+    "id": "09",
+    "A": "Big ideas. Small notebook.",
+    "B": "Big ideas. Small notebook."
+  },
+  {
+    "id": "10",
+    "A": "Draft agreement \u2014 approval required before use.",
+    "B": "Draft agreement \u2014 approval required before use."
+  },
+  {
+    "id": "11",
+    "A": "Organize notes by topic. CSV export is planned but not yet available.",
+    "B": "Organize notes by topic. CSV export is planned but not yet available."
+  },
+  {
+    "id": "12",
+    "A": "Click Save.",
+    "B": "Click Save."
+  },
+  {
+    "id": "13",
+    "A": "The payment request timed out; payment status is unknown. The transaction-status lookup is available but has not run. Check it before retrying.",
+    "B": "The payment request timed out. Payment status is unknown; the available transaction-status lookup hasn\u2019t run yet."
+  },
+  {
+    "id": "14",
+    "A": "Preview reports free. Download a report for $12.",
+    "B": "Preview reports free. Download a report for $12."
+  },
+  {
+    "id": "15",
+    "A": "DNS maps names to IP addresses. Your browser checks its cache first, then asks a resolver if needed. The resolver returns a cached answer or queries DNS servers.",
+    "B": "DNS maps domain names to IP addresses. Your browser checks its cache first, then asks a resolver if needed. The resolver returns a cached answer or queries DNS servers."
+  },
+  {
+    "id": "16",
+    "A": "Remove \u201cIt is important to note that this is not a replacement for thinking carefully.\u201d It adds no useful instruction or limitation. Keep the two sentences describing invoice order.",
+    "B": "Delete \u201cIt is important to note that this is not a replacement for thinking carefully.\u201d It adds a vague warning without helping readers understand the feature."
+  },
+  {
+    "id": "17",
+    "A": "Search now supports tags. A customer said, \"It may help our team, though we need more time to evaluate it.\"",
+    "B": "Search now supports tags. A customer said, \"It may help our team, though we need more time to evaluate it.\""
+  },
+  {
+    "id": "18",
+    "A": "I gave the wrong total. The correct total is $48.",
+    "B": "I gave the wrong total. The correct total is $48."
+  },
+  {
+    "id": "19",
+    "A": "In our observational sample, reminder users submitted forms sooner; this does not establish causation.",
+    "B": "In our observational sample, people who used reminders submitted forms sooner. This association does not establish causation."
+  },
+  {
+    "id": "20",
+    "A": "The product exports PNG files.",
+    "B": "The product exports PNG files."
+  },
+  {
+    "id": "H1",
+    "A": "Parcel helps independent consultants organize client requests by project, track due dates, and export CSV files. It runs locally.\n\nTo get started, create a project and import a CSV of client requests.",
+    "B": "Parcel helps independent consultants organize client requests by project, track due dates, and export CSV files. It runs locally.\n\nTo get started, create a project and import a CSV of your client requests. Use the project view to review requests and their due dates, then export a CSV when you need a copy."
+  },
+  {
+    "id": "H2",
+    "A": "The scheduler can prepare your weekly report every Monday, but you must approve each report before it sends. Unattended sending is not available.",
+    "B": "The scheduler can prepare your weekly report on Mondays, but you\u2019ll need to approve each report before it sends. Unattended sending isn\u2019t available."
+  },
+  {
+    "id": "H3",
+    "A": "Consistent file names help you find documents, recognize their contents, and choose the right version without opening every file. They also make handoffs easier because coworkers can follow the same pattern. For example, use `2026-10-24_Acme_Proposal_v02.docx`: the date, client, document type, and version are all visible. Starting with a year-month-day date keeps files in chronological order when sorted by name. Follow your team's naming convention, use the same terms each time, and update the version when you revise a document. Avoid names like `final_final_new.docx`, which leave coworkers guessing about which file to use.",
+    "B": "Consistent file names help you find the right document quickly and make it easier for coworkers to understand what a file contains without opening it. A shared pattern also helps distinguish projects, dates, and versions, reducing the chance of using an outdated copy. For example, use \u201c2026-10-24_Acme_Meeting-Notes_v01.docx\u201d instead of \u201cnotes-final-new.docx.\u201d Putting the date first in year-month-day order keeps files sorted chronologically. Agree on a simple naming pattern with your team, use clear project names, and update version numbers consistently. Keep names descriptive enough to recognize at a glance without making them unnecessarily long."
+  },
+  {
+    "id": "H4",
+    "A": "Fixed the search filter and passed all 18 targeted tests. [PR #12](https://example.com/pr/12) is ready for your review; CI is still running. Once CI passes, you can merge it. Nothing has been deployed.",
+    "B": "Fixed the search filter and opened [PR #12](https://example.com/pr/12) for your review and merge. All 18 targeted tests passed; CI is still running. Nothing has been deployed."
+  },
+  {
+    "id": "H5",
+    "A": "Choose a PDF to get a summary with links to the source pages. Scanned PDFs are not supported.\n\nUploaded files are processed on the provider's servers and deleted after 24 hours.\n\nChoose a PDF",
+    "B": "Choose a PDF to get a summary with links to the source pages. Scanned PDFs aren\u2019t supported.\n\nUploaded files are processed on the provider\u2019s servers and deleted after 24 hours.\n\nChoose a PDF"
+  },
+  {
+    "id": "H6",
+    "A": "Big ideas travel light. Meet Spark: 64 dotted pages for sketches on the move, a recycled-paper cover, and a size that fits in your jacket pocket. Catch the idea before your next stop.",
+    "B": "Meet Spark, your pocket-sized place for ideas on the move. With 64 dotted pages and a recycled-paper cover, it fits in a jacket pocket\u2014ready for train-window sketches, caf\u00e9 doodles, and whatever catches your eye next."
+  }
+]

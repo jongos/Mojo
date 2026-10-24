@@ -1,0 +1,10 @@
+{
+  "cases.json": "fbeff2e831469e9148f4aefbdbc81f6a2d442f31436062c517412b0883e41dbe",
+  "heldout-cases.json": "4c60bf1c28472a3ee926c620cdf8ffa15e680f8f674c3034e1b12fac559320e1",
+  "regression-cases.json": "2fd7cba637a8e7e38eaa64366dc79dd8cdc623288b273dce8d4682e93bdd8ae7",
+  "with-skill.json": "c0c2455b1050350b69dc65079bb79d9ed51374b7cb18ae1c1419de28f1400706",
+  "baseline.json": "0db5398039dd1d70028c4c674328304ea375983c6e061148d028d20955383da9",
+  "heldout-with-skill.json": "e845df05b03ab1b418030635bdb02474b16d356b7f98e796bffb2be2779d21b5",
+  "heldout-baseline.json": "eaee0175082632d6c5e23428a379ad1dcb824ccf4616643270e400edeae96823",
+  "final-with-skill.json": "3ad04187d321cfc86b7a328e4f117c9aaf0deea063e4ad4089f24c0394a202a8"
+}

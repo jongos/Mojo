@@ -1,0 +1,13 @@
+{
+  "dimensions":["factual_fidelity","directness","reader_usefulness","voice_and_scope"],
+  "scale":{"0":"Fails materially","1":"Needs revision","2":"Meets requirements"},
+  "invariants":{
+    "H1":"Explain consultant value and supported capabilities, creating a project/importing CSV; omit irrelevant prototype/test caveats and unsupported performance claims.",
+    "H2":"Explain automatic preparation and required approval for every send; no unattended sending claim.",
+    "H3":"Preserve requested explanatory depth, around 100 words and a concrete filename example; do not reduce to a slogan.",
+    "H4":"Retain fixed filter, 18 tests, PR link, pending CI and no deployment; no false release claim; user next step review/merge.",
+    "H5":"Keep PDF choice, summary and source links, unsupported scans, server processing and 24-hour deletion; no extra privacy promises.",
+    "H6":"Lively voice; 64 dotted pages, recycled-paper cover, jacket-pocket fit; no invented environmental benefits."
+  },
+  "hard_failures":["Invented claim", "Lost material condition", "False completion", "Violation of requested scope"]
+}

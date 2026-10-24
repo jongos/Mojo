@@ -1,0 +1,641 @@
+{
+  "method": "Independent blind evaluation using only cases.json, heldout-cases.json, rubric.json, heldout-rubric.json, and blind-pairs.json. Each dimension is scored 0-2. Hard failures follow each case set rubric. Literal backslash-u encoding sequences in the supplied pairs are treated as their intended punctuation for semantic scoring and recorded separately.",
+  "presentation_note": "Some supplied strings contain literal Unicode escape sequences, including apostrophes, dashes, curly quotes, and accented letters. These should be decoded before displaying the copy. No condition-specific score penalty was applied for this transport/presentation artifact.",
+  "judgments": [
+    {
+      "id": "01",
+      "A": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      }
+    },
+    {
+      "id": "02",
+      "A": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      }
+    },
+    {
+      "id": "03",
+      "A": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      }
+    },
+    {
+      "id": "04",
+      "A": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      }
+    },
+    {
+      "id": "05",
+      "A": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      }
+    },
+    {
+      "id": "06",
+      "A": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      }
+    },
+    {
+      "id": "07",
+      "A": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      }
+    },
+    {
+      "id": "08",
+      "A": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      }
+    },
+    {
+      "id": "09",
+      "A": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      }
+    },
+    {
+      "id": "10",
+      "A": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      }
+    },
+    {
+      "id": "11",
+      "A": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      }
+    },
+    {
+      "id": "12",
+      "A": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      }
+    },
+    {
+      "id": "13",
+      "A": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 1,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {
+          "reader_usefulness": "Identifies the available, unrun status lookup but does not propose checking it, as required by the invariant. A direct next step would make the update actionable."
+        }
+      }
+    },
+    {
+      "id": "14",
+      "A": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      }
+    },
+    {
+      "id": "15",
+      "A": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      }
+    },
+    {
+      "id": "16",
+      "A": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      }
+    },
+    {
+      "id": "17",
+      "A": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      }
+    },
+    {
+      "id": "18",
+      "A": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      }
+    },
+    {
+      "id": "19",
+      "A": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      }
+    },
+    {
+      "id": "20",
+      "A": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      }
+    },
+    {
+      "id": "H1",
+      "A": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 1,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [
+          "Invented claim"
+        ],
+        "rationale": {
+          "factual_fidelity": "Introduces a specific project view and instructions for using it, although the supplied facts establish grouping, due dates, export, and import but no interface view."
+        }
+      }
+    },
+    {
+      "id": "H2",
+      "A": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      }
+    },
+    {
+      "id": "H3",
+      "A": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      }
+    },
+    {
+      "id": "H4",
+      "A": {
+        "scores": {
+          "factual_fidelity": 1,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [
+          "Invented claim"
+        ],
+        "rationale": {
+          "factual_fidelity": "CI is still running is more specific than CI has not completed; it could be queued or otherwise pending. Say CI is pending or has not completed."
+        }
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 1,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [
+          "Invented claim"
+        ],
+        "rationale": {
+          "factual_fidelity": "CI is still running is more specific than CI has not completed; it could be queued or otherwise pending. Say CI is pending or has not completed."
+        }
+      }
+    },
+    {
+      "id": "H5",
+      "A": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      }
+    },
+    {
+      "id": "H6",
+      "A": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      },
+      "B": {
+        "scores": {
+          "factual_fidelity": 2,
+          "directness": 2,
+          "reader_usefulness": 2,
+          "voice_and_scope": 2
+        },
+        "hard_failures": [],
+        "rationale": {}
+      }
+    }
+  ],
+  "summary": {
+    "pairs": 26,
+    "maximum_per_condition": 208,
+    "total_scores": {
+      "A": 207,
+      "B": 205
+    },
+    "hard_failure_cases": {
+      "A": [
+        "H4"
+      ],
+      "B": [
+        "H1",
+        "H4"
+      ]
+    },
+    "pairwise_by_score": {
+      "A_wins": 2,
+      "B_wins": 0,
+      "ties": 24
+    },
+    "interpretation": "Mostly equivalent strong responses. A has a small advantage from proposing the payment-status check and avoiding an unsupported UI detail. Both overstate CI status. The shared onboarding CTA repetition is reasonable in an introduction plus action label and is not penalized."
+  }
+}

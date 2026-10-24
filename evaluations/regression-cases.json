@@ -1,0 +1,4 @@
+[
+  {"id":"R1","request":"Write a brief getting-started paragraph. Facts: the tool stores bookmarks with tags and supports searching by tag. Users begin by importing a bookmarks file. No screen names, menus, or button labels are provided."},
+  {"id":"R2","request":"Write a final agent update. Facts: the report export was requested, but no result is available. The queue status is unknown. A status check can be run next. Do not add facts."}
+]

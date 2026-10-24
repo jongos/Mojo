@@ -1,0 +1,329 @@
+{
+  "method": "Independently assessed parsed final-with-skill.json against cases.json, heldout-cases.json, rubric.json, heldout-rubric.json, and regression-cases.json. Each of four dimensions is scored 0-2. JSON escapes are serialization and incur no penalty.",
+  "judgments": [
+    {
+      "id": "01",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {}
+    },
+    {
+      "id": "02",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {}
+    },
+    {
+      "id": "03",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {}
+    },
+    {
+      "id": "04",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {}
+    },
+    {
+      "id": "05",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {}
+    },
+    {
+      "id": "06",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {},
+      "assessment_note": "Explicitly preserves local tests, unrun staging migration, and deployment dependency."
+    },
+    {
+      "id": "07",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {}
+    },
+    {
+      "id": "08",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {}
+    },
+    {
+      "id": "09",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {}
+    },
+    {
+      "id": "10",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {}
+    },
+    {
+      "id": "11",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {}
+    },
+    {
+      "id": "12",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {}
+    },
+    {
+      "id": "13",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {},
+      "assessment_note": "Keeps payment outcome unknown and proposes the unrun status lookup before any retry."
+    },
+    {
+      "id": "14",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {}
+    },
+    {
+      "id": "15",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {}
+    },
+    {
+      "id": "16",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {}
+    },
+    {
+      "id": "17",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {},
+      "assessment_note": "Customer quote is preserved exactly after JSON decoding."
+    },
+    {
+      "id": "18",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {}
+    },
+    {
+      "id": "19",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {}
+    },
+    {
+      "id": "20",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {}
+    },
+    {
+      "id": "H1",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {},
+      "assessment_note": "Stays within supplied capabilities and getting-started actions; no invented UI view."
+    },
+    {
+      "id": "H2",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {}
+    },
+    {
+      "id": "H3",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {},
+      "assessment_note": "Provides approximately 100 words, a concrete filename example, and useful explanation."
+    },
+    {
+      "id": "H4",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {},
+      "assessment_note": "Correctly reports incomplete CI without guessing whether it is running. Retains tests, PR, review and merge, and no deployment."
+    },
+    {
+      "id": "H5",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {}
+    },
+    {
+      "id": "H6",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {}
+    },
+    {
+      "id": "R1",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {},
+      "assessment_note": "Names only supported actions; no screen, menu, or button is invented."
+    },
+    {
+      "id": "R2",
+      "scores": {
+        "factual_fidelity": 2,
+        "directness": 2,
+        "reader_usefulness": 2,
+        "voice_and_scope": 2
+      },
+      "hard_failures": [],
+      "rationale": {},
+      "assessment_note": "Preserves absent export result and unknown queue state; proposes a status check without asserting it ran."
+    }
+  ],
+  "summary": {
+    "case_count": 28,
+    "total_score": 224,
+    "maximum_score": 224,
+    "hard_failure_count": 0,
+    "cases_needing_revision": [],
+    "interpretation": "All 28 final outputs meet the specified requirements. Prior unsupported UI and CI details are removed; the payment update now proposes a status lookup. Both targeted regressions pass. These results measure only this supplied writing suite."
+  }
+}

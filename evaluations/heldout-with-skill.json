@@ -1,0 +1,8 @@
+[
+  {"id":"H1","output":"Parcel helps independent consultants organize client requests by project, track due dates, and export CSV files. It runs locally.\n\nTo get started, create a project and import a CSV of client requests."},
+  {"id":"H2","output":"The scheduler can prepare your weekly report every Monday, but you must approve each report before it sends. Unattended sending is not available."},
+  {"id":"H3","output":"Consistent file names help you find documents, recognize their contents, and choose the right version without opening every file. They also make handoffs easier because coworkers can follow the same pattern. For example, use `2026-10-24_Acme_Proposal_v02.docx`: the date, client, document type, and version are all visible. Starting with a year-month-day date keeps files in chronological order when sorted by name. Follow your team's naming convention, use the same terms each time, and update the version when you revise a document. Avoid names like `final_final_new.docx`, which leave coworkers guessing about which file to use."},
+  {"id":"H4","output":"Fixed the search filter and passed all 18 targeted tests. [PR #12](https://example.com/pr/12) is ready for your review; CI is still running. Once CI passes, you can merge it. Nothing has been deployed."},
+  {"id":"H5","output":"Choose a PDF to get a summary with links to the source pages. Scanned PDFs are not supported.\n\nUploaded files are processed on the provider's servers and deleted after 24 hours.\n\nChoose a PDF"},
+  {"id":"H6","output":"Big ideas travel light. Meet Spark: 64 dotted pages for sketches on the move, a recycled-paper cover, and a size that fits in your jacket pocket. Catch the idea before your next stop."}
+]
