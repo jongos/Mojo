@@ -2,9 +2,7 @@
 
 **Say what matters. Cut the padding.**
 
-Mojo removes repetition, needless nuance, and overly cautious language from AI outputs. Use it to make answers, product copy, instructions, and agent updates clear and direct.
-
-It cuts the disclaimers that say nothing, the distinctions that change nothing, and the extra paragraphs that repeat the point. Useful facts, meaningful uncertainty, and your voice stay intact.
+Mojo makes AI answers, product copy, instructions and agent updates clear and direct. It cuts repetition, needless nuance and cautious padding while preserving facts and your voice.
 
 ## Use Mojo
 
@@ -26,11 +24,13 @@ Mojo supports automatic selection for relevant writing tasks. Its skill identifi
 
 ## Before and After
 
+For a tool that groups receipts by supplier:
+
 **Before:** “It is worth noting that this tool is designed to potentially help you group receipts by supplier, though it is not a replacement for your existing bookkeeping process.”
 
 **After:** “Group receipts by supplier.”
 
-This example assumes supplier grouping is a confirmed feature. Mojo makes supported claims direct and keeps conditions that affect use.
+Mojo keeps qualifications that affect the meaning or the reader’s decision.
 
 ## Explore
 
