@@ -1,0 +1,761 @@
+[
+  {
+    "id": "S06",
+    "assessments": [
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves the already-clear instruction, the registration-only photo allowance, and the original paper requirement for warranty claims."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves the already-clear instruction, the registration-only photo allowance, and the original paper requirement for warranty claims."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves the already-clear instruction, the registration-only photo allowance, and the original paper requirement for warranty claims."
+      },
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves the already-clear instruction, the registration-only photo allowance, and the original paper requirement for warranty claims."
+      }
+    ],
+    "preferred": [
+      "D",
+      "C",
+      "B",
+      "A"
+    ]
+  },
+  {
+    "id": "S10",
+    "assessments": [
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 1,
+          "usefulness": 1,
+          "clarity": 1,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "\"Live within city limits and are 65 or older or have a current disability transit pass?\" leaves the grouping of AND and OR ambiguous. A reader can attach the pass alternative outside the residency condition. The intended eligibility remains recoverable but needs explicit grouping."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Makes city residence a prerequisite and preserves age OR a current disability transit pass as alternative eligibility routes."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Makes city residence a prerequisite and preserves age OR a current disability transit pass as alternative eligibility routes."
+      },
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Makes city residence a prerequisite and preserves age OR a current disability transit pass as alternative eligibility routes."
+      }
+    ],
+    "preferred": [
+      "C",
+      "B",
+      "A"
+    ]
+  },
+  {
+    "id": "D06",
+    "assessments": [
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves current closures, weather and notice priority, access limitations and toilets, seasonal dog exclusion, bicycle and mobility-aid distinction, parking prices, and the registered guided walk with parking separate. Does not invent a repair deadline."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves current closures, weather and notice priority, access limitations and toilets, seasonal dog exclusion, bicycle and mobility-aid distinction, parking prices, and the registered guided walk with parking separate. Does not invent a repair deadline."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves current closures, weather and notice priority, access limitations and toilets, seasonal dog exclusion, bicycle and mobility-aid distinction, parking prices, and the registered guided walk with parking separate. Does not invent a repair deadline."
+      },
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves current closures, weather and notice priority, access limitations and toilets, seasonal dog exclusion, bicycle and mobility-aid distinction, parking prices, and the registered guided walk with parking separate. Does not invent a repair deadline."
+      }
+    ],
+    "preferred": [
+      "D",
+      "C",
+      "B",
+      "A"
+    ]
+  },
+  {
+    "id": "D10",
+    "assessments": [
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains the unapproved weekday recommendation, exact ridership figures, Tuesday clinic rationale, unmeasured weekend demand, and proposed four-week count."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains the unapproved weekday recommendation, exact ridership figures, Tuesday clinic rationale, unmeasured weekend demand, and proposed four-week count."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains the unapproved weekday recommendation, exact ridership figures, Tuesday clinic rationale, unmeasured weekend demand, and proposed four-week count."
+      },
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains the unapproved weekday recommendation, exact ridership figures, Tuesday clinic rationale, unmeasured weekend demand, and proposed four-week count."
+      }
+    ],
+    "preferred": [
+      "D",
+      "C",
+      "B",
+      "A"
+    ]
+  },
+  {
+    "id": "C06",
+    "assessments": [
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Identifies the Safari focus fix, both browser keyboard checks and all 38 tests, and explicitly distinguishes local changes from commit, push, and deployment."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Identifies the Safari focus fix, both browser keyboard checks and all 38 tests, and explicitly distinguishes local changes from commit, push, and deployment."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Identifies the Safari focus fix, both browser keyboard checks and all 38 tests, and explicitly distinguishes local changes from commit, push, and deployment."
+      },
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Identifies the Safari focus fix, both browser keyboard checks and all 38 tests, and explicitly distinguishes local changes from commit, push, and deployment."
+      }
+    ],
+    "preferred": [
+      "D",
+      "C",
+      "B",
+      "A"
+    ]
+  },
+  {
+    "id": "C10",
+    "assessments": [
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Recommends the verified five-editor Cedar plan at $18/month, excludes one-editor Birch at $12/month, and leaves Pine unresolved without invented facts."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Recommends the verified five-editor Cedar plan at $18/month, excludes one-editor Birch at $12/month, and leaves Pine unresolved without invented facts."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Recommends the verified five-editor Cedar plan at $18/month, excludes one-editor Birch at $12/month, and leaves Pine unresolved without invented facts."
+      },
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Recommends the verified five-editor Cedar plan at $18/month, excludes one-editor Birch at $12/month, and leaves Pine unresolved without invented facts."
+      }
+    ],
+    "preferred": [
+      "D",
+      "C",
+      "B",
+      "A"
+    ]
+  },
+  {
+    "id": "V06",
+    "assessments": [
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Appropriately leaves the personal memory and conditional Thursday dinner offer unchanged, without adding cheer or beliefs."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Appropriately leaves the personal memory and conditional Thursday dinner offer unchanged, without adding cheer or beliefs."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Appropriately leaves the personal memory and conditional Thursday dinner offer unchanged, without adding cheer or beliefs."
+      },
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Appropriately leaves the personal memory and conditional Thursday dinner offer unchanged, without adding cheer or beliefs."
+      }
+    ],
+    "preferred": [
+      "D",
+      "C",
+      "B",
+      "A"
+    ]
+  },
+  {
+    "id": "V10",
+    "assessments": [
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains observed counts, states that statistical analysis has not been performed, and preserves the interim old subject line and next week's send-time test without blame or causal claims. The old-line denominator is carried by the comparison's context."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains observed counts, states that statistical analysis has not been performed, and preserves the interim old subject line and next week's send-time test without blame or causal claims. The old-line denominator is elliptical but recoverable from the immediately preceding comparison."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains observed counts, states that statistical analysis has not been performed, and preserves the interim old subject line and next week's send-time test without blame or causal claims."
+      },
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains observed counts, states that statistical analysis has not been performed, and preserves the interim old subject line and next week's send-time test without blame or causal claims."
+      }
+    ],
+    "preferred": [
+      "D",
+      "C",
+      "B",
+      "A"
+    ]
+  },
+  {
+    "id": "M06",
+    "assessments": [
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves both necessary restart conditions, the strict below-20-psi threshold, and supervisor contact if either condition is unmet."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves both necessary restart conditions, the strict below-20-psi threshold, and supervisor contact if either condition is unmet."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves both necessary restart conditions, the strict below-20-psi threshold, and supervisor contact if either condition is unmet."
+      },
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves both necessary restart conditions, the strict below-20-psi threshold, and supervisor contact if either condition is unmet."
+      }
+    ],
+    "preferred": [
+      "D",
+      "C",
+      "B",
+      "A"
+    ]
+  },
+  {
+    "id": "M10",
+    "assessments": [
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 1,
+          "usefulness": 1,
+          "clarity": 2,
+          "voice_scope": 1,
+          "edit_restraint": 1
+        },
+        "hard_failures": [
+          {
+            "phrase": "their references also have not been confirmed satisfactory",
+            "violated_invariant": "Do not invent facts from limited evidence: the input does not establish whether Candidate B's references have been assessed or confirmed satisfactory."
+          }
+        ],
+        "comprehension_pass": true,
+        "notes": "Correctly recommends neither and preserves the hiring requirements, but asserts an unsupported confirmation status for B's references instead of identifying the evidence gap."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Recommends neither candidate for immediate hire and preserves the conjunctive practical-test and satisfactory-reference requirements. Explicitly distinguishes submission from demonstrated satisfactory references without asserting a review status."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Recommends neither candidate for immediate hire and preserves the conjunctive practical-test and satisfactory-reference requirements. The proposed request and assessment of A's references is supported and useful; B remains ineligible because of the failed test."
+      },
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Recommends neither candidate for immediate hire and preserves the conjunctive practical-test and satisfactory-reference requirements. Accurately frames the quality of B's references as unestablished by the provided information."
+      }
+    ],
+    "preferred": [
+      "C",
+      "B",
+      "A"
+    ]
+  },
+  {
+    "id": "F06",
+    "assessments": [
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Removes the introductory filler while preserving dry_run, the exact example, false for persistence, and limit: 0 as processing no records."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Removes the introductory filler while preserving dry_run, the exact example, false for persistence, and limit: 0 as processing no records."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Removes the introductory filler while preserving dry_run, the exact example, false for persistence, and limit: 0 as processing no records."
+      },
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Removes the introductory filler while preserving dry_run, the exact example, false for persistence, and limit: 0 as processing no records."
+      }
+    ],
+    "preferred": [
+      "D",
+      "C",
+      "B",
+      "A"
+    ]
+  },
+  {
+    "id": "F10",
+    "assessments": [
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Returns exactly five key=value lines with intact keys and {count}; explains reversible archiving and permanent deletion while preserving cancel as no change."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Returns exactly five key=value lines with intact keys and {count}; explains reversible archiving and permanent deletion while preserving cancel as no change."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Returns exactly five key=value lines with intact keys and {count}; explains reversible archiving and permanent deletion while preserving cancel as no change."
+      },
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Returns exactly five key=value lines with intact keys and {count}; explains reversible archiving and permanent deletion while preserving cancel as no change."
+      }
+    ],
+    "preferred": [
+      "D",
+      "C",
+      "B",
+      "A"
+    ]
+  }
+]

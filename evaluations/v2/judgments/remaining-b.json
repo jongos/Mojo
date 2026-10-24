@@ -1,0 +1,1506 @@
+[
+  {
+    "id": "V03",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains the $25 late fee and Friday receipt route in a courteous, firm voice, without promising a refund."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains the $25 late fee and Friday receipt route in a courteous, firm voice, without promising a refund."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains the $25 late fee and Friday receipt route in a courteous, firm voice, without promising a refund."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains the $25 late fee and Friday receipt route in a courteous, firm voice, without promising a refund."
+      }
+    ],
+    "preferred": [
+      "B"
+    ]
+  },
+  {
+    "id": "V04",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves the kettle arrival, tested capability, understated procurement joke, and weekend instruction; the small syntactic edit is appropriate."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves the kettle arrival, tested capability, understated procurement joke, and weekend instruction; the small syntactic edit is appropriate."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves the kettle arrival, tested capability, understated procurement joke, and weekend instruction; the small syntactic edit is appropriate."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves the kettle arrival, tested capability, understated procurement joke, and weekend instruction; the small syntactic edit is appropriate."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "V05",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Clearly corrects the day to Thursday, May 16, retains 9 a.m., and includes one brief apology without inventing a cause."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Clearly corrects the day to Thursday, May 16, retains 9 a.m., and includes one brief apology without inventing a cause."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Clearly corrects the day to Thursday, May 16, retains 9 a.m., and includes one brief apology without inventing a cause."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Clearly corrects the day to Thursday, May 16, retains 9 a.m., and includes one brief apology without inventing a cause."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "V06",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Leaving the already clear note unchanged preserves the specific memory, restrained grief, and conditional Thursday dinner offer."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Leaving the already clear note unchanged preserves the specific memory, restrained grief, and conditional Thursday dinner offer."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Leaving the already clear note unchanged preserves the specific memory, restrained grief, and conditional Thursday dinner offer."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Leaving the already clear note unchanged preserves the specific memory, restrained grief, and conditional Thursday dinner offer."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "V07",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Explains porous clay, evaporation carrying heat away, cooler food, and no electricity in accessible language without baby talk."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Explains porous clay, evaporation carrying heat away, cooler food, and no electricity in accessible language without baby talk."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Explains porous clay, evaporation carrying heat away, cooler food, and no electricity in accessible language without baby talk."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Explains porous clay, evaporation carrying heat away, cooler food, and no electricity in accessible language without baby talk."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "V08",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Connects the observed Cancel/Save confusion with matching button appearance and proposes a concrete filled-versus-outline distinction without blaming anyone."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Connects the observed Cancel/Save confusion with matching button appearance and proposes a concrete filled-versus-outline distinction without blaming anyone."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Connects the observed Cancel/Save confusion with matching button appearance and proposes a concrete filled-versus-outline distinction without blaming anyone."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Connects the observed Cancel/Save confusion with matching button appearance and proposes a concrete filled-versus-outline distinction without blaming anyone."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "V09",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains the informal voice, blue tray for forms only, and counter requirement for payments; the tightening does not change instructions."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains the informal voice, blue tray for forms only, and counter requirement for payments; the tightening does not change instructions."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains the informal voice, blue tray for forms only, and counter requirement for payments; the tightening does not change instructions."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains the informal voice, blue tray for forms only, and counter requirement for payments; the tightening does not change instructions."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "V10",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains observed counts, absence of statistical analysis, temporary retention of the old line, and next week's send-time test without claiming a decisive result."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 1,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains observed counts, absence of statistical analysis, temporary retention of the old line, and next week's send-time test without claiming a decisive result. \"Meaningful difference\" blurs statistical reliability with practical importance; reliable difference is more precise here."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains observed counts, absence of statistical analysis, temporary retention of the old line, and next week's send-time test without claiming a decisive result."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 1,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains observed counts, absence of statistical analysis, temporary retention of the old line, and next week's send-time test without claiming a decisive result. \"Meaningful difference\" blurs statistical reliability with practical importance; reliable difference is more precise here."
+      }
+    ],
+    "preferred": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "id": "M03",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Expresses the inclusive 3–6-night range and preserves the separate seven-night weekly and two-night standard rates."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Expresses the inclusive 3–6-night range and preserves the separate seven-night weekly and two-night standard rates."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Expresses the inclusive 3–6-night range and preserves the separate seven-night weekly and two-night standard rates."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Expresses the inclusive 3–6-night range and preserves the separate seven-night weekly and two-night standard rates."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "M04",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves the editor/owner distinction, version-specific publication approval, and exclusion of access-permission changes."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves the editor/owner distinction, version-specific publication approval, and exclusion of access-permission changes."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves the editor/owner distinction, version-specific publication approval, and exclusion of access-permission changes."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves the editor/owner distinction, version-specific publication approval, and exclusion of access-permission changes."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "M05",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains both concentrations, differing dates and methods, and the missing method comparison without averaging or deciding which measurement is correct."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains both concentrations, differing dates and methods, and the missing method comparison without averaging or deciding which measurement is correct."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains both concentrations, differing dates and methods, and the missing method comparison without averaging or deciding which measurement is correct."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains both concentrations, differing dates and methods, and the missing method comparison without averaging or deciding which measurement is correct."
+      }
+    ],
+    "preferred": [
+      "C"
+    ]
+  },
+  {
+    "id": "M06",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Requires both the open inlet valve and a reading strictly below 20 psi, with supervisor contact when either condition fails."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Requires both the open inlet valve and a reading strictly below 20 psi, with supervisor contact when either condition fails."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Requires both the open inlet valve and a reading strictly below 20 psi, with supervisor contact when either condition fails."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Requires both the open inlet valve and a reading strictly below 20 psi, with supervisor contact when either condition fails."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "M07",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Distinguishes eligibility to request from receiving an award, preserves funding and trip approval conditions, and denies early-booking priority."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Distinguishes eligibility to request from receiving an award, preserves funding and trip approval conditions, and denies early-booking priority."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Distinguishes eligibility to request from receiving an award, preserves funding and trip approval conditions, and denies early-booking priority."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Distinguishes eligibility to request from receiving an award, preserves funding and trip approval conditions, and denies early-booking priority."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "M08",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves the 10-to-6 comparison over one-month periods and explicitly distinguishes the observed decline from proved causation, retaining weather and unknown usage."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves the 10-to-6 comparison over one-month periods and explicitly distinguishes the observed decline from proved causation, retaining weather and unknown usage."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 0,
+          "usefulness": 1,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 0
+        },
+        "hard_failures": [
+          "\"across two one-month observation periods after the maintenance change\" places both periods after the change, changing the original before/after comparison; violates preservation of the timing of the 10-to-6 decline."
+        ],
+        "comprehension_pass": true,
+        "notes": "Correctly answers that causation is not established and retains weather and unrecorded usage, but changes when the observations occurred."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves the 10-to-6 comparison over one-month periods and explicitly distinguishes the observed decline from proved causation, retaining weather and unknown usage."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  {
+    "id": "M09",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Appropriately leaves an already precise guarantee unchanged, preserving stitching-only coverage, reporting deadline, all exclusions, and proof of purchase."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Appropriately leaves an already precise guarantee unchanged, preserving stitching-only coverage, reporting deadline, all exclusions, and proof of purchase."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Appropriately leaves an already precise guarantee unchanged, preserving stitching-only coverage, reporting deadline, all exclusions, and proof of purchase."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Appropriately leaves an already precise guarantee unchanged, preserving stitching-only coverage, reporting deadline, all exclusions, and proof of purchase."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "M10",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Recommends no immediate hire, preserves the AND requirement and each candidate's missing qualification, and does not treat submitted references as satisfactory."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Recommends no immediate hire, preserves the AND requirement and each candidate's missing qualification, and does not treat submitted references as satisfactory."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Recommends no immediate hire, preserves the AND requirement and each candidate's missing qualification, and does not treat submitted references as satisfactory."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 1,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Recommends no immediate hire, preserves the AND requirement and each candidate's missing qualification, and does not treat submitted references as satisfactory. \"Their references also have not been confirmed satisfactory\" asserts a confirmation status not supplied; saying the provided information does not establish satisfaction would be more accurate."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "F03",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Valid JSON only, with unchanged keys, types, false flag, 24-hour expiry, filename placeholder, and download URL; the clarified text remains faithful."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Valid JSON only, with unchanged keys, types, false flag, 24-hour expiry, filename placeholder, and download URL; the clarified text remains faithful."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Valid JSON only, with unchanged keys, types, false flag, 24-hour expiry, filename placeholder, and download URL; the clarified text remains faithful."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Valid JSON only, with unchanged keys, types, false flag, 24-hour expiry, filename placeholder, and download URL; the clarified text remains faithful."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "F04",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves zero versus unreported, West's total of 12 including two accessible seats, and the requested Markdown table."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves zero versus unreported, West's total of 12 including two accessible seats, and the requested Markdown table."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves zero versus unreported, West's total of 12 including two accessible seats, and the requested Markdown table."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves zero versus unreported, West's total of 12 including two accessible seats, and the requested Markdown table."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "F05",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves the exact subject and placeholders, trial-end editing cutoff, 30-day continued readability, and plan selection action."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves the exact subject and placeholders, trial-end editing cutoff, 30-day continued readability, and plan selection action."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves the exact subject and placeholders, trial-end editing cutoff, 30-day continued readability, and plan selection action."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves the exact subject and placeholders, trial-end editing cutoff, 30-day continued readability, and plan selection action."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "F06",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Removes introductory clutter while preserving identifiers, the exact example, false needed for saving, and zero as no records processed."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Removes introductory clutter while preserving identifiers, the exact example, false needed for saving, and zero as no records processed."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Removes introductory clutter while preserving identifiers, the exact example, false needed for saving, and zero as no records processed."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Removes introductory clutter while preserving identifiers, the exact example, false needed for saving, and zero as no records processed."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "F07",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Edits only Explanation lines, leaves both clauses exact, and preserves thirty-day payment and the warning against assuming dispute cancels payment."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Edits only Explanation lines, leaves both clauses exact, and preserves thirty-day payment and the warning against assuming dispute cancels payment."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Edits only Explanation lines, leaves both clauses exact, and preserves thirty-day payment and the warning against assuming dispute cancels payment."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Edits only Explanation lines, leaves both clauses exact, and preserves thirty-day payment and the warning against assuming dispute cancels payment."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "F08",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Keeps order and the single checked item, requires SHA-256 matching before extraction, and retains stop/request-fresh behavior for mismatch."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Keeps order and the single checked item, requires SHA-256 matching before extraction, and retains stop/request-fresh behavior for mismatch."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Keeps order and the single checked item, requires SHA-256 matching before extraction, and retains stop/request-fresh behavior for mismatch."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Keeps order and the single checked item, requires SHA-256 matching before extraction, and retains stop/request-fresh behavior for mismatch."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "F09",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Keeps each citation next to its respective household count, duration, observed reduction, and unestablished citywide effect, without clustering citations."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Keeps each citation next to its respective household count, duration, observed reduction, and unestablished citywide effect, without clustering citations."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Keeps each citation next to its respective household count, duration, observed reduction, and unestablished citywide effect, without clustering citations."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Keeps each citation next to its respective household count, duration, observed reduction, and unestablished citywide effect, without clustering citations."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "F10",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Returns exactly five correct key=value lines, retains {count}, and distinguishes restorable archiving from permanent deletion and unchanged cancellation."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Returns exactly five correct key=value lines, retains {count}, and distinguishes restorable archiving from permanent deletion and unchanged cancellation."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Returns exactly five correct key=value lines, retains {count}, and distinguishes restorable archiving from permanent deletion and unchanged cancellation."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Returns exactly five correct key=value lines, retains {count}, and distinguishes restorable archiving from permanent deletion and unchanged cancellation."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "id": "V01",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves six folding tables, $360, and the weekly repair cafe; keeps the invitation open regardless of donation and removes inflated impact language."
+  },
+  {
+    "id": "V02",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Appropriately unchanged: preserves the quiet first-person voice, small back room, unhurried stay, and rain boundary without inventing a motive."
+  },
+  {
+    "id": "V03",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Records-based phrasing softens blame while preserving the assessed $25 fee and Friday receipt deadline; no refund promise."
+  },
+  {
+    "id": "V04",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Moves the interrupting clause without deleting the procurement joke or revolutionary-capability joke; arrival, testing, and weekend instruction remain."
+  },
+  {
+    "id": "V05",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Leads with Thursday, May 16 at 9 a.m., identifies the incorrect Wednesday notice, and includes exactly one brief apology without an invented explanation."
+  },
+  {
+    "id": "V06",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Appropriately unchanged: the specific table memory and conditional Thursday dinner offer survive without beliefs, cheerfulness, or a confirmed visit."
+  },
+  {
+    "id": "V07",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Concrete clay-container explanation retains seepage through pores, evaporation carrying heat away, cooler food, and no electricity without baby talk."
+  },
+  {
+    "id": "V08",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves the observed repeated Cancel/Save error and equal button appearance; filled Save versus outlined Cancel is an actionable recommendation without universal claims."
+  },
+  {
+    "id": "V09",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Retains folks, pop it, and good to go while shortening the opening; forms go to the blue tray and payments still require the counter."
+  },
+  {
+    "id": "V10",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves both exact open counts, lack of statistical analysis, provisional retention of the old subject line, and next week's send-time test."
+  },
+  {
+    "id": "M01",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Both the 14-day request condition and unused condition remain mandatory; original shipping exclusion and wrong-item exception are preserved."
+  },
+  {
+    "id": "M02",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Retains 52 of 80, central station, two weekday mornings, absent weekend riders, and explicit limits on representativeness."
+  },
+  {
+    "id": "M03",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Correctly translates the reduced-rate interval to 3-6 nights and separately retains seven-night weekly and two-night standard rates."
+  },
+  {
+    "id": "M04",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Distinguishes proposing from approving; approval remains limited to that version and grants no access-permission change."
+  },
+  {
+    "id": "M05",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Retains 12 and 19 mg/L, differing collection dates and methods, and absent method comparison; neither averages nor declares a result wrong."
+  },
+  {
+    "id": "M06",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Explicitly requires both open valve and pressure below 20 psi; exactly 20 remains excluded and either failed condition triggers supervisor contact."
+  },
+  {
+    "id": "M07",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Eligibility to request is distinct from an award; available funds and trip approval remain required and early booking provides no priority."
+  },
+  {
+    "id": "M08",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Retains 10 to 6 and equal one-month periods alongside milder weather and unrecorded usage; does not establish maintenance as the cause."
+  },
+  {
+    "id": "M09",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Appropriately unchanged; limited stitching coverage, reporting within one year, all three exclusions, and proof-of-purchase instruction remain intact."
+  },
+  {
+    "id": "M10",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Rejects hiring either now; preserves test and satisfactory-reference requirements and each candidate's shortfall. Reference quality remains unestablished rather than assumed, and assessing A's references is a supported next step."
+  },
+  {
+    "id": "F01",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Command, quoted error, exact URL, and request placeholder remain intact; tightened prose retains the pending-owner-approval meaning."
+  },
+  {
+    "id": "F02",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Quote and attribution are verbatim, with the limitation preserved in a direct surrounding sentence."
+  },
+  {
+    "id": "F03",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Returns valid JSON only with identical keys and types, false retry flag, 24-hour expiry, and both placeholders and URL intact."
+  },
+  {
+    "id": "F04",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves North 0, South unreported, and West 12 including two accessible seats in a valid Markdown table; unknown remains distinct from zero."
+  },
+  {
+    "id": "F05",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Exact subject and placeholders survive; editing stops at trial end while readability continues for 30 days, with plan selection tied to continued editing."
+  },
+  {
+    "id": "F06",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Identifiers and example remain exact; dry_run validation versus persistence, false for saving, and zero as no records all remain clear."
+  },
+  {
+    "id": "F07",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Both locked clause lines are unchanged; only Explanation lines are tightened, preserving thirty-day payment and the noncancellation warning."
+  },
+  {
+    "id": "F08",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves order and checkbox states; comparison precedes extraction, matching values permit extraction, and mismatch requires stopping and requesting a fresh archive."
+  },
+  {
+    "id": "F09",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "All four markers remain adjacent to their original claims; household count, duration, observed group reduction, and unestablished citywide effect remain."
+  },
+  {
+    "id": "F10",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Exactly five key=value lines preserve all keys and count placeholder; active-list removal and restorability distinguish archive from permanent deletion, and cancel leaves projects unchanged."
+  }
+]

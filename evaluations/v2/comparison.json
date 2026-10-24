@@ -1,0 +1,108 @@
+{
+  "primary": {
+    "baseline": {
+      "cases": 60,
+      "scores": {
+        "clarity": 120,
+        "edit_restraint": 120,
+        "meaning": 120,
+        "usefulness": 120,
+        "voice_scope": 119
+      },
+      "preferred_or_tied": 57,
+      "hard_failure_cases": []
+    },
+    "generic": {
+      "cases": 60,
+      "scores": {
+        "clarity": 118,
+        "edit_restraint": 119,
+        "meaning": 118,
+        "usefulness": 120,
+        "voice_scope": 120
+      },
+      "preferred_or_tied": 55,
+      "hard_failure_cases": []
+    },
+    "current": {
+      "cases": 60,
+      "scores": {
+        "clarity": 118,
+        "edit_restraint": 118,
+        "meaning": 119,
+        "usefulness": 119,
+        "voice_scope": 120
+      },
+      "preferred_or_tied": 56,
+      "hard_failure_cases": [
+        "S10"
+      ]
+    },
+    "candidate": {
+      "cases": 60,
+      "scores": {
+        "clarity": 119,
+        "edit_restraint": 118,
+        "meaning": 118,
+        "usefulness": 119,
+        "voice_scope": 120
+      },
+      "preferred_or_tied": 57,
+      "hard_failure_cases": [
+        "M08"
+      ]
+    }
+  },
+  "reversed": {
+    "baseline": {
+      "cases": 24,
+      "scores": {
+        "clarity": 48,
+        "edit_restraint": 47,
+        "meaning": 48,
+        "usefulness": 48,
+        "voice_scope": 48
+      },
+      "preferred_or_tied": 23,
+      "hard_failure_cases": []
+    },
+    "generic": {
+      "cases": 24,
+      "scores": {
+        "clarity": 48,
+        "edit_restraint": 47,
+        "meaning": 47,
+        "usefulness": 47,
+        "voice_scope": 47
+      },
+      "preferred_or_tied": 23,
+      "hard_failure_cases": [
+        "M10"
+      ]
+    },
+    "current": {
+      "cases": 24,
+      "scores": {
+        "clarity": 47,
+        "edit_restraint": 47,
+        "meaning": 46,
+        "usefulness": 47,
+        "voice_scope": 48
+      },
+      "preferred_or_tied": 21,
+      "hard_failure_cases": []
+    },
+    "candidate": {
+      "cases": 24,
+      "scores": {
+        "clarity": 48,
+        "edit_restraint": 48,
+        "meaning": 47,
+        "usefulness": 48,
+        "voice_scope": 47
+      },
+      "preferred_or_tied": 22,
+      "hard_failure_cases": []
+    }
+  }
+}

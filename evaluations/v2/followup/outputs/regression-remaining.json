@@ -1,0 +1,194 @@
+[
+  {
+    "id": "S03",
+    "output": "We can offer two weeks of free storage, but we can’t cover the full six months."
+  },
+  {
+    "id": "S04",
+    "output": "Before departure, enable offline mode while connected to Wi-Fi to download your selected route. Live detours are unavailable offline."
+  },
+  {
+    "id": "S05",
+    "output": "A reservation holds your workshop place but excludes materials: buy a kit for $18 or bring the items on the supply list. Buying a kit does not reserve a place."
+  },
+  {
+    "id": "S06",
+    "output": "Keep the original receipt. A photo is acceptable for registration, but warranty claims require the paper copy."
+  },
+  {
+    "id": "S07",
+    "output": "Saturday’s outdoor screening may move indoors if the forecast remains unfavorable. The final location will be posted at noon Friday, and tickets remain valid at either location."
+  },
+  {
+    "id": "S08",
+    "output": "Run Preview before importing. It flags missing dates and duplicate order numbers without changing records. Fix all flagged rows in the source file before selecting Import."
+  },
+  {
+    "id": "S09",
+    "output": "The replacement wheels are included in the shipment. The axle was not part of the original order and is not included, but I can send a separate quote."
+  },
+  {
+    "id": "S10",
+    "output": "City residents can apply for the discount if they are 65 or older or have a current disability transit pass. You must live within city limits."
+  },
+  {
+    "id": "D03",
+    "output": "Your saved searches have moved to the new dashboard and are ready to open. Their alerts have not yet migrated, so continue changing alert settings in the old dashboard. We expect to migrate alerts next week, subject to verification."
+  },
+  {
+    "id": "D04",
+    "output": "Staff may borrow a meeting-room key for a confirmed booking. Return it to reception before leaving the building. If reception is closed, use the locked key box beside its desk. Do not leave keys in the meeting room."
+  },
+  {
+    "id": "D05",
+    "output": "Open your invitation link within 48 hours. Choose a password, then enter the six-digit code sent by email. If the link has expired, ask the inviter for a new one.\n\nAdministrators assign workspace access separately. You may successfully log in and still see an empty workspace list; ask an administrator to assign access."
+  },
+  {
+    "id": "D06",
+    "output": "The main gravel path from Mill Bridge to the old ferry landing is open. The lower boardwalk and the staircase from the landing to the water remain closed. Follow the permitted walk on the entrance map and stay outside temporary barriers. No completion date has been approved for the remaining repairs.\n\nWater levels can change quickly, and the duty ranger may close the path without notice, including during heavy rain. Check the entrance board: its closure notices take priority over older reopening announcements.\n\nFrom Mill Bridge, wheelchair users and visitors with strollers can reach the picnic area without steps. Beyond it, a short section has loose gravel and a steep cross-slope. The full route has not had a completed accessibility assessment. The accessible toilet in the bridge car park opens from 8 a.m. to 6 p.m.; the ferry landing toilet is closed.\n\nDogs are welcome on the open path on a lead. From March 1 through July 31, dogs are excluded from the marked nesting zone beside the reed beds, even on a lead. You can still walk your dog along the main path beside the zone.\n\nCycling is permitted from Mill Bridge to the picnic area, with pedestrians having priority. Beyond the picnic area, dismount and walk your bicycle to the ferry landing. This applies to conventional and electric bicycles. Mobility aids are not classified as bicycles and are not subject to this dismount rule.\n\nParking at Mill Bridge costs $3 for up to two hours or $5 for the day. Payment machines accept cards only. Walking admission is free; visitors arriving on foot do not need a parking ticket.\n\nFor a guided visit, a local volunteer group offers a free walk at 10 a.m. on the first Sunday of each month. Registration is required, with twelve places available. It reserves your walk place only; parking is neither reserved nor included."
+  },
+  {
+    "id": "D07",
+    "output": "From September 1, request access to the museum’s photographic collection through the collection portal. Email requests received before September 1 remain in the existing queue; do not resubmit them. Later email requests will receive portal instructions. If you cannot use the portal, staff can help you complete a request by phone.\n\nProvide your contact details, a brief research purpose, and the collection reference if you know it. If you do not, describe the item as fully as possible; a reference is not mandatory.\n\nStaff first check for an existing usable scan. Existing scans normally take up to five working days to supply after the item is identified. New scanning has no fixed turnaround during the conservation backlog.\n\nThe conservation team decides whether an original can be handled safely. If scanning risks damage, the collections team will explain any available alternatives, such as an older reference image, a catalog description, or supervised viewing. These depend on the item’s condition and restrictions and are not guaranteed. Staff will give a specific explanation where possible.\n\nRequests involving personal information about living people may need an additional review before access is granted. Privacy, conservation, and rights checks are separate; completing one does not clear the others. There is no promised deadline for additional reviews.\n\nReference scans are free for individual research requests of up to ten images. The threshold covers the total request, including related submissions for one project. Larger requests are assessed for staffing time and may carry a service charge. You must accept the quote before chargeable work begins.\n\nReceiving a reference scan for private study does not grant publication permission or change ownership. You remain responsible for obtaining any necessary permissions before using an image in a book, website, exhibition, or commercial product. The museum can grant permission only for rights it controls; scanning charges do not buy a publication license or transfer copyright.\n\nCatalog rights information is incomplete. “No rights holder recorded” means only that none is listed in the museum’s current record, not that the photograph is in the public domain. Staff can share recorded information but cannot promise to identify every rights holder."
+  },
+  {
+    "id": "D08",
+    "output": "The east lift is out of service; the west lift remains available. At 8:10 a.m., the east lift stopped between floors with two passengers inside. The service team opened the doors at 8:27 a.m., and both passengers left without reported injury.\n\nA worn door sensor was found and a replacement is on order, but the cause of the stoppage has not been confirmed. Checks must be completed before the lift returns to service, and no return date is available yet."
+  },
+  {
+    "id": "D09",
+    "output": "Do not confirm installers for October 5 yet: the delivery date is unresolved. Operations says delivery is booked for October 4, but the supplier portal, checked later, gives October 4 as estimated dispatch with delivery pending. The purchase order says the delivery date is still to be agreed.\n\nAsk Operations and the supplier to reconcile these records and confirm the arrival date in writing, explicitly distinguishing dispatch from delivery. Confirm the October 5 installation only once the delivery timing supports it."
+  },
+  {
+    "id": "D10",
+    "output": "We recommend keeping the weekday shuttle through November, subject to budget committee approval. Average weekday ridership was 42 in September and 39 in October. The shuttle also serves the clinic on Tuesdays, when no public bus is available.\n\nWeekend ridership was not measured, so these data do not support extending weekend service. We propose counting weekend riders for four weeks before deciding."
+  },
+  {
+    "id": "C03",
+    "output": "I found no duplicates, so the evidence does not support my earlier suspicion about duplicate imports. A timezone filter excludes seven rows. I’ll compare their stored timestamps with the filter boundaries to determine why."
+  },
+  {
+    "id": "C04",
+    "output": "Four of five brochures are converted to accessible HTML. Three have passed keyboard checks; I’ll check the fourth next, then convert the fifth."
+  },
+  {
+    "id": "C05",
+    "output": "Rendering revealed broken page numbering. I’ll fix it and check the rendered handbook before submitting it for your approval to upload."
+  },
+  {
+    "id": "C06",
+    "output": "Fixed the Safari focus problem locally. Keyboard checks pass in Safari and Firefox, and all 38 automated tests pass. The changes have not been committed, pushed, or deployed."
+  },
+  {
+    "id": "C07",
+    "output": "I missed the 3 p.m. deadline; sorry. The main report summary is drafted, but two conflicting appendix totals are blocking the financial comparison. I’m comparing the appendix calculations to reconcile them."
+  },
+  {
+    "id": "C08",
+    "output": "Renamed 11 of 12 image files using the approved mapping. `cover-old.png` could not be renamed to `cover.png` because that destination already exists. No file was overwritten.\n\nDetails: [rename receipt](/workspace/output/rename-receipt.json)."
+  },
+  {
+    "id": "C09",
+    "output": "The counts reconcile: 4,912 imported records plus eight excluded under the documented archived-status rule account for the expected 4,920. Export generation is still running."
+  },
+  {
+    "id": "C10",
+    "output": "Choose Cedar: it supports your five editors for $18/month. Birch costs $12/month but allows only one editor. Pine’s price and editor limit are unavailable, so its suitability remains unresolved."
+  },
+  {
+    "id": "V03",
+    "output": "A $25 late fee has been added because our records show the projector was returned late. If that record is incorrect, please send your drop-off receipt by Friday."
+  },
+  {
+    "id": "V04",
+    "output": "After an unnecessarily elaborate procurement journey, the new office kettle is here. It boils water. We have tested this revolutionary capability. Please empty it before the weekend."
+  },
+  {
+    "id": "V05",
+    "output": "Sports day is Thursday, May 16, at 9 a.m. Yesterday’s newsletter incorrectly said Wednesday. Sorry for the mistake."
+  },
+  {
+    "id": "V06",
+    "output": "I don’t know the right thing to say. I loved how your dad always made room at the table. I can bring dinner Thursday, if that would help."
+  },
+  {
+    "id": "V07",
+    "output": "This clay pot kept food cooler without electricity. Water seeped through tiny pores in the clay. As it evaporated, it carried heat away from the pot."
+  },
+  {
+    "id": "V08",
+    "output": "The three primary buttons have identical colors and sizes, and testers repeatedly chose Cancel instead of Save. Give Save a distinct filled color and make Cancel an outlined button so the actions are easier to distinguish."
+  },
+  {
+    "id": "V09",
+    "output": "We’ve got a queue this morning, folks. If you’re just dropping off a form, pop it in the blue tray and you’re good to go. Payments still need the counter."
+  },
+  {
+    "id": "V10",
+    "output": "The new reminder subject line got 41 opens out of 100, compared with 44 out of 100 for the old line. We haven’t run a statistical analysis, so we can’t say whether the difference reflects a reliable effect. We’ll keep the old line for now and test a different send time next week."
+  },
+  {
+    "id": "M03",
+    "output": "The reduced rate applies to stays of 3–6 nights. Seven-night bookings use the weekly rate; two-night bookings use the standard rate."
+  },
+  {
+    "id": "M04",
+    "output": "Editors can propose changes, but only owners can approve publication. An owner’s approval covers that version only. Future versions need separate approval, and publication approval does not permit changes to access permissions."
+  },
+  {
+    "id": "M05",
+    "output": "Lab A reported 12 mg/L and Lab B reported 19 mg/L. The samples were collected on different dates using different methods. Without a method comparison, these results do not establish why the measurements differ or that either is wrong."
+  },
+  {
+    "id": "M06",
+    "output": "Do not restart the pump unless both conditions are met: the inlet valve is open and the pressure gauge reads below 20 psi. If either condition is not met, call the supervisor."
+  },
+  {
+    "id": "M07",
+    "output": "Once enrolled, you can request a travel grant. An award is not guaranteed: it depends on available funds and approval of your proposed trip. Booking before approval does not give you higher priority."
+  },
+  {
+    "id": "M08",
+    "output": "Outages fell from 10 in the month before the maintenance change to 6 in the month after it. That decline does not establish that maintenance caused it: weather was milder in the second month, and usage was not recorded."
+  },
+  {
+    "id": "M09",
+    "output": "We will replace defective stitching reported within one year of purchase. This guarantee excludes fabric fading, accidental damage, and normal wear. Keep proof of purchase."
+  },
+  {
+    "id": "M10",
+    "output": "Do not hire either candidate yet. Hiring requires both a passed practical test and two satisfactory references. Candidate A passed the test but still needs to supply two references for assessment. Candidate B supplied both references but did not pass the test; the evidence also does not establish whether those references are satisfactory."
+  },
+  {
+    "id": "F03",
+    "output": "{\"title\":\"Your export is complete\",\"message\":\"Download {{filename}} using the link below. The link expires in 24 hours.\",\"expires_hours\":24,\"can_retry\":false,\"download_url\":\"https://example.org/export/{{token}}\"}"
+  },
+  {
+    "id": "F04",
+    "output": "| Site | Seats available | Notes |\n|---|---|---|\n| North | 0 | No seats currently available |\n| South | — | Count not yet reported |\n| West | 12 | Includes two accessible seats |"
+  },
+  {
+    "id": "F05",
+    "output": "Subject: Action required: {{account_name}}\nDear {{first_name}},\nYour trial ends on {{end_date}}. Editing will stop then, but your files will remain readable for another 30 days. Choose a plan to continue editing.\n{{billing_link}}"
+  },
+  {
+    "id": "F06",
+    "output": "`dry_run` checks the request without saving changes. To save changes, set `dry_run` to false. Example: `{\"dry_run\": true, \"limit\": 0}`. Here, `limit: 0` means no records are processed, not unlimited records."
+  },
+  {
+    "id": "F07",
+    "output": "Clause 4.2: Payment is due within thirty (30) days.\nExplanation: The customer must pay within thirty days.\nClause 4.3: Disputed amounts are governed by Clause 8.\nExplanation: Follow Clause 8 for disputed amounts. Do not assume a dispute cancels the payment obligation."
+  },
+  {
+    "id": "F08",
+    "output": "- [x] Download the archive.\n- [ ] Before extracting, compare the archive’s SHA-256 value with `checksums.txt`.\n- [ ] Extract only if the values match.\n- [ ] If the values differ, stop and request a fresh archive."
+  },
+  {
+    "id": "F09",
+    "output": "The trial included 64 households [A] and measured water use for six weeks [B]. Water use fell in the trial group [C], but the report does not establish a citywide effect [D]."
+  },
+  {
+    "id": "F10",
+    "output": "archive_title=Archive these projects\narchive_body=Remove projects from the active list. You can restore them later.\ndelete_title=Permanently delete {count} projects\ndelete_body=Deleted projects cannot be restored.\ncancel=Keep projects unchanged"
+  }
+]

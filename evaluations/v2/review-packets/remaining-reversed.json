@@ -1,0 +1,1978 @@
+[
+  {
+    "id": "S03",
+    "request": "Make this rejection direct but considerate: \"After giving your request very careful consideration, we regret to inform you that we are unfortunately not able to offer free storage for the entire six-month period. We can offer two weeks at no charge.\"",
+    "rubric": {
+      "invariants": [
+        "Six months of free storage is unavailable.",
+        "Two free weeks are offered."
+      ],
+      "questions": [
+        {
+          "question": "What is offered?",
+          "answer": "Two weeks of storage at no charge."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Implies all storage is unavailable.",
+        "Adds apology or compensation not in source."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "We can’t offer free storage for the full six months, but we can offer two weeks at no charge."
+      },
+      {
+        "label": "C",
+        "output": "We can offer two weeks of free storage, but we can’t cover the full six months."
+      },
+      {
+        "label": "B",
+        "output": "We can’t offer six months of free storage, but we can offer two weeks at no charge."
+      },
+      {
+        "label": "A",
+        "output": "We can offer two weeks of free storage, but we can’t cover the full six months."
+      }
+    ]
+  },
+  {
+    "id": "S04",
+    "request": "Improve this notice for first-time users; add the missing explanation using only the facts below. Draft: \"Enable offline mode before departure.\" Facts: Offline mode downloads the selected route. It must be enabled while connected to Wi-Fi. Live detours are unavailable offline.",
+    "rubric": {
+      "invariants": [
+        "Explain what offline mode does.",
+        "Wi-Fi is required for enabling it.",
+        "Live detours are unavailable offline."
+      ],
+      "questions": [
+        {
+          "question": "What must users do before losing connectivity?",
+          "answer": "Enable offline mode on Wi-Fi to download the selected route."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Only shortens the original and omits necessary explanation.",
+        "Claims downloaded routes include live detours."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Before departure, enable offline mode while connected to Wi-Fi to download your selected route. Live detours are unavailable offline."
+      },
+      {
+        "label": "C",
+        "output": "Before departure, enable offline mode while connected to Wi-Fi to download your selected route. Live detours are unavailable offline."
+      },
+      {
+        "label": "B",
+        "output": "Before departure, enable offline mode while connected to Wi-Fi to download your selected route. Live detours are unavailable offline."
+      },
+      {
+        "label": "A",
+        "output": "Before departure, enable offline mode while connected to Wi-Fi to download your selected route. Live detours are unavailable offline."
+      }
+    ]
+  },
+  {
+    "id": "S05",
+    "request": "Condense to at most two sentences without flattening the distinction: \"A reservation holds your place in the workshop but does not include materials. The materials kit costs $18. Participants may instead bring the items on the supply list. Paying for a kit does not reserve a workshop place.\"",
+    "rubric": {
+      "invariants": [
+        "Reservation and kit purchase are independent.",
+        "Kit costs $18.",
+        "Participants can bring listed supplies."
+      ],
+      "questions": [
+        {
+          "question": "Does buying a kit reserve a place?",
+          "answer": "No."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Says a reservation includes the kit.",
+        "Drops the reverse distinction about kit purchases."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "A workshop reservation holds your place but does not include materials; you can buy a kit for $18 or bring the items on the supply list. Buying a kit does not reserve a workshop place."
+      },
+      {
+        "label": "C",
+        "output": "A workshop reservation holds your place but excludes materials: buy an $18 kit or bring the items on the supply list. Buying a kit does not reserve a workshop place."
+      },
+      {
+        "label": "B",
+        "output": "A reservation holds your workshop place but does not include materials; buy a kit for $18 or bring the items on the supply list. Buying a kit does not reserve a workshop place."
+      },
+      {
+        "label": "A",
+        "output": "A reservation holds your workshop place but excludes materials: buy the $18 kit or bring the items on the supply list. Buying a kit does not reserve a workshop place."
+      }
+    ]
+  },
+  {
+    "id": "S06",
+    "request": "Polish this already concise instruction if necessary: \"Keep the original receipt. A photo is acceptable for registration, but warranty claims require the paper copy.\"",
+    "rubric": {
+      "invariants": [
+        "Photo accepted only for registration.",
+        "Warranty claims need original paper receipt.",
+        "Keeping unchanged is acceptable."
+      ],
+      "questions": [
+        {
+          "question": "Will a photo support a warranty claim?",
+          "answer": "No; the paper copy is required."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Conflates registration with warranty claims."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Keep the original receipt. A photo is acceptable for registration, but warranty claims require the paper copy."
+      },
+      {
+        "label": "C",
+        "output": "Keep the original receipt. A photo is acceptable for registration, but warranty claims require the paper copy."
+      },
+      {
+        "label": "B",
+        "output": "Keep the original receipt. A photo is acceptable for registration, but warranty claims require the paper copy."
+      },
+      {
+        "label": "A",
+        "output": "Keep the original receipt. A photo is acceptable for registration, but warranty claims require the paper copy."
+      }
+    ]
+  },
+  {
+    "id": "S07",
+    "request": "Rewrite this event notice with clear uncertainty: \"There is a possibility that Saturday’s outdoor screening may potentially move indoors if the forecast remains unfavorable. A final location will be posted at noon Friday. Tickets remain valid at either location.\"",
+    "rubric": {
+      "invariants": [
+        "Indoor move is possible, not decided.",
+        "Final location announced Friday noon.",
+        "Tickets valid at either location."
+      ],
+      "questions": [
+        {
+          "question": "When will the location be known?",
+          "answer": "Noon Friday."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Announces a confirmed indoor move."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Saturday’s outdoor screening may move indoors if the forecast remains unfavorable. The final location will be posted at noon Friday. Tickets remain valid at either location."
+      },
+      {
+        "label": "C",
+        "output": "Saturday’s outdoor screening may move indoors if the forecast remains unfavorable. The final location will be posted at noon Friday. Tickets remain valid at either location."
+      },
+      {
+        "label": "B",
+        "output": "Saturday’s outdoor screening may move indoors if the forecast remains unfavorable. The final location will be posted at noon Friday. Tickets remain valid at either location."
+      },
+      {
+        "label": "A",
+        "output": "Saturday’s outdoor screening may move indoors if the forecast remains unfavorable. The final location will be posted at noon Friday. Tickets remain valid at either location."
+      }
+    ]
+  },
+  {
+    "id": "S08",
+    "request": "Make this instruction clearer, not necessarily shorter: \"Validate before import.\" Facts: Users should run Preview first. Preview flags missing dates and duplicate order numbers but does not change records. They must fix flagged rows in the source file before selecting Import.",
+    "rubric": {
+      "invariants": [
+        "Preview comes first and is nonmutating.",
+        "It flags missing dates and duplicate order numbers.",
+        "Fix source rows before Import."
+      ],
+      "questions": [
+        {
+          "question": "Does Preview repair records?",
+          "answer": "No; users must fix flagged source-file rows."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Suggests Preview imports or fixes data automatically."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Run Preview before importing. It flags missing dates and duplicate order numbers without changing records. Fix all flagged rows in the source file, then select Import."
+      },
+      {
+        "label": "C",
+        "output": "Run Preview before importing. It flags missing dates and duplicate order numbers without changing records. Fix all flagged rows in the source file before selecting Import."
+      },
+      {
+        "label": "B",
+        "output": "Run Preview before importing. It flags missing dates and duplicate order numbers without changing records. Fix the flagged rows in your source file, then select Import."
+      },
+      {
+        "label": "A",
+        "output": "Run Preview before importing. It flags missing dates and duplicate order numbers without changing any records. Fix the flagged rows in your source file, then select Import."
+      }
+    ]
+  },
+  {
+    "id": "S09",
+    "request": "Tighten this without sounding annoyed: \"As I already mentioned in my previous message, the replacement wheels are included in the shipment. The axle is not included because it was not part of the original order, but I would be more than happy to send a separate quote.\"",
+    "rubric": {
+      "invariants": [
+        "Wheels are included.",
+        "Axle excluded because absent from original order.",
+        "Separate quote is offered."
+      ],
+      "questions": [
+        {
+          "question": "Why is the axle excluded?",
+          "answer": "It was not part of the original order."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Adds a free axle.",
+        "Retains a scolding reminder."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "The replacement wheels are included in the shipment. The axle wasn’t part of the original order, so it isn’t included. I can send a separate quote for it."
+      },
+      {
+        "label": "C",
+        "output": "The replacement wheels are included in the shipment. The axle wasn’t part of the original order, so it isn’t included. I can send a separate quote for it."
+      },
+      {
+        "label": "B",
+        "output": "The replacement wheels are included in the shipment. The axle wasn’t part of the original order, but I’m happy to send a separate quote."
+      },
+      {
+        "label": "A",
+        "output": "The replacement wheels are included in the shipment. The axle is not included because it wasn’t part of the original order, but I can send a separate quote."
+      }
+    ]
+  },
+  {
+    "id": "S10",
+    "request": "Edit this call to action while keeping its precise eligibility: \"Residents who are 65 or older OR have a current disability transit pass can apply for the discount. All applicants must live within city limits.\"",
+    "rubric": {
+      "invariants": [
+        "City residency required for everyone.",
+        "Age or disability transit pass suffices; both are not required."
+      ],
+      "questions": [
+        {
+          "question": "Can a 40-year-old city resident with a current disability transit pass apply?",
+          "answer": "Yes."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Changes OR to AND.",
+        "Extends eligibility to nonresidents."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Live within city limits and are 65 or older or have a current disability transit pass? Apply for the discount."
+      },
+      {
+        "label": "C",
+        "output": "Apply for the discount if you live within city limits and either are 65 or older or have a current disability transit pass."
+      },
+      {
+        "label": "B",
+        "output": "If you live within city limits, you can apply for the discount if you are 65 or older or have a current disability transit pass."
+      },
+      {
+        "label": "A",
+        "output": "Live within city limits? Apply for the discount if you’re 65 or older or have a current disability transit pass."
+      }
+    ]
+  },
+  {
+    "id": "D03",
+    "request": "Edit the following release note for customers, preserving the two stages: \"We have completed the migration of saved searches. Alerts attached to those searches have not yet been migrated. Saved searches can now be opened from the new dashboard. Until alert migration is complete, alert settings must still be changed in the old dashboard. The new dashboard contains saved searches; this does not mean it contains their alert settings. We expect alert migration next week, subject to verification.\"",
+    "rubric": {
+      "invariants": [
+        "Saved searches moved; alert settings have not.",
+        "Use old dashboard for alert changes.",
+        "Next week is conditional estimate."
+      ],
+      "questions": [
+        {
+          "question": "Where should alert settings be changed?",
+          "answer": "Old dashboard until migration completes."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Says migration is wholly complete."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Your saved searches have moved to the new dashboard and are ready to open. Their alerts have not yet migrated, so continue changing alert settings in the old dashboard. We expect to migrate alerts next week, subject to verification."
+      },
+      {
+        "label": "C",
+        "output": "Your saved searches have moved to the new dashboard and are ready to open. Their alert settings have not moved yet; continue changing those settings in the old dashboard. We expect to migrate alerts next week, subject to verification."
+      },
+      {
+        "label": "B",
+        "output": "Your saved searches have moved to the new dashboard and are ready to open. Their alerts have not yet migrated, so continue changing alert settings in the old dashboard. We expect to migrate alerts next week, subject to verification."
+      },
+      {
+        "label": "A",
+        "output": "Your saved searches have moved to the new dashboard and are ready to open. Their alert settings have not yet moved, so continue changing those settings in the old dashboard. We expect to migrate alerts next week, subject to verification."
+      }
+    ]
+  },
+  {
+    "id": "D04",
+    "request": "Review this good policy paragraph. Make changes only if useful, and return the paragraph: \"Staff may borrow a meeting-room key for a confirmed booking. Return it to reception before leaving the building. If reception is closed, use the locked key box beside its desk. Do not leave keys in the meeting room.\"",
+    "rubric": {
+      "invariants": [
+        "Confirmed booking required.",
+        "Return before leaving.",
+        "Closed-reception fallback is locked key box.",
+        "Unchanged text acceptable."
+      ],
+      "questions": [
+        {
+          "question": "What if reception is closed?",
+          "answer": "Use the locked key box beside its desk."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Removes the fallback or adds a new restriction."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Staff may borrow a meeting-room key for a confirmed booking. Return it to reception before leaving the building. If reception is closed, use the locked key box beside its desk. Do not leave keys in the meeting room."
+      },
+      {
+        "label": "C",
+        "output": "Staff may borrow a meeting-room key for a confirmed booking. Return it to reception before leaving the building. If reception is closed, use the locked key box beside its desk. Do not leave keys in the meeting room."
+      },
+      {
+        "label": "B",
+        "output": "Staff may borrow a meeting-room key for a confirmed booking. Return it to reception before leaving the building. If reception is closed, use the locked key box beside its desk. Do not leave keys in the meeting room."
+      },
+      {
+        "label": "A",
+        "output": "Staff may borrow a meeting-room key for a confirmed booking. Return it to reception before leaving the building. If reception is closed, use the locked key box beside its desk. Do not leave keys in the meeting room."
+      }
+    ]
+  },
+  {
+    "id": "D05",
+    "request": "Write a useful replacement for this incomplete onboarding page, using the supplied notes. Draft: \"Set up your account, then start.\" Notes: The invitation link expires after 48 hours. Choose a password, then enter the six-digit code sent by email. Administrators assign workspace access separately; a successful login can show an empty workspace list. If the invitation expires, ask the inviter for a new link. Do not imply that users can grant themselves workspace access.",
+    "rubric": {
+      "invariants": [
+        "Includes setup sequence and 48-hour expiry.",
+        "Successful login does not guarantee workspace assignment.",
+        "Expired links require inviter to resend."
+      ],
+      "questions": [
+        {
+          "question": "Why might a signed-in user see no workspaces?",
+          "answer": "An administrator has not yet assigned workspace access."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Merely shortens original.",
+        "Invents self-service workspace access."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Open your invitation link within 48 hours. If it expires, ask the inviter for a new link.\n\nChoose a password, then enter the six-digit code sent by email. Administrators assign workspace access separately, so you may log in successfully and see an empty workspace list. If that happens, ask an administrator about your access."
+      },
+      {
+        "label": "C",
+        "output": "Open your invitation link within 48 hours, then choose a password and enter the six-digit code sent by email. If the link has expired, ask the inviter for a new one.\n\nAdministrators assign workspace access separately. You may log in successfully and still see an empty workspace list; ask an administrator to assign your access."
+      },
+      {
+        "label": "B",
+        "output": "Open your invitation link within 48 hours. If it has expired, ask the inviter for a new link.\n\nChoose a password, then enter the six-digit code sent to your email.\n\nAdministrators assign workspace access separately. You may log in successfully and still see an empty workspace list; ask an administrator about your access."
+      },
+      {
+        "label": "A",
+        "output": "Open your invitation link within 48 hours. Choose a password, then enter the six-digit code sent to your email. If the invitation has expired, ask the inviter for a new link.\n\nAdministrators assign workspace access separately. You may log in successfully and still see an empty workspace list; contact an administrator for access."
+      }
+    ]
+  },
+  {
+    "id": "D06",
+    "request": "Create an accurate visitor page from these notes. Consolidate repetition and resolve old-versus-current text according to the notes.\n\nThe riverside walking route has reopened between Mill Bridge and the old ferry landing following winter repairs. The reopening covers the main gravel path only. The lower boardwalk remains closed because several supports need replacement, and the short staircase from the landing to the water is also closed. Visitors should not interpret an open gate at the bridge as permission to enter every part of the site. Temporary barriers mark the closed sections, and the route map at the entrance shows a continuous permitted walk that avoids them.\n\nThe parks team inspected the gravel path on April 12 after the contractor finished drainage work. That inspection found the path suitable for reopening under ordinary spring conditions. It was not a guarantee that the route will stay open during heavy rain. Water levels can change quickly, and the duty ranger may close the path without advance notice. A closure notice on the entrance board takes priority over an older social media post announcing the reopening. The public webpage should explain this once, clearly, rather than repeating a general warning in every paragraph.\n\nWheelchair users and visitors with strollers can reach the picnic area from Mill Bridge without using steps. Beyond the picnic area, a short section has loose gravel and a steep cross-slope. We do not have a completed accessibility assessment for the full route. The visitor information team should describe these known features and avoid labeling the whole walk wheelchair accessible. The nearest accessible toilet is in the bridge car park, where it is open from 8 a.m. to 6 p.m. The toilet at the ferry landing is closed along with the lower boardwalk facilities.\n\nDogs are welcome on the open path if kept on a lead. The seasonal nesting zone beside the reed beds is different: dogs are excluded from that marked zone, even on a lead. The nesting restriction runs from March 1 through July 31. People may continue along the main path beside the zone, so the restriction does not close the entire walk to dog owners. Our older leaflet says that dogs are allowed throughout the park on a lead. That statement predates the nesting-zone rule and needs replacement rather than a small footnote that leaves the old claim looking current.\n\nCycling is permitted between Mill Bridge and the picnic area, with pedestrians having priority. Beyond the picnic area, visitors must dismount and walk their bicycles to the ferry landing. This rule applies to electric bicycles as well as conventional bicycles. Mobility aids are not classified as bicycles under this rule. Rangers have asked for the distinction to remain visible because a previous draft accidentally suggested that mobility-scooter users must leave their equipment behind. The purpose of the rule is to manage bicycle speeds on the narrower section, not to exclude people who use mobility aids.\n\nParking at Mill Bridge costs $3 for up to two hours or $5 for the day. Payment machines accept cards only. The park does not charge a separate walking admission fee, and visitors arriving on foot do not need to buy a parking ticket. A local volunteer group offers a free guided walk at 10 a.m. on the first Sunday of each month. Registration is required because the group is limited to twelve people. Registration reserves a guided-walk place; it does not reserve parking or waive the parking charge.\n\nWe need a visitor page that helps someone decide whether and how to visit without making them read maintenance correspondence. Give the open and closed areas first, then practical access, dog and bicycle rules, and parking information. Preserve the current rules even where older material conflicts. The guided walk is optional and should be easy to find without overshadowing the basic route information. Do not claim that the remaining repairs have a completion date: the contractor has submitted an estimate, but the parks team has not approved a work schedule.",
+    "rubric": {
+      "invariants": [
+        "Only main gravel path open; boardwalk and water staircase closed.",
+        "Current closure boards override old posts; heavy rain can cause closure.",
+        "Step-free picnic access does not establish full-route accessibility; loose gravel/cross-slope; accessible toilet bridge 8–6.",
+        "Dogs on lead on path; excluded nesting zone March 1–July 31; older leaflet superseded.",
+        "Cycling only bridge to picnic; dismount beyond; mobility aids exempt.",
+        "$3 two hours/$5 day, cards only; no walking admission.",
+        "Guided walk first Sunday 10 a.m., free, registration cap twelve; parking separate.",
+        "No approved repair completion date."
+      ],
+      "questions": [
+        {
+          "question": "Can a leashed dog enter the nesting zone in May?",
+          "answer": "No."
+        },
+        {
+          "question": "Does guided-walk registration include parking?",
+          "answer": "No."
+        },
+        {
+          "question": "Must mobility-aid users dismount beyond the picnic area?",
+          "answer": "No; the bicycle rule does not apply to mobility aids."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Calls whole route accessible.",
+        "Invents repairs deadline.",
+        "Preserves outdated universal dog permission."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "The riverside route is open between Mill Bridge and the old ferry landing on the main gravel path. The lower boardwalk and the staircase from the landing to the water remain closed. Follow the entrance route map and temporary barriers; an open bridge gate does not mean every area is open. No schedule has been approved for the remaining repairs.\n\nThe path was inspected on April 12 and found suitable for ordinary spring conditions. Water levels can rise quickly during heavy rain, and the duty ranger may close it without notice. Check the entrance board: a closure notice takes priority over an earlier reopening post.\n\nAccess and toilets\n\nWheelchair users and visitors with strollers can reach the picnic area from Mill Bridge without steps. Beyond it, a short section has loose gravel and a steep cross-slope. The full route has not yet had a completed accessibility assessment.\n\nThe accessible toilet in the bridge car park is open from 8 a.m. to 6 p.m. The ferry landing toilet is closed.\n\nDogs and bicycles\n\nDogs are welcome on the open path on a lead. From March 1 through July 31, dogs are excluded from the marked nesting zone beside the reed beds, even on a lead. You may still walk your dog along the main path beside the zone.\n\nCycling is allowed from Mill Bridge to the picnic area, with pedestrians taking priority. Beyond the picnic area, dismount and walk your bicycle to the ferry landing. This applies to conventional and electric bicycles; mobility aids are exempt.\n\nParking\n\nMill Bridge parking costs $3 for up to two hours or $5 for the day. Machines accept cards only. There is no separate walking admission fee, and visitors arriving on foot do not need a parking ticket.\n\nOptional guided walk\n\nA local volunteer group offers a free guided walk at 10 a.m. on the first Sunday of each month. Registration is required, with a limit of twelve people. Registration reserves your walk place but does not reserve parking or waive its charge."
+      },
+      {
+        "label": "C",
+        "output": "The main gravel path from Mill Bridge to the old ferry landing has reopened. The lower boardwalk and the short staircase from the landing to the water remain closed. Follow the entrance route map and stay outside the temporary barriers. There is no confirmed date for the remaining repairs.\n\nWater levels can change quickly, and the duty ranger may close the path without notice, including during heavy rain. Check the entrance board: its closure notices take priority over older reopening announcements.\n\nWheelchair users and visitors with strollers can reach the picnic area from Mill Bridge without steps. Beyond it, a short section has loose gravel and a steep cross-slope. The full route’s accessibility assessment is not complete. The accessible toilet in the bridge car park opens from 8 a.m. to 6 p.m.; the ferry landing toilet is closed.\n\nDogs are welcome on the open path on a lead. From March 1 through July 31, dogs are excluded from the marked nesting zone beside the reed beds, even on a lead. You can still walk your dog along the main path beside the zone.\n\nCycling is allowed between Mill Bridge and the picnic area; give pedestrians priority. Beyond the picnic area, dismount and walk your bicycle to the ferry landing. This applies to electric and conventional bicycles. Mobility aids are not bicycles under this rule.\n\nParking at Mill Bridge costs $3 for up to two hours or $5 for the day. Machines accept cards only. Walking admission is free, and visitors arriving on foot do not need a parking ticket.\n\nFor a guided visit, a local volunteer group offers a free walk at 10 a.m. on the first Sunday of each month. Register to reserve one of twelve places. Registration does not reserve parking or waive parking charges."
+      },
+      {
+        "label": "B",
+        "output": "The riverside walking route has reopened on the main gravel path between Mill Bridge and the old ferry landing. The lower boardwalk and the short staircase from the landing to the water remain closed. Follow the entrance map and temporary barriers; an open bridge gate does not mean all areas are open. No completion date has been set for the remaining repairs.\n\nThe path may close without notice during heavy rain or changing water levels. Check the entrance board: its closure notices take priority over older reopening announcements.\n\n**Access and toilets**\n\nThe picnic area can be reached from Mill Bridge without steps by wheelchair users and visitors with strollers. Beyond it, a short section has loose gravel and a steep cross-slope. A full-route accessibility assessment has not been completed.\n\nThe accessible toilet in the bridge car park is open from 8 a.m. to 6 p.m. The ferry landing toilet is closed.\n\n**Dogs and bicycles**\n\nDogs are welcome on the open path on a lead. From March 1 through July 31, dogs are excluded from the marked nesting zone beside the reed beds, even on a lead. You may still walk your dog along the main path beside the zone.\n\nCycling is permitted from Mill Bridge to the picnic area, with pedestrians having priority. Beyond the picnic area, dismount and walk your bicycle to the ferry landing. This applies to conventional and electric bicycles, but not mobility aids.\n\n**Parking**\n\nMill Bridge parking costs $3 for up to two hours or $5 for the day. Machines accept cards only. There is no separate walking admission fee, and visitors arriving on foot do not need a parking ticket.\n\n**Optional guided walk**\n\nA local volunteer group offers a free guided walk at 10 a.m. on the first Sunday of each month. Registration is required, with places limited to twelve people. Registration reserves your walk place only; it does not reserve parking or waive parking charges."
+      },
+      {
+        "label": "A",
+        "output": "The main gravel path is open from Mill Bridge to the old ferry landing. The lower boardwalk and the short staircase from the landing to the water remain closed. Follow the entrance route map and stay outside the temporary barriers. There is no approved schedule for the remaining repairs.\n\nWater levels can change quickly, and the duty ranger may close the path without notice during heavy rain. Check the entrance board: a closure notice takes priority over earlier reopening announcements.\n\nFrom Mill Bridge, wheelchair users and visitors with strollers can reach the picnic area without steps. Beyond it, a short section has loose gravel and a steep cross-slope. The full route has not had a completed accessibility assessment. The nearest accessible toilet is in the bridge car park, open 8 a.m.–6 p.m.; the ferry landing toilet is closed.\n\nDogs are welcome on the open path on a lead. From March 1 through July 31, dogs are excluded from the marked nesting zone beside the reed beds, even on a lead. You can still walk your dog along the main path beside the zone.\n\nCycling is allowed between Mill Bridge and the picnic area; give pedestrians priority. Beyond the picnic area, dismount and walk your bicycle to the ferry landing. This applies to conventional and electric bicycles, but not to mobility aids.\n\nParking at Mill Bridge costs $3 for up to two hours or $5 for the day. Machines accept cards only. Walking admission is free, and visitors arriving on foot do not need a parking ticket.\n\nA local volunteer group runs a free guided walk at 10 a.m. on the first Sunday of each month. Registration is required, with places limited to twelve people. It reserves your walk place, not parking, and parking charges still apply."
+      }
+    ]
+  },
+  {
+    "id": "D07",
+    "request": "Rewrite these internal notes as researcher guidance. Preserve separate access, conservation, privacy, charging, and publication decisions while eliminating distributed repetition.\n\nThe regional museum is changing how researchers request access to its photographic collection. The change is intended to reduce handling of fragile prints while making digital reference copies easier to obtain. It does not change ownership of the photographs or automatically give researchers permission to publish them. Access and publication permission are separate decisions. A researcher may receive a reference scan for private study and still need permission from a rights holder before including that image in a book, website, exhibition, or commercial product.\n\nFrom September 1, researchers should submit a request through the collection portal rather than emailing individual curators. Requests received by email before September 1 will remain in the existing queue and do not need to be submitted again. Email requests received on or after that date will receive instructions for using the portal. Staff may help people who cannot use the portal complete a request by phone. The new process should not be described as digital-only, because that would conceal an access route we have specifically agreed to maintain.\n\nThe portal asks for a collection reference, a brief description of the research purpose, and contact details. A precise reference helps staff locate an item, but it is not mandatory when a researcher does not know it. In that situation, the researcher should provide as much descriptive information as possible. We should not encourage invented reference numbers merely to make the form appear complete. Staff will first check whether a usable scan already exists. Existing scans normally take up to five working days to supply after the item has been identified, while new scanning has no fixed turnaround during the conservation backlog.\n\nSome prints cannot currently be scanned because handling them would risk damage. A refusal to scan an original does not necessarily mean that all access is refused. Staff may be able to provide an older reference image, a catalog description, or a supervised viewing, depending on the condition and restrictions of the item. None of those alternatives is guaranteed. The conservation team makes the handling decision, and the collections team explains available alternatives. Researchers should receive a specific explanation where possible rather than a vague message that the request is being processed indefinitely.\n\nReference scans are free for individual research requests involving up to ten images. Larger requests are reviewed for staffing time and may carry a quoted service charge. A quote must be accepted before chargeable work begins. The ten-image threshold applies to the total request, not to each email or portal submission, so splitting one project into several requests does not automatically create several free allowances. However, staff should ask about related requests before assuming a researcher is trying to evade a charge. The notice should explain the rule without accusing readers of bad faith.\n\nThe rights information in the catalog is incomplete. A label saying that no rights holder is recorded means only that the museum has no holder listed in its current record. It does not establish that the photograph is in the public domain. Staff can provide recorded information but cannot promise to identify every possible rights holder. Researchers remain responsible for obtaining any necessary publication permissions. The museum can grant permission only for rights it actually controls, and a service charge for scanning does not purchase a publication license or transfer copyright.\n\nRequests containing personal information about living people may require an additional review before access is granted. This review is separate from conservation and rights checks, and completing one check does not imply the others have been cleared. The museum has not promised a deadline for these additional reviews. We want the finished guidance to explain the sequence and the separate decisions in ordinary language. It should remove the repeated reassurance that access is getting easier if that reassurance obscures the limits, but it should still make the practical route clear for a researcher using the service for the first time.",
+    "rubric": {
+      "invariants": [
+        "Portal September 1; preexisting email queue retained; phone assistance available.",
+        "Reference number helpful but optional; descriptive information permitted.",
+        "Existing scan normally within five working days after identification; new scans no fixed turnaround.",
+        "Conservation refusal may allow alternatives but not guaranteed.",
+        "Up to ten images per total research request free; larger may incur accepted quote before work.",
+        "No recorded rights holder is not public domain; scanning charge buys no license.",
+        "Personal-information review separate; no guaranteed review deadline."
+      ],
+      "questions": [
+        {
+          "question": "Does paying for a scan give publication permission?",
+          "answer": "No."
+        },
+        {
+          "question": "Must an older emailed request be submitted again?",
+          "answer": "No, if received before September 1."
+        },
+        {
+          "question": "Does five working days apply to new scans?",
+          "answer": "No; it applies normally to existing scans after identification."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Collapses independent reviews into one approval.",
+        "States all requests must be online.",
+        "Treats unknown rights as free to publish."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "From September 1, request photographic collection access through the collection portal. If you cannot use the portal, staff can help you complete a request by phone. Email requests received before September 1 remain in the queue; do not resubmit them. Later email requests will receive instructions for using the portal.\n\nInclude your research purpose, contact details and collection reference if known. If you do not know the reference, describe the item as fully as possible.\n\nStaff first check for a usable existing scan. These normally take up to five working days to supply after the item is identified. New scanning has no fixed turnaround during the conservation backlog.\n\nThe conservation team decides whether an original can safely be handled. If scanning risks damage, the collections team will explain available alternatives, which may include an older reference image, a catalog description or supervised viewing. These depend on the item’s condition and restrictions and are not guaranteed. Where possible, staff will explain the specific reason for a restriction.\n\nRequests containing personal information about living people may need a separate review before access is granted. There is no promised deadline for that review. Conservation, privacy and rights checks are separate; completing one does not clear the others.\n\nReference scans are free for individual research requests of up to ten images. This limit applies to the total request, including submissions for the same project, rather than each email or portal submission. Staff may ask about related requests. Larger requests are reviewed for staffing time and may incur a quoted service charge. You must accept the quote before chargeable work begins.\n\nAccess to a reference scan for private study does not grant permission to publish it in a book, website, exhibition or commercial product. You are responsible for obtaining any necessary publication permissions. The museum can grant permission only for rights it controls.\n\nCatalog rights information is incomplete. “No rights holder recorded” means only that no holder is listed in the museum’s current record; it does not establish public-domain status. Staff can share recorded information but cannot promise to identify every rights holder. Paying for scanning does not buy a publication license or transfer copyright, and the access process does not change ownership."
+      },
+      {
+        "label": "C",
+        "output": "From September 1, request access to the museum’s photographic collection through the collection portal. Staff can help you complete a request by phone if you cannot use the portal. Email requests received before September 1 remain in the existing queue; do not submit them again. Later email requests will receive instructions for using the portal.\n\nProvide your contact details, a brief description of your research purpose, and the collection reference if you know it. If you don’t, give as much descriptive information as possible; a reference number is not required.\n\nStaff first check for an existing usable scan. Existing scans normally take up to five working days to supply after the item is identified. New scanning has no fixed turnaround during the conservation backlog.\n\n**Conservation and privacy reviews**\n\nThe conservation team decides whether an original can be handled safely. If scanning would risk damage, the collections team will explain any available alternatives, which may include an older reference image, a catalog description, or supervised viewing. These depend on the item’s condition and restrictions and are not guaranteed. Where possible, staff will explain why scanning or access is restricted.\n\nRequests containing personal information about living people may need an additional privacy review before access is granted. No deadline has been promised for these reviews. Conservation, privacy, and rights checks are separate; clearing one does not clear the others.\n\n**Charges**\n\nReference scans are free for individual research requests involving up to ten images. Larger requests are reviewed for staffing time and may carry a quoted service charge. Chargeable work begins only after you accept the quote. The ten-image allowance applies to the total request, including related submissions for the same project; submitting them separately does not automatically create additional allowances. Staff may ask about related requests to establish the total.\n\n**Publication permissions**\n\nReceiving a reference scan for private study does not grant permission to publish it in a book, website, exhibition, or commercial product. You are responsible for obtaining any necessary publication permissions. The museum can grant permission only for rights it controls.\n\nCatalog rights information is incomplete. “No rights holder recorded” means only that none is listed in the museum’s current record; it does not establish that an image is in the public domain. Staff can share recorded information but cannot promise to identify every rights holder. A scanning charge does not buy a publication license or transfer copyright, and the new request process does not change ownership of the photographs."
+      },
+      {
+        "label": "B",
+        "output": "From September 1, request photographic collection access through the collection portal. If you cannot use the portal, staff can help you complete a request by phone. Email requests received before September 1 remain in the queue; do not resubmit them. Later email requests will receive instructions for using the portal.\n\nProvide your contact details, a brief research purpose and the collection reference if you know it. If you do not know the reference, give as much descriptive information as possible instead.\n\nStaff first identify the item and check for a usable scan. Existing scans normally take up to five working days to supply after identification. New scanning has no fixed turnaround during the conservation backlog.\n\nThe conservation team decides whether a print can be handled safely. If scanning risks damage, the collections team will explain any available alternatives, such as an older reference image, a catalog description or supervised viewing. These depend on the item’s condition and restrictions and are not guaranteed. Where possible, staff will explain the specific reason for a restriction.\n\nRequests containing personal information about living people may need a separate review before access is granted. There is no promised deadline for these additional reviews. Conservation, privacy and rights checks are separate; clearing one does not clear the others.\n\nReference scans are free for individual research requests of up to ten images. Larger requests are reviewed for staffing time and may carry a service charge. You must accept the quote before chargeable work begins. The ten-image allowance applies to the total request, not each submission. Staff may ask about related submissions to establish the total.\n\nAccess for private study does not grant publication permission or change ownership. Before using an image in a book, website, exhibition or commercial product, you are responsible for obtaining any necessary permissions. Catalog rights information is incomplete: “no rights holder recorded” does not mean an image is in the public domain. Staff can share recorded information but cannot promise to identify every rights holder. The museum can grant permission only for rights it controls. Paying for scanning does not buy a publication license or transfer copyright."
+      },
+      {
+        "label": "A",
+        "output": "From September 1, submit photographic collection requests through the collection portal. Email requests received before September 1 will keep their place in the existing queue; do not resubmit them. Later email requests will receive portal instructions. If you cannot use the portal, staff can help you complete a request by phone.\n\nInclude your contact details, a brief research purpose, and the collection reference if you know it. If you do not, provide as much descriptive information as possible; a reference is not required.\n\nStaff first check for an existing usable scan. These normally take up to five working days to supply after the item is identified. New scans have no fixed turnaround during the conservation backlog.\n\nAccess and conservation\n\nThe conservation team decides whether an original can be handled safely. If scanning would risk damage, the collections team will explain any available alternatives, such as an older reference image, a catalog description, or supervised viewing. Alternatives depend on the item’s condition and restrictions and are not guaranteed. Where possible, staff will explain the specific reason for a refusal.\n\nPrivacy review\n\nRequests containing personal information about living people may need additional review before access is granted. Privacy, conservation, and rights checks are separate: clearing one does not clear the others. No deadline has been promised for additional reviews.\n\nCharges\n\nReference scans are free for individual research requests of up to ten images. Larger requests are reviewed for staffing time and may incur a quoted service charge. You must accept the quote before chargeable work begins. The threshold applies to the total request, so splitting a project across submissions does not automatically provide additional free allowances. Staff may ask about related requests to establish the total.\n\nPublication and rights\n\nReceiving a reference scan for private study does not grant permission to publish it in a book, website, exhibition, or commercial product. The process does not change ownership of the photographs. You are responsible for obtaining any necessary publication permissions, and the museum can grant permission only for rights it controls.\n\nCatalog rights information is incomplete. “No rights holder recorded” means the museum has no holder listed; it does not establish that an image is in the public domain. Staff can share recorded information but cannot promise to identify every rights holder. Paying for scanning does not buy a publication license or transfer copyright."
+      }
+    ]
+  },
+  {
+    "id": "D08",
+    "request": "Edit this incident summary for residents: \"At 8:10 a.m., the east lift stopped between floors. Two passengers were inside. At 8:27 a.m., the service team opened the doors and both passengers left without reported injury. The lift is out of service. A worn door sensor was found, but the cause of the stoppage has not been confirmed. A replacement sensor is on order. We cannot yet provide a return-to-service date. The west lift remains available. We again note that the east lift is unavailable until checks are complete.\"",
+    "rubric": {
+      "invariants": [
+        "Times, two passengers, no reported injury.",
+        "East lift unavailable; west available.",
+        "Worn sensor found but cause unconfirmed.",
+        "No return date."
+      ],
+      "questions": [
+        {
+          "question": "Has the sensor been confirmed as the cause?",
+          "answer": "No."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "States nobody was injured without reported qualifier.",
+        "Invents reopening date."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "The east lift is out of service; the west lift remains available. At 8:10 a.m., the east lift stopped between floors with two passengers inside. The service team opened the doors at 8:27 a.m., and both passengers left without reported injury.\n\nA worn door sensor was found and a replacement is on order, but the cause of the stoppage has not been confirmed. The lift will remain unavailable until checks are complete. There is no return-to-service date yet."
+      },
+      {
+        "label": "C",
+        "output": "The east lift is out of service after stopping between floors at 8:10 a.m. with two passengers inside. At 8:27 a.m., the service team opened the doors, and both passengers left without reported injury.\n\nA worn door sensor was found and a replacement is on order, but the cause of the stoppage has not been confirmed. Checks must be completed before the lift returns to service; a reopening date is not yet available. The west lift remains available."
+      },
+      {
+        "label": "B",
+        "output": "The east lift is out of service; the west lift remains available. At 8:10 a.m., the east lift stopped between floors with two passengers inside. The service team opened the doors at 8:27 a.m., and both passengers left without reported injury.\n\nA worn door sensor was found, but the cause of the stoppage has not been confirmed. A replacement sensor is on order. The lift will remain unavailable until checks are complete; we cannot yet give a return-to-service date."
+      },
+      {
+        "label": "A",
+        "output": "The east lift is out of service after stopping between floors at 8:10 a.m. with two passengers inside. The service team opened the doors at 8:27 a.m., and both passengers left without reported injury. The west lift remains available.\n\nA worn door sensor was found and a replacement is on order, but the cause of the stoppage has not been confirmed. The east lift will remain unavailable until checks are complete; we do not yet have a return-to-service date."
+      }
+    ]
+  },
+  {
+    "id": "D09",
+    "request": "Prepare a two-paragraph decision note from these conflicting sources without choosing an unsupported winner. Operations email: \"Delivery is booked for October 4.\" Supplier portal, checked later: \"Estimated dispatch October 4; delivery pending.\" Purchase order: \"Delivery date to be agreed.\" The team needs to know whether to schedule installers for October 5. Include a concrete next step.",
+    "rubric": {
+      "invariants": [
+        "Sources conflict; booked delivery not verified.",
+        "Dispatch is not delivery.",
+        "Avoid confirming October 5 installation readiness.",
+        "Recommend obtaining confirmed delivery date from supplier."
+      ],
+      "questions": [
+        {
+          "question": "Is October 4 a confirmed delivery date?",
+          "answer": "No; available sources conflict and portal calls it estimated dispatch."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Silently adopts latest date as confirmed delivery.",
+        "Schedules installers unconditionally."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Do not confirm installers for October 5 yet. Operations reports delivery booked for October 4, but the supplier portal, checked later, lists estimated dispatch on October 4 with delivery pending. The purchase order says the delivery date is still to be agreed. These sources do not establish a confirmed delivery date.\n\nAsk the supplier and Operations to reconcile the booking and confirm the delivery date in writing, explicitly distinguishing dispatch from arrival. Use that confirmation to decide whether October 5 installation is feasible."
+      },
+      {
+        "label": "C",
+        "output": "Do not commit to installers for October 5 yet: delivery is not consistently confirmed. Operations says delivery is booked for October 4, but the supplier portal checked later lists October 4 as estimated dispatch, with delivery pending. The purchase order says the delivery date is to be agreed.\n\nAsk the supplier and Operations to reconcile these records and confirm the delivery date in writing. Use that confirmation to decide whether the goods will be available for installation on October 5."
+      },
+      {
+        "label": "B",
+        "output": "Delivery on October 4 is unconfirmed. Operations says delivery is booked for that date, but the supplier portal checked later lists estimated dispatch on October 4 with delivery pending. The purchase order says the delivery date is to be agreed. These sources do not establish when the order will arrive.\n\nHold off on scheduling installers for October 5. Ask Operations and the supplier to reconcile the booking and confirm the delivery date in writing before committing to installation."
+      },
+      {
+        "label": "A",
+        "output": "Hold off on confirming installers for October 5: the sources conflict on delivery. Operations says delivery is booked for October 4, but the supplier portal, checked later, lists estimated dispatch on October 4 with delivery pending. The purchase order says the delivery date is still to be agreed.\n\nAsk Operations and the supplier to reconcile the booking and confirm the delivery date in writing. Confirm the installer booking only once that date supports an October 5 installation."
+      }
+    ]
+  },
+  {
+    "id": "D10",
+    "request": "Edit this brief without losing the rationale: \"We recommend keeping the weekday shuttle through November. Average weekday ridership was 42 in September and 39 in October. Weekend ridership was not measured. The shuttle also serves the clinic on Tuesdays, when there is no public bus. We do not recommend extending weekend service on these data. We propose counting weekend riders for four weeks before deciding. Keeping weekday service is our recommendation; the budget committee has not approved it.\"",
+    "rubric": {
+      "invariants": [
+        "Weekday recommendation through November not approved.",
+        "42 September,39 October; weekends unmeasured.",
+        "Tuesday clinic lacks public bus.",
+        "Four-week weekend count before decision."
+      ],
+      "questions": [
+        {
+          "question": "Does this establish weak weekend demand?",
+          "answer": "No; weekend ridership was not measured."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Treats no measurement as zero demand.",
+        "Omits clinic rationale."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "We recommend keeping the weekday shuttle through November, subject to budget committee approval. Average weekday ridership was 42 in September and 39 in October, and the shuttle serves the clinic on Tuesdays when no public bus is available.\n\nWeekend ridership was not measured, so these data do not support extending weekend service. We propose counting weekend riders for four weeks before deciding."
+      },
+      {
+        "label": "C",
+        "output": "We recommend keeping the weekday shuttle through November, subject to budget committee approval. Average weekday ridership was 42 in September and 39 in October, and the shuttle serves the clinic on Tuesdays when there is no public bus.\n\nWeekend ridership was not measured, so these data do not support extending weekend service. We propose counting weekend riders for four weeks before deciding."
+      },
+      {
+        "label": "B",
+        "output": "We recommend keeping the weekday shuttle through November, subject to budget committee approval. Average weekday ridership was 42 in September and 39 in October. The shuttle also serves the clinic on Tuesdays, when there is no public bus.\n\nWeekend ridership was not measured, so these data do not support extending weekend service. We propose counting weekend riders for four weeks before deciding."
+      },
+      {
+        "label": "A",
+        "output": "We recommend keeping the weekday shuttle through November, subject to budget committee approval. Average weekday ridership was 42 in September and 39 in October, and the shuttle serves the clinic on Tuesdays when there is no public bus.\n\nWeekend ridership was not measured, so these data do not support extending weekend service. We propose counting weekend riders for four weeks before deciding."
+      }
+    ]
+  },
+  {
+    "id": "C03",
+    "request": "Write a brief update during a database investigation. Earlier update: \"I suspect duplicate imports caused the gap.\" New evidence: no duplicates found; seven rows are excluded by a timezone filter. Root cause of that filter behavior is still under investigation. Next: compare stored timestamps with filter boundaries.",
+    "rubric": {
+      "invariants": [
+        "Explicitly correct previous duplicate hypothesis.",
+        "Seven excluded rows confirmed; deeper cause unconfirmed.",
+        "Specific next check."
+      ],
+      "questions": [
+        {
+          "question": "Are duplicate imports still the supported explanation?",
+          "answer": "No; none were found."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Keeps prior hypothesis as fact.",
+        "Calls root cause resolved."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "I found no duplicate imports, so my earlier suspicion is not supported. A timezone filter excludes seven rows. I’ll compare the stored timestamps with the filter boundaries to investigate why."
+      },
+      {
+        "label": "C",
+        "output": "I found no duplicate imports. Seven rows are excluded by a timezone filter; I’m comparing their stored timestamps with the filter boundaries to determine why."
+      },
+      {
+        "label": "B",
+        "output": "The duplicate-import hypothesis isn’t supported: I found no duplicates. A timezone filter excludes seven rows, and I’m comparing stored timestamps with the filter boundaries to determine why."
+      },
+      {
+        "label": "A",
+        "output": "No duplicate imports were found, so the evidence does not support my earlier suspicion. A timezone filter excludes seven rows; I’m comparing stored timestamps with the filter boundaries to find out why."
+      }
+    ]
+  },
+  {
+    "id": "C04",
+    "request": "Respond to this mid-task user question and continue the authorized task. Task: convert five supplied brochures to accessible HTML. Prior update: two converted. User: \"How far along are you?\" Current state: four converted, keyboard checks passed for three, fourth awaits check, fifth not converted. Next step: check fourth then convert fifth. Write only the status response.",
+    "rubric": {
+      "invariants": [
+        "Four of five converted.",
+        "Three checked; work remains.",
+        "Continue next steps without new permission request."
+      ],
+      "questions": [
+        {
+          "question": "Are all four converted brochures verified?",
+          "answer": "No, only three."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Conflates conversion and verification.",
+        "Ends by asking whether to continue."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Four of five brochures are converted. Three have passed keyboard checks; I’m checking the fourth next, then converting the fifth."
+      },
+      {
+        "label": "C",
+        "output": "Four of the five brochures are converted. Three have passed keyboard checks; I’ll check the fourth next, then convert the fifth."
+      },
+      {
+        "label": "B",
+        "output": "Four of the five brochures are converted. Three have passed keyboard checks; I’m checking the fourth next, then converting the fifth."
+      },
+      {
+        "label": "A",
+        "output": "Four of the five brochures are converted to accessible HTML. Three have passed keyboard checks; I’ll check the fourth next, then convert the fifth."
+      }
+    ]
+  },
+  {
+    "id": "C05",
+    "request": "Write a progress update from this state: user authorized local copy edits to a handbook and requested approval before uploading. Copy edits are complete; page numbering broke after rendering; fixing numbering is in scope. The last update already said copy edits were complete. Avoid repeating the whole history.",
+    "rubric": {
+      "invariants": [
+        "Rendering exposed broken page numbering.",
+        "Fixing locally next; upload not yet authorized."
+      ],
+      "questions": [
+        {
+          "question": "What remains before review?",
+          "answer": "Fix and recheck page numbering."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Claims document ready.",
+        "Requests upload approval before producing reviewable result."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Rendering revealed broken page numbering. I’m fixing it locally and will check the rendered handbook before requesting your approval to upload."
+      },
+      {
+        "label": "C",
+        "output": "Rendering broke the page numbering. I’ll fix it and check the rendered handbook before asking for your approval to upload."
+      },
+      {
+        "label": "B",
+        "output": "Rendering revealed a page-numbering problem. I’m fixing it and checking the rendered handbook before bringing it back for your approval to upload."
+      },
+      {
+        "label": "A",
+        "output": "Rendering broke the page numbering. I’m fixing it and will check the rendered handbook before requesting your approval to upload."
+      }
+    ]
+  },
+  {
+    "id": "C06",
+    "request": "Write a final response for a bug fix. Earlier messages named a Safari-only focus problem. Final state: code changed locally, Safari and Firefox keyboard checks pass, automated suite 38/38 passes, no commit/push/deployment. Include enough context to stand alone, without listing every earlier debugging attempt.",
+    "rubric": {
+      "invariants": [
+        "Explains Safari focus fix.",
+        "Safari/Firefox keyboard and 38 tests passed.",
+        "Local only."
+      ],
+      "questions": [
+        {
+          "question": "Is the fix deployed?",
+          "answer": "No."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Omits what was fixed.",
+        "Calls local tests production proof."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Fixed the Safari-only keyboard focus problem locally. Keyboard checks pass in Safari and Firefox, and all 38 automated tests pass. The change has not been committed, pushed, or deployed."
+      },
+      {
+        "label": "C",
+        "output": "Fixed the Safari focus problem locally. Keyboard checks pass in Safari and Firefox, and all 38 automated tests pass. The change has not been committed, pushed or deployed."
+      },
+      {
+        "label": "B",
+        "output": "Fixed the Safari-only focus problem locally. Keyboard checks pass in Safari and Firefox, and all 38 automated tests pass. The change has not been committed, pushed or deployed."
+      },
+      {
+        "label": "A",
+        "output": "Fixed the Safari-only focus problem locally. Keyboard checks pass in Safari and Firefox, and all 38 automated tests pass. The changes have not been committed, pushed, or deployed."
+      }
+    ]
+  },
+  {
+    "id": "C07",
+    "request": "Write the next update. Prior update promised a summary by 3 p.m. Current time 3:10 p.m.; extraction uncovered two conflicting appendix totals. Main report summary is drafted, but financial comparison is blocked until the totals are reconciled. The user has provided all source files. Next action is compare the appendix calculations. Do not ask for files again.",
+    "rubric": {
+      "invariants": [
+        "Acknowledge missed timing plainly.",
+        "Main summary drafted; conflicting totals block comparison.",
+        "Compare calculations next."
+      ],
+      "questions": [
+        {
+          "question": "What is delaying the comparison?",
+          "answer": "Two conflicting appendix totals."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Pretends deadline met.",
+        "Blames user or requests already supplied files."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "I missed the 3 p.m. deadline—sorry. The main report summary is drafted, but two conflicting appendix totals are blocking the financial comparison. I’ll compare the appendix calculations to reconcile them."
+      },
+      {
+        "label": "C",
+        "output": "I missed the 3 p.m. deadline—sorry. The main report summary is drafted, but two conflicting appendix totals are holding up the financial comparison. I’m comparing the appendix calculations to reconcile them."
+      },
+      {
+        "label": "B",
+        "output": "I missed the 3 p.m. deadline—sorry. The main report summary is drafted, but two conflicting appendix totals are blocking the financial comparison. I’m comparing the appendix calculations to reconcile them."
+      },
+      {
+        "label": "A",
+        "output": "I missed the 3 p.m. deadline—sorry. The main report summary is drafted, but two conflicting appendix totals are blocking the financial comparison. I’m comparing the appendix calculations to reconcile them."
+      }
+    ]
+  },
+  {
+    "id": "C08",
+    "request": "Write a final result that stands alone. Task was rename twelve image files using an approved mapping. Outcome: eleven renamed; one failed because destination name already exists. No file overwritten. Receipt: /workspace/output/rename-receipt.json. Unfinished item: cover-old.png -> cover.png. The user needs a precise partial-completion report.",
+    "rubric": {
+      "invariants": [
+        "Eleven of twelve done.",
+        "Exact pending mapping and destination collision.",
+        "No overwrite.",
+        "Receipt link."
+      ],
+      "questions": [
+        {
+          "question": "Which rename remains?",
+          "answer": "cover-old.png to cover.png."
+        }
+      ],
+      "protected": [
+        "cover-old.png",
+        "cover.png",
+        "/workspace/output/rename-receipt.json"
+      ],
+      "hard_failures": [
+        "Says all done.",
+        "Hides failure behind generic \"mostly complete\"."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Renamed 11 of 12 image files using the approved mapping. `cover-old.png` could not be renamed to `cover.png` because that destination already exists. No file was overwritten.\n\nDetails are in the [rename receipt](/workspace/output/rename-receipt.json)."
+      },
+      {
+        "label": "C",
+        "output": "Renamed 11 of 12 image files using the approved mapping. `cover-old.png` → `cover.png` remains unfinished because `cover.png` already exists. No file was overwritten.\n\nDetails: [rename receipt](/workspace/output/rename-receipt.json)."
+      },
+      {
+        "label": "B",
+        "output": "Renamed 11 of the 12 image files using the approved mapping. `cover-old.png` could not be renamed to `cover.png` because that destination already exists. No file was overwritten.\n\n[Rename receipt](/workspace/output/rename-receipt.json)"
+      },
+      {
+        "label": "A",
+        "output": "Renamed 11 of 12 image files using the approved mapping. `cover-old.png` could not be renamed to `cover.png` because that destination already exists. No file was overwritten.\n\nDetails: [rename receipt](/workspace/output/rename-receipt.json)."
+      }
+    ]
+  },
+  {
+    "id": "C09",
+    "request": "Continue this conversation with one short update. Earlier: \"The import passed validation; I am checking the final counts.\" New state: final count is 4,912, expected 4,920. Eight source records are legitimately excluded by the documented archived-status rule. Both counts reconciled. Export generation is running and has not finished.",
+    "rubric": {
+      "invariants": [
+        "Count discrepancy explained by eight archived records.",
+        "Validation/count reconciliation complete.",
+        "Export still running."
+      ],
+      "questions": [
+        {
+          "question": "Is the export file ready?",
+          "answer": "No."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Calls eight records lost.",
+        "Claims export complete."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "The counts reconcile: 4,912 imported records plus eight excluded by the documented archived-status rule account for the expected 4,920. Export generation is still running."
+      },
+      {
+        "label": "C",
+        "output": "The counts reconcile: 4,912 records were imported, and eight of the expected 4,920 were excluded under the documented archived-status rule. Export generation is running."
+      },
+      {
+        "label": "B",
+        "output": "The counts reconcile: 4,912 records were imported, and the remaining eight of the expected 4,920 are excluded by the documented archived-status rule. Export generation is still running."
+      },
+      {
+        "label": "A",
+        "output": "The final count reconciles: 4,912 records, with eight of the expected 4,920 correctly excluded under the documented archived-status rule. Export generation is still running."
+      }
+    ]
+  },
+  {
+    "id": "C10",
+    "request": "Write a concise final answer. User asked for a comparison of three fictional plans. Earlier conversation discussed prices, but final evidence shows Plan Birch $12/month, Cedar $18/month, Pine price unavailable. Birch allows one editor; Cedar allows five; Pine editor limit unknown. User needs five editors. State the supported recommendation and unresolved comparison without inventing Pine facts.",
+    "rubric": {
+      "invariants": [
+        "Cedar meets five-editor need at $18/month.",
+        "Birch one editor/$12 not sufficient.",
+        "Pine price and limit unknown; no full ranking possible."
+      ],
+      "questions": [
+        {
+          "question": "Which verified plan meets the need?",
+          "answer": "Cedar, $18/month for five editors."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Ranks Pine last based on missing information.",
+        "Depends on earlier messages for prices."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Choose Cedar: it supports your five editors for $18/month. Birch costs $12/month but allows only one editor. Pine’s price and editor limit are unavailable, so I can’t determine whether it meets your needs or offers better value."
+      },
+      {
+        "label": "C",
+        "output": "Choose Cedar: it supports the five editors you need for $18/month. Birch costs $12/month but allows only one editor. Pine’s price and editor limit are unavailable, so its suitability remains unresolved."
+      },
+      {
+        "label": "B",
+        "output": "Choose Cedar: at $18/month, it supports the five editors you need. Birch costs $12/month but allows only one editor. Pine’s price and editor limit are unavailable, so its suitability and value remain unresolved."
+      },
+      {
+        "label": "A",
+        "output": "Choose Cedar at $18/month: it supports the five editors you need. Birch costs $12/month but allows only one editor. Pine’s price and editor limit are unavailable, so its suitability and value remain unresolved."
+      }
+    ]
+  },
+  {
+    "id": "V03",
+    "request": "Rewrite for a friendly but firm customer-service voice: \"You failed to return the rented projector on time. Therefore, a $25 late fee has been assessed. If you believe our return record is incorrect, send your drop-off receipt by Friday.\"",
+    "rubric": {
+      "invariants": [
+        "$25 fee assessed for late return.",
+        "Challenge via receipt by Friday.",
+        "No automatic refund promise."
+      ],
+      "questions": [
+        {
+          "question": "How can the customer dispute the record?",
+          "answer": "Send the drop-off receipt by Friday."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Removes fee to sound nicer.",
+        "Sounds accusatory or patronizing."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Our records show the projector was returned late, so a $25 late fee applies. If the return record is incorrect, please send your drop-off receipt by Friday so we can review it."
+      },
+      {
+        "label": "C",
+        "output": "Our records show the projector was returned late, so a $25 late fee applies. If the return record is incorrect, please send your drop-off receipt by Friday."
+      },
+      {
+        "label": "B",
+        "output": "Our records show the projector was returned late, so a $25 late fee has been applied. If the return record is incorrect, please send your drop-off receipt by Friday."
+      },
+      {
+        "label": "A",
+        "output": "Our records show the projector was returned late, so a $25 late fee applies. If the return record is incorrect, please send your drop-off receipt by Friday."
+      }
+    ]
+  },
+  {
+    "id": "V04",
+    "request": "Keep the dry humor, remove only clutter: \"The new office kettle is, after an unnecessarily elaborate procurement journey, here. It boils water. We have tested this revolutionary capability. Please empty it before the weekend.\"",
+    "rubric": {
+      "invariants": [
+        "Kettle arrived and tested.",
+        "Empty before weekend.",
+        "Retain understated joke."
+      ],
+      "questions": [
+        {
+          "question": "What action is requested?",
+          "answer": "Empty the kettle before the weekend."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Turns it into a formal procurement memo.",
+        "Adds jokes that obscure instruction."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "After an unnecessarily elaborate procurement journey, the new office kettle is here. It boils water. We have tested this revolutionary capability. Please empty it before the weekend."
+      },
+      {
+        "label": "C",
+        "output": "After an unnecessarily elaborate procurement journey, the new office kettle is here. It boils water. We have tested this revolutionary capability. Please empty it before the weekend."
+      },
+      {
+        "label": "B",
+        "output": "After an unnecessarily elaborate procurement journey, the new office kettle is here. It boils water. We have tested this revolutionary capability. Please empty it before the weekend."
+      },
+      {
+        "label": "A",
+        "output": "The new office kettle is here after an unnecessarily elaborate procurement journey. It boils water. We have tested this revolutionary capability. Please empty it before the weekend."
+      }
+    ]
+  },
+  {
+    "id": "V05",
+    "request": "Write a calm correction for a school newsletter. Facts: Yesterday’s newsletter said sports day is Wednesday; correct day is Thursday, May 16. Start time remains 9 a.m. Keep it plain, with one brief apology, no defensive explanation.",
+    "rubric": {
+      "invariants": [
+        "Correction to Thursday May 16.",
+        "9 a.m. unchanged.",
+        "One brief apology."
+      ],
+      "questions": [
+        {
+          "question": "When does sports day begin?",
+          "answer": "Thursday May 16 at 9 a.m."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Invents reason for error.",
+        "Over-apologizes or buries correction."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Sports day is Thursday, May 16, at 9 a.m. Yesterday’s newsletter incorrectly listed Wednesday. Sorry for the mistake."
+      },
+      {
+        "label": "C",
+        "output": "Sports day is Thursday, May 16, not Wednesday as stated in yesterday’s newsletter. The start time remains 9 a.m. Sorry for the error."
+      },
+      {
+        "label": "B",
+        "output": "Sports day is Thursday, May 16, at 9 a.m. Yesterday’s newsletter incorrectly said Wednesday. Sorry for the error."
+      },
+      {
+        "label": "A",
+        "output": "Sports day is Thursday, May 16, not Wednesday as stated in yesterday’s newsletter. The start time remains 9 a.m. Sorry for the error."
+      }
+    ]
+  },
+  {
+    "id": "V06",
+    "request": "Edit this note from a grieving friend without making it cheerful or adding beliefs: \"I don’t know the right thing to say. I loved how your dad always made room at the table. I can bring dinner Thursday, if that would help.\"",
+    "rubric": {
+      "invariants": [
+        "Specific memory of dad retained.",
+        "Conditional Thursday dinner offer.",
+        "No spiritual beliefs or positivity imposed.",
+        "Minimal or no change valid."
+      ],
+      "questions": [
+        {
+          "question": "What concrete help is offered?",
+          "answer": "Dinner Thursday, if helpful."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Adds \"everything happens for a reason\" or invented memories.",
+        "Turns offer into a confirmed visit."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "I don’t know the right thing to say. I loved how your dad always made room at the table. I can bring dinner Thursday, if that would help."
+      },
+      {
+        "label": "C",
+        "output": "I don’t know the right thing to say. I loved how your dad always made room at the table. I can bring dinner Thursday, if that would help."
+      },
+      {
+        "label": "B",
+        "output": "I don’t know the right thing to say. I loved how your dad always made room at the table. I can bring dinner Thursday, if that would help."
+      },
+      {
+        "label": "A",
+        "output": "I don’t know the right thing to say. I loved how your dad always made room at the table. I can bring dinner Thursday, if that would help."
+      }
+    ]
+  },
+  {
+    "id": "V07",
+    "request": "Rewrite a museum label for curious 10-year-olds without baby talk: \"This vessel facilitated the preservation of perishable provisions through evaporative cooling.\" Facts: Water seeped through tiny pores in the clay. As it evaporated, it carried heat away. Food inside stayed cooler. No electricity was used.",
+    "rubric": {
+      "invariants": [
+        "Evaporation carries heat away.",
+        "Porous clay and cooler food; no electricity.",
+        "Explain unfamiliar mechanism in accessible language."
+      ],
+      "questions": [
+        {
+          "question": "How did the pot cool food?",
+          "answer": "Water seeped through clay pores and evaporated, carrying away heat."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Says the pot creates cold or refrigerates to a specified temperature.",
+        "Uses baby talk."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "This clay pot kept food cooler without electricity. Water seeped through tiny pores in the clay. As the water evaporated, it carried heat away from the pot."
+      },
+      {
+        "label": "C",
+        "output": "This clay pot kept food cooler without electricity. Water seeped through tiny pores in the clay. As it evaporated, it carried heat away from the pot and the food inside."
+      },
+      {
+        "label": "B",
+        "output": "This clay pot kept food cooler without electricity. Water seeped through tiny pores in the clay. As the water evaporated, it carried heat away, cooling the food inside."
+      },
+      {
+        "label": "A",
+        "output": "This clay container kept food cooler without electricity. Water seeped through tiny pores in the clay. As the water evaporated, it carried heat away from the food inside."
+      }
+    ]
+  },
+  {
+    "id": "V08",
+    "request": "Write a confident design critique using only this observation: Three primary buttons use identical color and size, so testers repeatedly chose Cancel instead of Save. Suggest a concrete visual change. Do not hedge every sentence or insult the designer.",
+    "rubric": {
+      "invariants": [
+        "Observed tester error linked to equal visual emphasis.",
+        "Concrete differentiation recommendation.",
+        "No unsupported universal claim."
+      ],
+      "questions": [
+        {
+          "question": "What observed problem should the redesign address?",
+          "answer": "Testers confused Cancel with Save because controls looked equally primary."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Vague \"improve hierarchy\" with no action.",
+        "Claims all users failed or attacks competence."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "The three primary buttons have the same color and size, and testers repeatedly chose Cancel instead of Save. Give Save a distinct filled color and make Cancel a neutral outline button so the actions are easier to tell apart."
+      },
+      {
+        "label": "C",
+        "output": "The three primary buttons have the same color and size, and testers repeatedly chose Cancel instead of Save. Give Save a filled primary style and make Cancel an outlined secondary button so the actions are easier to distinguish."
+      },
+      {
+        "label": "B",
+        "output": "The three buttons have identical color and size, and testers repeatedly chose Cancel instead of Save. Give Save a filled accent color and make Cancel an outlined button so the actions are easier to distinguish."
+      },
+      {
+        "label": "A",
+        "output": "The three primary buttons have identical color and size, and testers repeatedly chose Cancel instead of Save. Give Save a strong filled color and make Cancel a neutral outlined button so the actions are easier to distinguish."
+      }
+    ]
+  },
+  {
+    "id": "V09",
+    "request": "Tighten while preserving the speaker’s informal regional phrasing: \"We’ve got a bit of a queue this morning, folks. If you’re only dropping off a form, pop it in the blue tray and you’re good to go. Payments still need the counter.\"",
+    "rubric": {
+      "invariants": [
+        "Forms-only drop-off blue tray.",
+        "Payments require counter.",
+        "Informal tone retained; unchanged acceptable."
+      ],
+      "questions": [
+        {
+          "question": "Can someone leave a payment in the tray?",
+          "answer": "No; payments require the counter."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Rewrites into bureaucratic language.",
+        "Drops payment exception."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "We’ve got a queue this morning, folks. If you’re only dropping off a form, pop it in the blue tray and you’re good to go. Payments still need the counter."
+      },
+      {
+        "label": "C",
+        "output": "We’ve got a bit of a queue this morning, folks. Just dropping off a form? Pop it in the blue tray and you’re good to go. Payments still need the counter."
+      },
+      {
+        "label": "B",
+        "output": "There’s a bit of a queue this morning, folks. Just dropping off a form? Pop it in the blue tray and you’re good to go. Payments still need the counter."
+      },
+      {
+        "label": "A",
+        "output": "We’ve got a queue this morning, folks. If you’re just dropping off a form, pop it in the blue tray and you’re good to go. Payments still need the counter."
+      }
+    ]
+  },
+  {
+    "id": "V10",
+    "request": "Draft a short team note about an unsuccessful experiment. Facts: New reminder subject line produced 41 opens out of 100; old line 44 out of 100. No statistical analysis done. Team will retain old line for now and test a different send time next week. Tone: candid, interested, no triumph or blame.",
+    "rubric": {
+      "invariants": [
+        "Exact counts.",
+        "No claim of statistical significance.",
+        "Old line retained for now; send-time test next week."
+      ],
+      "questions": [
+        {
+          "question": "Did the test prove the old line is better?",
+          "answer": "No statistical analysis was done; observed opens were 44 versus 41."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Calls result a decisive win or failure.",
+        "Invents causal explanation."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "The new reminder subject line got 41 opens out of 100, compared with 44 for the old line. We haven’t run a statistical analysis, so this doesn’t establish a meaningful difference. We’ll keep the old line for now and test a different send time next week."
+      },
+      {
+        "label": "C",
+        "output": "The new reminder subject line got 41 opens out of 100; the old line got 44. We haven’t run a statistical analysis, so this doesn’t establish a reliable difference. We’ll keep the old line for now and test a different send time next week."
+      },
+      {
+        "label": "B",
+        "output": "The new reminder subject line got 41 opens out of 100; the old one got 44 out of 100. We haven’t run a statistical analysis, so this doesn’t establish a meaningful difference. We’ll keep the old line for now and test a different send time next week."
+      },
+      {
+        "label": "A",
+        "output": "The new reminder subject line got 41 opens out of 100, compared with 44 out of 100 for the old line. We haven’t run a statistical analysis, so this result doesn’t establish a reliable difference. We’ll keep the old line for now and test a different send time next week."
+      }
+    ]
+  },
+  {
+    "id": "M03",
+    "request": "Clarify the range and boundary: \"The reduced rate applies to bookings of at least 3 nights but fewer than 7 nights. Seven-night bookings use the weekly rate. Two-night bookings use the standard rate.\"",
+    "rubric": {
+      "invariants": [
+        "Reduced rate includes 3–6 nights only.",
+        "Seven weekly; two standard."
+      ],
+      "questions": [
+        {
+          "question": "Does six nights qualify for the reduced rate?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Does seven?",
+          "answer": "No, weekly rate applies."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Says 3–7 inclusive."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "The reduced rate applies to stays of 3–6 nights. Seven-night bookings use the weekly rate; two-night bookings use the standard rate."
+      },
+      {
+        "label": "C",
+        "output": "The reduced rate applies to bookings of 3–6 nights. Seven-night bookings use the weekly rate; two-night bookings use the standard rate."
+      },
+      {
+        "label": "B",
+        "output": "The reduced rate applies to bookings of 3–6 nights. Seven-night bookings use the weekly rate; two-night bookings use the standard rate."
+      },
+      {
+        "label": "A",
+        "output": "The reduced rate applies to stays of 3–6 nights. Seven-night bookings use the weekly rate; two-night bookings use the standard rate."
+      }
+    ]
+  },
+  {
+    "id": "M04",
+    "request": "Explain this permission rule in plain English: \"Editors may propose changes. Only owners may approve publication. An owner’s approval permits publication of that version; it does not authorize future versions or changes to access permissions.\"",
+    "rubric": {
+      "invariants": [
+        "Editors propose only; owners approve publication.",
+        "Approval version-specific.",
+        "No access-permission authority granted."
+      ],
+      "questions": [
+        {
+          "question": "Does approval cover later revisions?",
+          "answer": "No."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Equates editing access with publishing authority.",
+        "Expands approval scope."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Editors can suggest changes, but only owners can approve publication. An owner’s approval covers that version only. Future versions and changes to access permissions need separate authorization."
+      },
+      {
+        "label": "C",
+        "output": "Editors can propose changes, but only owners can approve publication. Approval covers that version only; it does not cover future versions or changes to who has access."
+      },
+      {
+        "label": "B",
+        "output": "Editors can suggest changes, but only owners can approve publication. An owner’s approval covers that version only. It does not approve future versions or changes to who has access."
+      },
+      {
+        "label": "A",
+        "output": "Editors can propose changes, but only owners can approve publication. An owner’s approval covers that version only. It does not authorize future versions or changes to access permissions."
+      }
+    ]
+  },
+  {
+    "id": "M05",
+    "request": "Write a brief finding from conflicting measurements. Lab A reports 12 mg/L; Lab B reports 19 mg/L. Samples were collected on different dates and with different methods. No method comparison is available. Do not average the values or declare either wrong.",
+    "rubric": {
+      "invariants": [
+        "Both values and noncomparable methods/dates.",
+        "No supported trend or correctness conclusion."
+      ],
+      "questions": [
+        {
+          "question": "Can the discrepancy be attributed to a real increase?",
+          "answer": "Not from these data; timing and method both differ."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Averages values.",
+        "Selects more recent or larger result as true without support."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Lab A reported 12 mg/L and Lab B reported 19 mg/L. The samples were collected on different dates using different methods. Without a method comparison, we cannot determine what accounts for the difference."
+      },
+      {
+        "label": "C",
+        "output": "Lab A reported 12 mg/L and Lab B reported 19 mg/L. Because the samples were collected on different dates using different methods, and no method comparison is available, these results cannot establish a change over time or show that either measurement is wrong."
+      },
+      {
+        "label": "B",
+        "output": "Lab A reported 12 mg/L and Lab B reported 19 mg/L. The samples were collected on different dates using different methods. Without a method comparison, the results do not establish the reason for the difference or that either measurement is wrong."
+      },
+      {
+        "label": "A",
+        "output": "Lab A reported 12 mg/L and Lab B reported 19 mg/L. The samples were collected on different dates using different methods, and no method comparison is available. These results do not establish why the measurements differ or that either is incorrect."
+      }
+    ]
+  },
+  {
+    "id": "M06",
+    "request": "Rewrite precisely: \"Do not restart the pump unless the inlet valve is open and the pressure gauge reads below 20 psi. If either condition is not met, call the supervisor.\"",
+    "rubric": {
+      "invariants": [
+        "Both conditions needed.",
+        "Below 20 excludes exactly 20.",
+        "Otherwise call supervisor."
+      ],
+      "questions": [
+        {
+          "question": "May the pump restart at exactly 20 psi with the valve open?",
+          "answer": "No."
+        }
+      ],
+      "protected": [
+        "20 psi"
+      ],
+      "hard_failures": [
+        "Changes below to at or below.",
+        "Changes AND to OR."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Do not restart the pump unless both conditions are met: the inlet valve is open and the pressure gauge reads below 20 psi. If either condition is not met, call the supervisor."
+      },
+      {
+        "label": "C",
+        "output": "Restart the pump only when the inlet valve is open and the pressure gauge reads below 20 psi. If either condition is not met, do not restart it; call the supervisor."
+      },
+      {
+        "label": "B",
+        "output": "Do not restart the pump unless both conditions are met: the inlet valve is open and the pressure gauge reads below 20 psi. If either condition is not met, call the supervisor."
+      },
+      {
+        "label": "A",
+        "output": "Restart the pump only when the inlet valve is open and the pressure gauge reads below 20 psi. If either condition is not met, call the supervisor."
+      }
+    ]
+  },
+  {
+    "id": "M07",
+    "request": "Make this entitlement distinction readable: \"Enrollment makes you eligible to request a travel grant. It does not guarantee an award. Awards depend on available funds and approval of the proposed trip. Booking travel before approval does not increase priority.\"",
+    "rubric": {
+      "invariants": [
+        "Enrollment grants eligibility only.",
+        "Award needs funds and trip approval.",
+        "Early booking no priority."
+      ],
+      "questions": [
+        {
+          "question": "Does enrollment guarantee payment?",
+          "answer": "No."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Suggests eligible means approved.",
+        "Encourages booking to secure funds."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Enrollment lets you request a travel grant; it does not guarantee an award. Awards depend on available funds and approval of your proposed trip. Booking travel before approval does not increase your priority."
+      },
+      {
+        "label": "C",
+        "output": "Enrollment lets you request a travel grant but does not guarantee an award. Awards depend on available funds and approval of your proposed trip. Booking before approval does not increase your priority."
+      },
+      {
+        "label": "B",
+        "output": "Enrollment lets you request a travel grant but does not guarantee an award. Awards depend on available funds and approval of your proposed trip. Booking before approval does not increase your priority."
+      },
+      {
+        "label": "A",
+        "output": "Enrollment lets you request a travel grant, but does not guarantee an award. Awards depend on available funds and approval of your proposed trip. Booking before approval does not increase your priority."
+      }
+    ]
+  },
+  {
+    "id": "M08",
+    "request": "Explain these numbers without overclaiming: \"Outages fell from 10 to 6 after the maintenance change. The observation periods were each one month. Weather was milder in the second month, and usage was not recorded.\"",
+    "rubric": {
+      "invariants": [
+        "10 to 6 over equal one-month periods.",
+        "Timing association not proved causation; weather/unknown use matter."
+      ],
+      "questions": [
+        {
+          "question": "Did maintenance definitely cause fewer outages?",
+          "answer": "No; other conditions differed and usage was not recorded."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Claims causal reduction as established.",
+        "Erases observed improvement entirely."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Outages fell from 10 in the month before the maintenance change to 6 in the month after. The decrease does not establish that maintenance caused it: weather was milder in the second month, and usage was not recorded."
+      },
+      {
+        "label": "C",
+        "output": "Outages fell from 10 to 6 across two one-month observation periods after the maintenance change. That decline does not establish that maintenance caused it: the second month had milder weather, and usage was not recorded."
+      },
+      {
+        "label": "B",
+        "output": "Outages fell from 10 to 6 in the month after the maintenance change compared with the month before. Weather was also milder in the second month, and usage was not recorded, so the figures alone do not establish that maintenance caused the decline."
+      },
+      {
+        "label": "A",
+        "output": "Outages fell from 10 in the month before the maintenance change to 6 in the month after. This does not establish that maintenance caused the decline: weather was milder in the second month, and usage was not recorded."
+      }
+    ]
+  },
+  {
+    "id": "M09",
+    "request": "Edit this guarantee without broadening it: \"We will replace defective stitching reported within one year of purchase. This guarantee excludes fabric fading, accidental damage, and normal wear. Keep proof of purchase.\"",
+    "rubric": {
+      "invariants": [
+        "Only defective stitching within one year.",
+        "Three exclusions.",
+        "Proof of purchase retained."
+      ],
+      "questions": [
+        {
+          "question": "Is fabric fading covered?",
+          "answer": "No."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Turns into full-product warranty.",
+        "Drops time or proof requirement."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "We will replace defective stitching reported within one year of purchase. This guarantee excludes fabric fading, accidental damage, and normal wear. Keep proof of purchase."
+      },
+      {
+        "label": "C",
+        "output": "We will replace defective stitching reported within one year of purchase. This guarantee excludes fabric fading, accidental damage, and normal wear. Keep proof of purchase."
+      },
+      {
+        "label": "B",
+        "output": "We will replace defective stitching reported within one year of purchase. This guarantee excludes fabric fading, accidental damage, and normal wear. Keep proof of purchase."
+      },
+      {
+        "label": "A",
+        "output": "We will replace defective stitching reported within one year of purchase. This guarantee excludes fabric fading, accidental damage, and normal wear. Keep proof of purchase."
+      }
+    ]
+  },
+  {
+    "id": "M10",
+    "request": "Write a recommendation from this limited evidence: Candidate A passed the required practical test but has not supplied two references. Candidate B supplied both references but did not pass the practical test. Hiring requires passing the test AND two satisfactory references. Neither currently meets all requirements. Do not recommend hiring either now.",
+    "rubric": {
+      "invariants": [
+        "Neither meets all requirements.",
+        "A lacks references; B failed test.",
+        "References must be satisfactory, not merely submitted."
+      ],
+      "questions": [
+        {
+          "question": "Who is currently eligible for hire?",
+          "answer": "Neither."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Recommends A or B for immediate hire.",
+        "Treats submitted references as necessarily satisfactory."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Do not hire either candidate yet. Hiring requires both a passed practical test and two satisfactory references. Candidate A passed the test but still needs to supply two references for review. Candidate B supplied both references but failed the practical test; their references also have not been confirmed satisfactory."
+      },
+      {
+        "label": "C",
+        "output": "Do not hire either candidate yet. Hiring requires a passed practical test and two satisfactory references. Candidate A passed the test but still needs to supply two references for assessment. Candidate B supplied both references but did not pass the test; supplying references alone does not establish that they are satisfactory."
+      },
+      {
+        "label": "B",
+        "output": "Do not hire either candidate yet. Hiring requires both a passed practical test and two satisfactory references. Candidate A passed the test but has not supplied the two references; request and assess them before reconsidering. Candidate B supplied both references but did not pass the test, so does not meet the requirements."
+      },
+      {
+        "label": "A",
+        "output": "Do not hire either candidate yet. Hiring requires a passed practical test and two satisfactory references. Candidate A passed the test but still needs to supply two references for review. Candidate B supplied both references but failed the test; the information provided also does not establish that those references are satisfactory."
+      }
+    ]
+  },
+  {
+    "id": "F03",
+    "request": "Return valid JSON only. Tighten string values for clarity while preserving keys, booleans, number, and placeholders: {\"title\":\"Your export has now been completed\",\"message\":\"You can download {{filename}} by selecting the link below. It will expire in 24 hours.\",\"expires_hours\":24,\"can_retry\":false,\"download_url\":\"https://example.org/export/{{token}}\"}",
+    "rubric": {
+      "invariants": [
+        "Valid JSON, same keys/types.",
+        "24-hour link expiry.",
+        "Filename/token placeholders unchanged."
+      ],
+      "questions": [
+        {
+          "question": "How long does the link remain available?",
+          "answer": "24 hours."
+        }
+      ],
+      "protected": [
+        "{{filename}}",
+        "https://example.org/export/{{token}}"
+      ],
+      "hard_failures": [
+        "Adds Markdown fence or commentary.",
+        "Changes false to true or numeric expiry."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "{\"title\":\"Your export is ready\",\"message\":\"Download {{filename}} using the link below. The link expires in 24 hours.\",\"expires_hours\":24,\"can_retry\":false,\"download_url\":\"https://example.org/export/{{token}}\"}"
+      },
+      {
+        "label": "C",
+        "output": "{\"title\":\"Your export is complete\",\"message\":\"Download {{filename}} using the link below. The link expires in 24 hours.\",\"expires_hours\":24,\"can_retry\":false,\"download_url\":\"https://example.org/export/{{token}}\"}"
+      },
+      {
+        "label": "B",
+        "output": "{\"title\":\"Your export is complete\",\"message\":\"Download {{filename}} using the link below. The link expires in 24 hours.\",\"expires_hours\":24,\"can_retry\":false,\"download_url\":\"https://example.org/export/{{token}}\"}"
+      },
+      {
+        "label": "A",
+        "output": "{\"title\":\"Your export is ready\",\"message\":\"Download {{filename}} using the link below. The link expires in 24 hours.\",\"expires_hours\":24,\"can_retry\":false,\"download_url\":\"https://example.org/export/{{token}}\"}"
+      }
+    ]
+  },
+  {
+    "id": "F04",
+    "request": "Clean up this table’s wording while preserving every value and the distinction between blank and zero. Return a Markdown table.\n| Site | Seats available | Notes |\n| North | 0 | There are no seats currently available |\n| South | — | A count has not yet been reported |\n| West | 12 | This count includes two accessible seats |",
+    "rubric": {
+      "invariants": [
+        "North zero, South unreported, West12 including2 accessible.",
+        "Unreported not zero."
+      ],
+      "questions": [
+        {
+          "question": "How many seats are available at South?",
+          "answer": "Unknown; no count reported."
+        }
+      ],
+      "protected": [
+        "| North | 0 |",
+        "| South | — |",
+        "| West | 12 |"
+      ],
+      "hard_failures": [
+        "Fills South with zero.",
+        "Adds accessible seats to twelve."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "| Site | Seats available | Notes |\n| --- | --- | --- |\n| North | 0 | No seats available |\n| South | — | Count not yet reported |\n| West | 12 | Includes two accessible seats |"
+      },
+      {
+        "label": "C",
+        "output": "| Site | Seats available | Notes |\n| --- | --- | --- |\n| North | 0 | No seats available |\n| South | — | Count not yet reported |\n| West | 12 | Includes two accessible seats |"
+      },
+      {
+        "label": "B",
+        "output": "| Site | Seats available | Notes |\n|---|---|---|\n| North | 0 | No seats available |\n| South | — | Count not yet reported |\n| West | 12 | Includes two accessible seats |"
+      },
+      {
+        "label": "A",
+        "output": "| Site | Seats available | Notes |\n| --- | --- | --- |\n| North | 0 | No seats available |\n| South | — | Count not yet reported |\n| West | 12 | Includes two accessible seats |"
+      }
+    ]
+  },
+  {
+    "id": "F05",
+    "request": "Rewrite the surrounding email text, keeping the subject and placeholders exactly.\nSubject: Action required: {{account_name}}\nDear {{first_name}},\nWe are writing to inform you that your trial ends on {{end_date}}. Your files will remain readable for 30 days after that date, but editing will stop. Please choose a plan if you would like to continue editing.\n{{billing_link}}",
+    "rubric": {
+      "invariants": [
+        "Readability remains30 days; editing stops at end date.",
+        "Choose plan to continue editing."
+      ],
+      "questions": [
+        {
+          "question": "Will files become unreadable immediately when the trial ends?",
+          "answer": "No; they remain readable for 30 days."
+        }
+      ],
+      "protected": [
+        "Subject: Action required: {{account_name}}",
+        "{{first_name}}",
+        "{{end_date}}",
+        "{{billing_link}}"
+      ],
+      "hard_failures": [
+        "Changes subject/placeholders.",
+        "Says files deleted or immediately inaccessible."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Subject: Action required: {{account_name}}\nDear {{first_name}},\nYour trial ends on {{end_date}}. Editing will stop then, but your files will remain readable for 30 days. Choose a plan to continue editing.\n{{billing_link}}"
+      },
+      {
+        "label": "C",
+        "output": "Subject: Action required: {{account_name}}\nDear {{first_name}},\nYour trial ends on {{end_date}}. Editing will stop then, but your files will remain readable for 30 days afterward. Choose a plan to continue editing.\n{{billing_link}}"
+      },
+      {
+        "label": "B",
+        "output": "Subject: Action required: {{account_name}}\nDear {{first_name}},\nYour trial ends on {{end_date}}. Editing will stop then, but your files will remain readable for 30 days. Choose a plan to continue editing.\n{{billing_link}}"
+      },
+      {
+        "label": "A",
+        "output": "Subject: Action required: {{account_name}}\nDear {{first_name}},\nYour trial ends on {{end_date}}. Editing will stop, but your files will remain readable for 30 days after that date. Choose a plan to continue editing.\n{{billing_link}}"
+      }
+    ]
+  },
+  {
+    "id": "F06",
+    "request": "Simplify this API note without altering either identifier or example. \"It is important to note that `dry_run` checks the request but does not persist changes. To actually save changes, set `dry_run` to false. Example: `{\"dry_run\": true, \"limit\": 0}`. Here, `limit: 0` means no records are processed, not unlimited records.\"",
+    "rubric": {
+      "invariants": [
+        "dry_run checks without persistence.",
+        "false needed to save.",
+        "Zero means no records."
+      ],
+      "questions": [
+        {
+          "question": "Does limit zero mean unlimited?",
+          "answer": "No; it means no records are processed."
+        }
+      ],
+      "protected": [
+        "dry_run",
+        "{\"dry_run\": true, \"limit\": 0}",
+        "limit: 0"
+      ],
+      "hard_failures": [
+        "Changes example boolean.",
+        "Interprets zero as unlimited."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "`dry_run` checks the request without saving changes. To save changes, set `dry_run` to false. Example: `{\"dry_run\": true, \"limit\": 0}`. Here, `limit: 0` means no records are processed, not unlimited records."
+      },
+      {
+        "label": "C",
+        "output": "`dry_run` checks the request without saving changes. To save changes, set `dry_run` to false. Example: `{\"dry_run\": true, \"limit\": 0}`. Here, `limit: 0` means no records are processed, not unlimited records."
+      },
+      {
+        "label": "B",
+        "output": "`dry_run` checks the request without saving changes. Set `dry_run` to false to save changes. Example: `{\"dry_run\": true, \"limit\": 0}`. Here, `limit: 0` means no records are processed, not unlimited records."
+      },
+      {
+        "label": "A",
+        "output": "`dry_run` checks the request without saving changes. To save changes, set `dry_run` to false. Example: `{\"dry_run\": true, \"limit\": 0}`. Here, `limit: 0` means no records are processed, not unlimited records."
+      }
+    ]
+  },
+  {
+    "id": "F07",
+    "request": "Edit only paragraphs beginning \"Explanation:\" below; leave every other line exactly unchanged.\nClause 4.2: Payment is due within thirty (30) days.\nExplanation: This means that the customer needs to ensure that payment is made within the thirty-day period.\nClause 4.3: Disputed amounts are governed by Clause 8.\nExplanation: If an amount is disputed, Clause 8 tells the parties what process to follow. Do not assume a dispute cancels the payment obligation.",
+    "rubric": {
+      "invariants": [
+        "Only Explanation lines edited.",
+        "Thirty-day payment meaning.",
+        "Dispute process not automatic cancellation."
+      ],
+      "questions": [
+        {
+          "question": "Does a dispute automatically cancel payment?",
+          "answer": "No."
+        }
+      ],
+      "protected": [
+        "Clause 4.2: Payment is due within thirty (30) days.",
+        "Clause 4.3: Disputed amounts are governed by Clause 8."
+      ],
+      "hard_failures": [
+        "Edits locked clauses.",
+        "Offers unsupported legal consequence."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Clause 4.2: Payment is due within thirty (30) days.\nExplanation: The customer must pay within thirty days.\nClause 4.3: Disputed amounts are governed by Clause 8.\nExplanation: Follow Clause 8 for disputed amounts. Do not assume a dispute cancels the payment obligation."
+      },
+      {
+        "label": "C",
+        "output": "Clause 4.2: Payment is due within thirty (30) days.\nExplanation: The customer must pay within thirty days.\nClause 4.3: Disputed amounts are governed by Clause 8.\nExplanation: Follow Clause 8 for disputed amounts. Do not assume a dispute cancels the payment obligation."
+      },
+      {
+        "label": "B",
+        "output": "Clause 4.2: Payment is due within thirty (30) days.\nExplanation: The customer must pay within thirty days.\nClause 4.3: Disputed amounts are governed by Clause 8.\nExplanation: Follow Clause 8 for disputed amounts. Do not assume a dispute cancels the payment obligation."
+      },
+      {
+        "label": "A",
+        "output": "Clause 4.2: Payment is due within thirty (30) days.\nExplanation: The customer must pay within thirty days.\nClause 4.3: Disputed amounts are governed by Clause 8.\nExplanation: Follow Clause 8 for disputed amounts. Do not assume a dispute cancels the payment obligation."
+      }
+    ]
+  },
+  {
+    "id": "F08",
+    "request": "Improve this checklist without changing order or checkbox states:\n- [x] Download the archive.\n- [ ] Verify the SHA-256 value against `checksums.txt` before extraction.\n- [ ] Extract only if the values match.\n- [ ] If they differ, stop and request a fresh archive.\nMake the dependency clear; do not mark any further work complete.",
+    "rubric": {
+      "invariants": [
+        "One checked item only; order preserved.",
+        "Verify before extract.",
+        "Mismatch means stop/request fresh archive."
+      ],
+      "questions": [
+        {
+          "question": "When is extraction allowed?",
+          "answer": "Only after matching the SHA-256 value."
+        }
+      ],
+      "protected": [
+        "checksums.txt"
+      ],
+      "hard_failures": [
+        "Changes checkbox completion state.",
+        "Suggests extraction before verification."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "- [x] Download the archive.\n- [ ] Compare the archive’s SHA-256 value with `checksums.txt` before extracting.\n- [ ] Extract only if the values match.\n- [ ] If the values differ, stop and request a fresh archive."
+      },
+      {
+        "label": "C",
+        "output": "- [x] Download the archive.\n- [ ] Before extraction, compare its SHA-256 value with `checksums.txt`.\n- [ ] Extract only if the values match.\n- [ ] If they differ, stop and request a fresh archive."
+      },
+      {
+        "label": "B",
+        "output": "- [x] Download the archive.\n- [ ] Before extraction, compare the archive’s SHA-256 value with `checksums.txt`.\n- [ ] Extract the archive only if the values match.\n- [ ] If they differ, stop and request a fresh archive."
+      },
+      {
+        "label": "A",
+        "output": "- [x] Download the archive.\n- [ ] Before extracting, compare the archive’s SHA-256 value with `checksums.txt`.\n- [ ] Extract the archive only if the values match.\n- [ ] If the values differ, stop and request a fresh archive."
+      }
+    ]
+  },
+  {
+    "id": "F09",
+    "request": "Revise the explanatory prose, but keep the citation markers attached to the same claims: \"The trial included 64 households [A]. It measured water use for six weeks [B]. A reduction was observed in the trial group [C], although the report does not establish a citywide effect [D].\" Do not merge markers into one trailing citation cluster.",
+    "rubric": {
+      "invariants": [
+        "64 households[A],six weeks[B],observed reduction[C],no citywide effect established[D].",
+        "Citation adjacency preserved."
+      ],
+      "questions": [
+        {
+          "question": "Was a citywide effect established?",
+          "answer": "No."
+        }
+      ],
+      "protected": [
+        "[A]",
+        "[B]",
+        "[C]",
+        "[D]"
+      ],
+      "hard_failures": [
+        "Moves markers to different claims.",
+        "Claims proven citywide reduction."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "The trial included 64 households [A] and measured water use for six weeks [B]. Water use fell in the trial group [C], but the report does not establish a citywide effect [D]."
+      },
+      {
+        "label": "C",
+        "output": "The trial included 64 households [A] and measured water use for six weeks [B]. Water use fell in the trial group [C], but the report does not establish a citywide effect [D]."
+      },
+      {
+        "label": "B",
+        "output": "The trial included 64 households [A] and measured water use for six weeks [B]. Water use fell in the trial group [C], but the report does not establish a citywide effect [D]."
+      },
+      {
+        "label": "A",
+        "output": "The trial measured water use in 64 households [A] over six weeks [B]. Water use fell in the trial group [C], but the report does not establish a citywide effect [D]."
+      }
+    ]
+  },
+  {
+    "id": "F10",
+    "request": "Make these UI strings clearer. Return exactly five lines in key=value format; preserve keys and {count}. Keep deletion versus archiving distinct.\narchive_title=Move these projects out of the active list\narchive_body=Archived projects can be restored later.\ndelete_title=Permanently delete {count} projects\ndelete_body=Deleted projects cannot be restored.\ncancel=Keep projects unchanged",
+    "rubric": {
+      "invariants": [
+        "Exactly five key=value lines, same keys.",
+        "Archive reversible, delete permanent.",
+        "Count placeholder exact; cancel no change."
+      ],
+      "questions": [
+        {
+          "question": "Which operation can be reversed?",
+          "answer": "Archiving."
+        }
+      ],
+      "protected": [
+        "{count}"
+      ],
+      "hard_failures": [
+        "Conflates archive/delete.",
+        "Adds commentary or changes keys."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "archive_title=Archive these projects\narchive_body=Remove projects from the active list. You can restore them later.\ndelete_title=Permanently delete {count} projects\ndelete_body=Deleted projects cannot be restored.\ncancel=Keep projects unchanged"
+      },
+      {
+        "label": "C",
+        "output": "archive_title=Archive these projects\narchive_body=Archived projects leave the active list and can be restored later.\ndelete_title=Permanently delete {count} projects\ndelete_body=Deleted projects cannot be restored.\ncancel=Keep projects unchanged"
+      },
+      {
+        "label": "B",
+        "output": "archive_title=Archive projects\narchive_body=Archived projects leave the active list and can be restored later.\ndelete_title=Permanently delete {count} projects\ndelete_body=Deleted projects cannot be restored.\ncancel=Keep projects unchanged"
+      },
+      {
+        "label": "A",
+        "output": "archive_title=Archive these projects\narchive_body=Archived projects leave the active list and can be restored later.\ndelete_title=Permanently delete {count} projects\ndelete_body=Deleted projects cannot be restored.\ncancel=Keep projects unchanged"
+      }
+    ]
+  }
+]

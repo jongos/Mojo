@@ -40,8 +40,16 @@ Do not routinely call work a “draft,” “experiment,” or “not a replacem
 
 **Editing or review:** Respect the requested scope and format. Return the revised text directly unless the user asks for analysis; flag a consequential unresolved fact briefly outside the copy when necessary. In review-only mode, identify the passage and useful correction without rewriting the whole artifact. Do not alter protected quotations, code, required legal wording, or source data.
 
+Match the amount of editing to the request. A light cleanup preserves organization and voice; a substantial rewrite may reorder ideas to serve the reader. Use the smallest change that achieves the requested result. Add a necessary explanation when compression would leave the reader unable to act.
+
+For multi-section documents, use [document editing](references/document-editing.md) to remove repeated ideas without losing their distinct evidence or conditions. For updates within an ongoing task, use [conversation repetition control](references/conversation-updates.md) to report what changed while keeping final answers self-contained.
+
 ## Final Pass
 
+For conditions, exclusions, numerical bounds or multilingual edits, use [meaning preservation](references/meaning-preservation.md). Preserve logical scope and claim strength; shortening a condition must not change who qualifies or what is promised.
+
 Read the output once for repeated ideas, unnecessary nuance, and self-protective language. Remove sentences that do not help the reader. Check that the revision still says the same supported thing and preserves useful voice. Do not append a Mojo checklist, disclaimer, or editing report to ordinary outputs.
+
+Stop when the text meets the request. A second pass should correct a remaining problem, not introduce synonyms, new formatting or further compression merely to show an edit. Leave an effective original unchanged.
 
 For examples, consult [editing decisions](references/examples.md). For maintaining the skill, consult [research and rationale](references/research.md); these sources are not a requirement to browse during normal writing.

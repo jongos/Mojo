@@ -1,0 +1,74 @@
+{
+  "S01": {
+    "A": "candidate",
+    "B": "baseline",
+    "C": "current",
+    "D": "generic"
+  },
+  "S02": {
+    "A": "generic",
+    "B": "baseline",
+    "C": "candidate",
+    "D": "current"
+  },
+  "D01": {
+    "A": "candidate",
+    "B": "baseline",
+    "C": "current",
+    "D": "generic"
+  },
+  "D02": {
+    "A": "candidate",
+    "B": "current",
+    "C": "generic",
+    "D": "baseline"
+  },
+  "C01": {
+    "A": "generic",
+    "B": "baseline",
+    "C": "current",
+    "D": "candidate"
+  },
+  "C02": {
+    "A": "baseline",
+    "B": "current",
+    "C": "candidate",
+    "D": "generic"
+  },
+  "V01": {
+    "A": "baseline",
+    "B": "generic",
+    "C": "current",
+    "D": "candidate"
+  },
+  "V02": {
+    "A": "baseline",
+    "B": "candidate",
+    "C": "generic",
+    "D": "current"
+  },
+  "M01": {
+    "A": "generic",
+    "B": "candidate",
+    "C": "baseline",
+    "D": "current"
+  },
+  "M02": {
+    "A": "generic",
+    "B": "current",
+    "C": "baseline",
+    "D": "candidate"
+  },
+  "F01": {
+    "A": "generic",
+    "B": "baseline",
+    "C": "candidate",
+    "D": "current"
+  },
+  "F02": {
+    "A": "current",
+    "B": "baseline",
+    "C": "candidate",
+    "D": "generic"
+  }
+}

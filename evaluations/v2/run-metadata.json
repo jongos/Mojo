@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-24",
+  "model": "Host configured model; exact build not exposed",
+  "model_override": null,
+  "sampling_parameters": "Not exposed",
+  "original_comparison": {
+    "unique_cases": 60,
+    "conditions": 4,
+    "outputs": 240,
+    "primary_assessments": 240,
+    "reversed_assessments": 96
+  },
+  "first_followup": {
+    "regression_cases": 60,
+    "new_cases": 12,
+    "outputs": 72,
+    "critical_cases": [
+      "M08"
+    ]
+  },
+  "final_revision": {
+    "regression_cases": 72,
+    "outputs": 72,
+    "critical_cases": [],
+    "noncritical_cases": [
+      "D02",
+      "C05"
+    ],
+    "comprehension_passes": 71
+  },
+  "stability": {
+    "original_candidate": 8,
+    "final_revision": 8,
+    "unchanged": 16
+  },
+  "total_generated_responses": 400,
+  "human_participants": 0,
+  "cross_model_trials": 0,
+  "superiority_established": false
+}

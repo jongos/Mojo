@@ -1,0 +1,504 @@
+[
+  {
+    "id": "S06",
+    "request": "Polish this already concise instruction if necessary: \"Keep the original receipt. A photo is acceptable for registration, but warranty claims require the paper copy.\"",
+    "rubric": {
+      "invariants": [
+        "Photo accepted only for registration.",
+        "Warranty claims need original paper receipt.",
+        "Keeping unchanged is acceptable."
+      ],
+      "questions": [
+        {
+          "question": "Will a photo support a warranty claim?",
+          "answer": "No; the paper copy is required."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Conflates registration with warranty claims."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Keep the original receipt. A photo is acceptable for registration, but warranty claims require the paper copy."
+      },
+      {
+        "label": "C",
+        "output": "Keep the original receipt. A photo is acceptable for registration, but warranty claims require the paper copy."
+      },
+      {
+        "label": "B",
+        "output": "Keep the original receipt. A photo is acceptable for registration, but warranty claims require the paper copy."
+      },
+      {
+        "label": "A",
+        "output": "Keep the original receipt. A photo is acceptable for registration, but warranty claims require the paper copy."
+      }
+    ]
+  },
+  {
+    "id": "S10",
+    "request": "Edit this call to action while keeping its precise eligibility: \"Residents who are 65 or older OR have a current disability transit pass can apply for the discount. All applicants must live within city limits.\"",
+    "rubric": {
+      "invariants": [
+        "City residency required for everyone.",
+        "Age or disability transit pass suffices; both are not required."
+      ],
+      "questions": [
+        {
+          "question": "Can a 40-year-old city resident with a current disability transit pass apply?",
+          "answer": "Yes."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Changes OR to AND.",
+        "Extends eligibility to nonresidents."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Live within city limits and are 65 or older or have a current disability transit pass? Apply for the discount."
+      },
+      {
+        "label": "C",
+        "output": "Apply for the discount if you live within city limits and either are 65 or older or have a current disability transit pass."
+      },
+      {
+        "label": "B",
+        "output": "If you live within city limits, you can apply for the discount if you are 65 or older or have a current disability transit pass."
+      },
+      {
+        "label": "A",
+        "output": "Live within city limits? Apply for the discount if you’re 65 or older or have a current disability transit pass."
+      }
+    ]
+  },
+  {
+    "id": "D06",
+    "request": "Create an accurate visitor page from these notes. Consolidate repetition and resolve old-versus-current text according to the notes.\n\nThe riverside walking route has reopened between Mill Bridge and the old ferry landing following winter repairs. The reopening covers the main gravel path only. The lower boardwalk remains closed because several supports need replacement, and the short staircase from the landing to the water is also closed. Visitors should not interpret an open gate at the bridge as permission to enter every part of the site. Temporary barriers mark the closed sections, and the route map at the entrance shows a continuous permitted walk that avoids them.\n\nThe parks team inspected the gravel path on April 12 after the contractor finished drainage work. That inspection found the path suitable for reopening under ordinary spring conditions. It was not a guarantee that the route will stay open during heavy rain. Water levels can change quickly, and the duty ranger may close the path without advance notice. A closure notice on the entrance board takes priority over an older social media post announcing the reopening. The public webpage should explain this once, clearly, rather than repeating a general warning in every paragraph.\n\nWheelchair users and visitors with strollers can reach the picnic area from Mill Bridge without using steps. Beyond the picnic area, a short section has loose gravel and a steep cross-slope. We do not have a completed accessibility assessment for the full route. The visitor information team should describe these known features and avoid labeling the whole walk wheelchair accessible. The nearest accessible toilet is in the bridge car park, where it is open from 8 a.m. to 6 p.m. The toilet at the ferry landing is closed along with the lower boardwalk facilities.\n\nDogs are welcome on the open path if kept on a lead. The seasonal nesting zone beside the reed beds is different: dogs are excluded from that marked zone, even on a lead. The nesting restriction runs from March 1 through July 31. People may continue along the main path beside the zone, so the restriction does not close the entire walk to dog owners. Our older leaflet says that dogs are allowed throughout the park on a lead. That statement predates the nesting-zone rule and needs replacement rather than a small footnote that leaves the old claim looking current.\n\nCycling is permitted between Mill Bridge and the picnic area, with pedestrians having priority. Beyond the picnic area, visitors must dismount and walk their bicycles to the ferry landing. This rule applies to electric bicycles as well as conventional bicycles. Mobility aids are not classified as bicycles under this rule. Rangers have asked for the distinction to remain visible because a previous draft accidentally suggested that mobility-scooter users must leave their equipment behind. The purpose of the rule is to manage bicycle speeds on the narrower section, not to exclude people who use mobility aids.\n\nParking at Mill Bridge costs $3 for up to two hours or $5 for the day. Payment machines accept cards only. The park does not charge a separate walking admission fee, and visitors arriving on foot do not need to buy a parking ticket. A local volunteer group offers a free guided walk at 10 a.m. on the first Sunday of each month. Registration is required because the group is limited to twelve people. Registration reserves a guided-walk place; it does not reserve parking or waive the parking charge.\n\nWe need a visitor page that helps someone decide whether and how to visit without making them read maintenance correspondence. Give the open and closed areas first, then practical access, dog and bicycle rules, and parking information. Preserve the current rules even where older material conflicts. The guided walk is optional and should be easy to find without overshadowing the basic route information. Do not claim that the remaining repairs have a completion date: the contractor has submitted an estimate, but the parks team has not approved a work schedule.",
+    "rubric": {
+      "invariants": [
+        "Only main gravel path open; boardwalk and water staircase closed.",
+        "Current closure boards override old posts; heavy rain can cause closure.",
+        "Step-free picnic access does not establish full-route accessibility; loose gravel/cross-slope; accessible toilet bridge 8–6.",
+        "Dogs on lead on path; excluded nesting zone March 1–July 31; older leaflet superseded.",
+        "Cycling only bridge to picnic; dismount beyond; mobility aids exempt.",
+        "$3 two hours/$5 day, cards only; no walking admission.",
+        "Guided walk first Sunday 10 a.m., free, registration cap twelve; parking separate.",
+        "No approved repair completion date."
+      ],
+      "questions": [
+        {
+          "question": "Can a leashed dog enter the nesting zone in May?",
+          "answer": "No."
+        },
+        {
+          "question": "Does guided-walk registration include parking?",
+          "answer": "No."
+        },
+        {
+          "question": "Must mobility-aid users dismount beyond the picnic area?",
+          "answer": "No; the bicycle rule does not apply to mobility aids."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Calls whole route accessible.",
+        "Invents repairs deadline.",
+        "Preserves outdated universal dog permission."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "The riverside route is open between Mill Bridge and the old ferry landing on the main gravel path. The lower boardwalk and the staircase from the landing to the water remain closed. Follow the entrance route map and temporary barriers; an open bridge gate does not mean every area is open. No schedule has been approved for the remaining repairs.\n\nThe path was inspected on April 12 and found suitable for ordinary spring conditions. Water levels can rise quickly during heavy rain, and the duty ranger may close it without notice. Check the entrance board: a closure notice takes priority over an earlier reopening post.\n\nAccess and toilets\n\nWheelchair users and visitors with strollers can reach the picnic area from Mill Bridge without steps. Beyond it, a short section has loose gravel and a steep cross-slope. The full route has not yet had a completed accessibility assessment.\n\nThe accessible toilet in the bridge car park is open from 8 a.m. to 6 p.m. The ferry landing toilet is closed.\n\nDogs and bicycles\n\nDogs are welcome on the open path on a lead. From March 1 through July 31, dogs are excluded from the marked nesting zone beside the reed beds, even on a lead. You may still walk your dog along the main path beside the zone.\n\nCycling is allowed from Mill Bridge to the picnic area, with pedestrians taking priority. Beyond the picnic area, dismount and walk your bicycle to the ferry landing. This applies to conventional and electric bicycles; mobility aids are exempt.\n\nParking\n\nMill Bridge parking costs $3 for up to two hours or $5 for the day. Machines accept cards only. There is no separate walking admission fee, and visitors arriving on foot do not need a parking ticket.\n\nOptional guided walk\n\nA local volunteer group offers a free guided walk at 10 a.m. on the first Sunday of each month. Registration is required, with a limit of twelve people. Registration reserves your walk place but does not reserve parking or waive its charge."
+      },
+      {
+        "label": "C",
+        "output": "The main gravel path from Mill Bridge to the old ferry landing has reopened. The lower boardwalk and the short staircase from the landing to the water remain closed. Follow the entrance route map and stay outside the temporary barriers. There is no confirmed date for the remaining repairs.\n\nWater levels can change quickly, and the duty ranger may close the path without notice, including during heavy rain. Check the entrance board: its closure notices take priority over older reopening announcements.\n\nWheelchair users and visitors with strollers can reach the picnic area from Mill Bridge without steps. Beyond it, a short section has loose gravel and a steep cross-slope. The full route’s accessibility assessment is not complete. The accessible toilet in the bridge car park opens from 8 a.m. to 6 p.m.; the ferry landing toilet is closed.\n\nDogs are welcome on the open path on a lead. From March 1 through July 31, dogs are excluded from the marked nesting zone beside the reed beds, even on a lead. You can still walk your dog along the main path beside the zone.\n\nCycling is allowed between Mill Bridge and the picnic area; give pedestrians priority. Beyond the picnic area, dismount and walk your bicycle to the ferry landing. This applies to electric and conventional bicycles. Mobility aids are not bicycles under this rule.\n\nParking at Mill Bridge costs $3 for up to two hours or $5 for the day. Machines accept cards only. Walking admission is free, and visitors arriving on foot do not need a parking ticket.\n\nFor a guided visit, a local volunteer group offers a free walk at 10 a.m. on the first Sunday of each month. Register to reserve one of twelve places. Registration does not reserve parking or waive parking charges."
+      },
+      {
+        "label": "B",
+        "output": "The riverside walking route has reopened on the main gravel path between Mill Bridge and the old ferry landing. The lower boardwalk and the short staircase from the landing to the water remain closed. Follow the entrance map and temporary barriers; an open bridge gate does not mean all areas are open. No completion date has been set for the remaining repairs.\n\nThe path may close without notice during heavy rain or changing water levels. Check the entrance board: its closure notices take priority over older reopening announcements.\n\n**Access and toilets**\n\nThe picnic area can be reached from Mill Bridge without steps by wheelchair users and visitors with strollers. Beyond it, a short section has loose gravel and a steep cross-slope. A full-route accessibility assessment has not been completed.\n\nThe accessible toilet in the bridge car park is open from 8 a.m. to 6 p.m. The ferry landing toilet is closed.\n\n**Dogs and bicycles**\n\nDogs are welcome on the open path on a lead. From March 1 through July 31, dogs are excluded from the marked nesting zone beside the reed beds, even on a lead. You may still walk your dog along the main path beside the zone.\n\nCycling is permitted from Mill Bridge to the picnic area, with pedestrians having priority. Beyond the picnic area, dismount and walk your bicycle to the ferry landing. This applies to conventional and electric bicycles, but not mobility aids.\n\n**Parking**\n\nMill Bridge parking costs $3 for up to two hours or $5 for the day. Machines accept cards only. There is no separate walking admission fee, and visitors arriving on foot do not need a parking ticket.\n\n**Optional guided walk**\n\nA local volunteer group offers a free guided walk at 10 a.m. on the first Sunday of each month. Registration is required, with places limited to twelve people. Registration reserves your walk place only; it does not reserve parking or waive parking charges."
+      },
+      {
+        "label": "A",
+        "output": "The main gravel path is open from Mill Bridge to the old ferry landing. The lower boardwalk and the short staircase from the landing to the water remain closed. Follow the entrance route map and stay outside the temporary barriers. There is no approved schedule for the remaining repairs.\n\nWater levels can change quickly, and the duty ranger may close the path without notice during heavy rain. Check the entrance board: a closure notice takes priority over earlier reopening announcements.\n\nFrom Mill Bridge, wheelchair users and visitors with strollers can reach the picnic area without steps. Beyond it, a short section has loose gravel and a steep cross-slope. The full route has not had a completed accessibility assessment. The nearest accessible toilet is in the bridge car park, open 8 a.m.–6 p.m.; the ferry landing toilet is closed.\n\nDogs are welcome on the open path on a lead. From March 1 through July 31, dogs are excluded from the marked nesting zone beside the reed beds, even on a lead. You can still walk your dog along the main path beside the zone.\n\nCycling is allowed between Mill Bridge and the picnic area; give pedestrians priority. Beyond the picnic area, dismount and walk your bicycle to the ferry landing. This applies to conventional and electric bicycles, but not to mobility aids.\n\nParking at Mill Bridge costs $3 for up to two hours or $5 for the day. Machines accept cards only. Walking admission is free, and visitors arriving on foot do not need a parking ticket.\n\nA local volunteer group runs a free guided walk at 10 a.m. on the first Sunday of each month. Registration is required, with places limited to twelve people. It reserves your walk place, not parking, and parking charges still apply."
+      }
+    ]
+  },
+  {
+    "id": "D10",
+    "request": "Edit this brief without losing the rationale: \"We recommend keeping the weekday shuttle through November. Average weekday ridership was 42 in September and 39 in October. Weekend ridership was not measured. The shuttle also serves the clinic on Tuesdays, when there is no public bus. We do not recommend extending weekend service on these data. We propose counting weekend riders for four weeks before deciding. Keeping weekday service is our recommendation; the budget committee has not approved it.\"",
+    "rubric": {
+      "invariants": [
+        "Weekday recommendation through November not approved.",
+        "42 September,39 October; weekends unmeasured.",
+        "Tuesday clinic lacks public bus.",
+        "Four-week weekend count before decision."
+      ],
+      "questions": [
+        {
+          "question": "Does this establish weak weekend demand?",
+          "answer": "No; weekend ridership was not measured."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Treats no measurement as zero demand.",
+        "Omits clinic rationale."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "We recommend keeping the weekday shuttle through November, subject to budget committee approval. Average weekday ridership was 42 in September and 39 in October, and the shuttle serves the clinic on Tuesdays when no public bus is available.\n\nWeekend ridership was not measured, so these data do not support extending weekend service. We propose counting weekend riders for four weeks before deciding."
+      },
+      {
+        "label": "C",
+        "output": "We recommend keeping the weekday shuttle through November, subject to budget committee approval. Average weekday ridership was 42 in September and 39 in October, and the shuttle serves the clinic on Tuesdays when there is no public bus.\n\nWeekend ridership was not measured, so these data do not support extending weekend service. We propose counting weekend riders for four weeks before deciding."
+      },
+      {
+        "label": "B",
+        "output": "We recommend keeping the weekday shuttle through November, subject to budget committee approval. Average weekday ridership was 42 in September and 39 in October. The shuttle also serves the clinic on Tuesdays, when there is no public bus.\n\nWeekend ridership was not measured, so these data do not support extending weekend service. We propose counting weekend riders for four weeks before deciding."
+      },
+      {
+        "label": "A",
+        "output": "We recommend keeping the weekday shuttle through November, subject to budget committee approval. Average weekday ridership was 42 in September and 39 in October, and the shuttle serves the clinic on Tuesdays when there is no public bus.\n\nWeekend ridership was not measured, so these data do not support extending weekend service. We propose counting weekend riders for four weeks before deciding."
+      }
+    ]
+  },
+  {
+    "id": "C06",
+    "request": "Write a final response for a bug fix. Earlier messages named a Safari-only focus problem. Final state: code changed locally, Safari and Firefox keyboard checks pass, automated suite 38/38 passes, no commit/push/deployment. Include enough context to stand alone, without listing every earlier debugging attempt.",
+    "rubric": {
+      "invariants": [
+        "Explains Safari focus fix.",
+        "Safari/Firefox keyboard and 38 tests passed.",
+        "Local only."
+      ],
+      "questions": [
+        {
+          "question": "Is the fix deployed?",
+          "answer": "No."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Omits what was fixed.",
+        "Calls local tests production proof."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Fixed the Safari-only keyboard focus problem locally. Keyboard checks pass in Safari and Firefox, and all 38 automated tests pass. The change has not been committed, pushed, or deployed."
+      },
+      {
+        "label": "C",
+        "output": "Fixed the Safari focus problem locally. Keyboard checks pass in Safari and Firefox, and all 38 automated tests pass. The change has not been committed, pushed or deployed."
+      },
+      {
+        "label": "B",
+        "output": "Fixed the Safari-only focus problem locally. Keyboard checks pass in Safari and Firefox, and all 38 automated tests pass. The change has not been committed, pushed or deployed."
+      },
+      {
+        "label": "A",
+        "output": "Fixed the Safari-only focus problem locally. Keyboard checks pass in Safari and Firefox, and all 38 automated tests pass. The changes have not been committed, pushed, or deployed."
+      }
+    ]
+  },
+  {
+    "id": "C10",
+    "request": "Write a concise final answer. User asked for a comparison of three fictional plans. Earlier conversation discussed prices, but final evidence shows Plan Birch $12/month, Cedar $18/month, Pine price unavailable. Birch allows one editor; Cedar allows five; Pine editor limit unknown. User needs five editors. State the supported recommendation and unresolved comparison without inventing Pine facts.",
+    "rubric": {
+      "invariants": [
+        "Cedar meets five-editor need at $18/month.",
+        "Birch one editor/$12 not sufficient.",
+        "Pine price and limit unknown; no full ranking possible."
+      ],
+      "questions": [
+        {
+          "question": "Which verified plan meets the need?",
+          "answer": "Cedar, $18/month for five editors."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Ranks Pine last based on missing information.",
+        "Depends on earlier messages for prices."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Choose Cedar: it supports your five editors for $18/month. Birch costs $12/month but allows only one editor. Pine’s price and editor limit are unavailable, so I can’t determine whether it meets your needs or offers better value."
+      },
+      {
+        "label": "C",
+        "output": "Choose Cedar: it supports the five editors you need for $18/month. Birch costs $12/month but allows only one editor. Pine’s price and editor limit are unavailable, so its suitability remains unresolved."
+      },
+      {
+        "label": "B",
+        "output": "Choose Cedar: at $18/month, it supports the five editors you need. Birch costs $12/month but allows only one editor. Pine’s price and editor limit are unavailable, so its suitability and value remain unresolved."
+      },
+      {
+        "label": "A",
+        "output": "Choose Cedar at $18/month: it supports the five editors you need. Birch costs $12/month but allows only one editor. Pine’s price and editor limit are unavailable, so its suitability and value remain unresolved."
+      }
+    ]
+  },
+  {
+    "id": "V06",
+    "request": "Edit this note from a grieving friend without making it cheerful or adding beliefs: \"I don’t know the right thing to say. I loved how your dad always made room at the table. I can bring dinner Thursday, if that would help.\"",
+    "rubric": {
+      "invariants": [
+        "Specific memory of dad retained.",
+        "Conditional Thursday dinner offer.",
+        "No spiritual beliefs or positivity imposed.",
+        "Minimal or no change valid."
+      ],
+      "questions": [
+        {
+          "question": "What concrete help is offered?",
+          "answer": "Dinner Thursday, if helpful."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Adds \"everything happens for a reason\" or invented memories.",
+        "Turns offer into a confirmed visit."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "I don’t know the right thing to say. I loved how your dad always made room at the table. I can bring dinner Thursday, if that would help."
+      },
+      {
+        "label": "C",
+        "output": "I don’t know the right thing to say. I loved how your dad always made room at the table. I can bring dinner Thursday, if that would help."
+      },
+      {
+        "label": "B",
+        "output": "I don’t know the right thing to say. I loved how your dad always made room at the table. I can bring dinner Thursday, if that would help."
+      },
+      {
+        "label": "A",
+        "output": "I don’t know the right thing to say. I loved how your dad always made room at the table. I can bring dinner Thursday, if that would help."
+      }
+    ]
+  },
+  {
+    "id": "V10",
+    "request": "Draft a short team note about an unsuccessful experiment. Facts: New reminder subject line produced 41 opens out of 100; old line 44 out of 100. No statistical analysis done. Team will retain old line for now and test a different send time next week. Tone: candid, interested, no triumph or blame.",
+    "rubric": {
+      "invariants": [
+        "Exact counts.",
+        "No claim of statistical significance.",
+        "Old line retained for now; send-time test next week."
+      ],
+      "questions": [
+        {
+          "question": "Did the test prove the old line is better?",
+          "answer": "No statistical analysis was done; observed opens were 44 versus 41."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Calls result a decisive win or failure.",
+        "Invents causal explanation."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "The new reminder subject line got 41 opens out of 100, compared with 44 for the old line. We haven’t run a statistical analysis, so this doesn’t establish a meaningful difference. We’ll keep the old line for now and test a different send time next week."
+      },
+      {
+        "label": "C",
+        "output": "The new reminder subject line got 41 opens out of 100; the old line got 44. We haven’t run a statistical analysis, so this doesn’t establish a reliable difference. We’ll keep the old line for now and test a different send time next week."
+      },
+      {
+        "label": "B",
+        "output": "The new reminder subject line got 41 opens out of 100; the old one got 44 out of 100. We haven’t run a statistical analysis, so this doesn’t establish a meaningful difference. We’ll keep the old line for now and test a different send time next week."
+      },
+      {
+        "label": "A",
+        "output": "The new reminder subject line got 41 opens out of 100, compared with 44 out of 100 for the old line. We haven’t run a statistical analysis, so this result doesn’t establish a reliable difference. We’ll keep the old line for now and test a different send time next week."
+      }
+    ]
+  },
+  {
+    "id": "M06",
+    "request": "Rewrite precisely: \"Do not restart the pump unless the inlet valve is open and the pressure gauge reads below 20 psi. If either condition is not met, call the supervisor.\"",
+    "rubric": {
+      "invariants": [
+        "Both conditions needed.",
+        "Below 20 excludes exactly 20.",
+        "Otherwise call supervisor."
+      ],
+      "questions": [
+        {
+          "question": "May the pump restart at exactly 20 psi with the valve open?",
+          "answer": "No."
+        }
+      ],
+      "protected": [
+        "20 psi"
+      ],
+      "hard_failures": [
+        "Changes below to at or below.",
+        "Changes AND to OR."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Do not restart the pump unless both conditions are met: the inlet valve is open and the pressure gauge reads below 20 psi. If either condition is not met, call the supervisor."
+      },
+      {
+        "label": "C",
+        "output": "Restart the pump only when the inlet valve is open and the pressure gauge reads below 20 psi. If either condition is not met, do not restart it; call the supervisor."
+      },
+      {
+        "label": "B",
+        "output": "Do not restart the pump unless both conditions are met: the inlet valve is open and the pressure gauge reads below 20 psi. If either condition is not met, call the supervisor."
+      },
+      {
+        "label": "A",
+        "output": "Restart the pump only when the inlet valve is open and the pressure gauge reads below 20 psi. If either condition is not met, call the supervisor."
+      }
+    ]
+  },
+  {
+    "id": "M10",
+    "request": "Write a recommendation from this limited evidence: Candidate A passed the required practical test but has not supplied two references. Candidate B supplied both references but did not pass the practical test. Hiring requires passing the test AND two satisfactory references. Neither currently meets all requirements. Do not recommend hiring either now.",
+    "rubric": {
+      "invariants": [
+        "Neither meets all requirements.",
+        "A lacks references; B failed test.",
+        "References must be satisfactory, not merely submitted."
+      ],
+      "questions": [
+        {
+          "question": "Who is currently eligible for hire?",
+          "answer": "Neither."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Recommends A or B for immediate hire.",
+        "Treats submitted references as necessarily satisfactory."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Do not hire either candidate yet. Hiring requires both a passed practical test and two satisfactory references. Candidate A passed the test but still needs to supply two references for review. Candidate B supplied both references but failed the practical test; their references also have not been confirmed satisfactory."
+      },
+      {
+        "label": "C",
+        "output": "Do not hire either candidate yet. Hiring requires a passed practical test and two satisfactory references. Candidate A passed the test but still needs to supply two references for assessment. Candidate B supplied both references but did not pass the test; supplying references alone does not establish that they are satisfactory."
+      },
+      {
+        "label": "B",
+        "output": "Do not hire either candidate yet. Hiring requires both a passed practical test and two satisfactory references. Candidate A passed the test but has not supplied the two references; request and assess them before reconsidering. Candidate B supplied both references but did not pass the test, so does not meet the requirements."
+      },
+      {
+        "label": "A",
+        "output": "Do not hire either candidate yet. Hiring requires a passed practical test and two satisfactory references. Candidate A passed the test but still needs to supply two references for review. Candidate B supplied both references but failed the test; the information provided also does not establish that those references are satisfactory."
+      }
+    ]
+  },
+  {
+    "id": "F06",
+    "request": "Simplify this API note without altering either identifier or example. \"It is important to note that `dry_run` checks the request but does not persist changes. To actually save changes, set `dry_run` to false. Example: `{\"dry_run\": true, \"limit\": 0}`. Here, `limit: 0` means no records are processed, not unlimited records.\"",
+    "rubric": {
+      "invariants": [
+        "dry_run checks without persistence.",
+        "false needed to save.",
+        "Zero means no records."
+      ],
+      "questions": [
+        {
+          "question": "Does limit zero mean unlimited?",
+          "answer": "No; it means no records are processed."
+        }
+      ],
+      "protected": [
+        "dry_run",
+        "{\"dry_run\": true, \"limit\": 0}",
+        "limit: 0"
+      ],
+      "hard_failures": [
+        "Changes example boolean.",
+        "Interprets zero as unlimited."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "`dry_run` checks the request without saving changes. To save changes, set `dry_run` to false. Example: `{\"dry_run\": true, \"limit\": 0}`. Here, `limit: 0` means no records are processed, not unlimited records."
+      },
+      {
+        "label": "C",
+        "output": "`dry_run` checks the request without saving changes. To save changes, set `dry_run` to false. Example: `{\"dry_run\": true, \"limit\": 0}`. Here, `limit: 0` means no records are processed, not unlimited records."
+      },
+      {
+        "label": "B",
+        "output": "`dry_run` checks the request without saving changes. Set `dry_run` to false to save changes. Example: `{\"dry_run\": true, \"limit\": 0}`. Here, `limit: 0` means no records are processed, not unlimited records."
+      },
+      {
+        "label": "A",
+        "output": "`dry_run` checks the request without saving changes. To save changes, set `dry_run` to false. Example: `{\"dry_run\": true, \"limit\": 0}`. Here, `limit: 0` means no records are processed, not unlimited records."
+      }
+    ]
+  },
+  {
+    "id": "F10",
+    "request": "Make these UI strings clearer. Return exactly five lines in key=value format; preserve keys and {count}. Keep deletion versus archiving distinct.\narchive_title=Move these projects out of the active list\narchive_body=Archived projects can be restored later.\ndelete_title=Permanently delete {count} projects\ndelete_body=Deleted projects cannot be restored.\ncancel=Keep projects unchanged",
+    "rubric": {
+      "invariants": [
+        "Exactly five key=value lines, same keys.",
+        "Archive reversible, delete permanent.",
+        "Count placeholder exact; cancel no change."
+      ],
+      "questions": [
+        {
+          "question": "Which operation can be reversed?",
+          "answer": "Archiving."
+        }
+      ],
+      "protected": [
+        "{count}"
+      ],
+      "hard_failures": [
+        "Conflates archive/delete.",
+        "Adds commentary or changes keys."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "archive_title=Archive these projects\narchive_body=Remove projects from the active list. You can restore them later.\ndelete_title=Permanently delete {count} projects\ndelete_body=Deleted projects cannot be restored.\ncancel=Keep projects unchanged"
+      },
+      {
+        "label": "C",
+        "output": "archive_title=Archive these projects\narchive_body=Archived projects leave the active list and can be restored later.\ndelete_title=Permanently delete {count} projects\ndelete_body=Deleted projects cannot be restored.\ncancel=Keep projects unchanged"
+      },
+      {
+        "label": "B",
+        "output": "archive_title=Archive projects\narchive_body=Archived projects leave the active list and can be restored later.\ndelete_title=Permanently delete {count} projects\ndelete_body=Deleted projects cannot be restored.\ncancel=Keep projects unchanged"
+      },
+      {
+        "label": "A",
+        "output": "archive_title=Archive these projects\narchive_body=Archived projects leave the active list and can be restored later.\ndelete_title=Permanently delete {count} projects\ndelete_body=Deleted projects cannot be restored.\ncancel=Keep projects unchanged"
+      }
+    ]
+  }
+]

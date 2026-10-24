@@ -1,0 +1,16 @@
+{
+  "pilot": {
+    "outputs": 12,
+    "protected_span_flags": [],
+    "scope": "Completeness and exact spans only; semantic review is separate."
+  },
+  "remaining": {
+    "outputs": 48,
+    "protected_span_flags": [],
+    "scope": "Completeness and exact spans only; semantic review is separate."
+  },
+  "supplemental": {
+    "outputs": 12,
+    "protected_span_flags": []
+  }
+}

@@ -1,0 +1,509 @@
+[
+  {
+    "id": "S01",
+    "request": "Tighten this email without changing the commitment: \"We are currently in the process of reviewing the revised seating plan. We expect to send comments by Thursday, provided the fire marshal answers our question about the east exit by Tuesday.\"",
+    "rubric": {
+      "invariants": [
+        "Review is ongoing.",
+        "Thursday is an expectation conditional on an answer by Tuesday, not a guarantee."
+      ],
+      "questions": [
+        {
+          "question": "When are comments expected?",
+          "answer": "Thursday if the fire marshal answers the east-exit question by Tuesday."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Drops the dependency or turns the estimate into a promise."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "We’re reviewing the revised seating plan and expect to send comments by Thursday, provided the fire marshal answers our question about the east exit by Tuesday."
+      },
+      {
+        "label": "C",
+        "output": "We’re reviewing the revised seating plan. We expect to send comments by Thursday, provided the fire marshal answers our question about the east exit by Tuesday."
+      },
+      {
+        "label": "B",
+        "output": "We’re reviewing the revised seating plan and expect to send comments by Thursday, provided the fire marshal answers our question about the east exit by Tuesday."
+      },
+      {
+        "label": "A",
+        "output": "We’re reviewing the revised seating plan and expect to send comments by Thursday, provided the fire marshal answers our question about the east exit by Tuesday."
+      }
+    ]
+  },
+  {
+    "id": "S02",
+    "request": "Edit only if it helps: \"The library closes at 6 p.m. Return books through the slot beside the north entrance.\"",
+    "rubric": {
+      "invariants": [
+        "Closing time and return location remain exact.",
+        "An unchanged answer is valid."
+      ],
+      "questions": [
+        {
+          "question": "Where can books be returned?",
+          "answer": "Through the slot beside the north entrance."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Adds an unsupported reopening time.",
+        "Lengthens clear text without a reader benefit."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "The library closes at 6 p.m. Return books through the slot beside the north entrance."
+      },
+      {
+        "label": "C",
+        "output": "The library closes at 6 p.m. Return books through the slot beside the north entrance."
+      },
+      {
+        "label": "B",
+        "output": "The library closes at 6 p.m. Return books through the slot beside the north entrance."
+      },
+      {
+        "label": "A",
+        "output": "The library closes at 6 p.m. Return books through the slot beside the north entrance."
+      }
+    ]
+  },
+  {
+    "id": "D01",
+    "request": "Turn the following internal draft into a clear member notice. Remove repetition, preserve essential rules and distinctions, and keep volunteer details separate. Do not invent a confirmed reopening date.\n\nThe neighborhood tool library is preparing to move from its borrowed room at West Hall to the former bus office on Alder Street. The move is scheduled for June 8, but that date is a planning target rather than a promise to reopen. The new building still needs a final electrical inspection. We have booked the inspector for June 3 and expect a decision that afternoon. If the inspection identifies work that cannot be finished by June 7, the move committee will publish a revised reopening date. Please do not tell members that the new location is guaranteed to open on June 10.\n\nMembers can continue borrowing from West Hall through June 1. After that date, volunteers will pack the collection and reconcile its inventory. The return box outside West Hall will remain available through June 15, including during the closure. It accepts hand tools only. Large equipment, including the tile saw and lawn aerator, must be returned during the staffed collection window on June 6 from 4 to 7 p.m. A member who cannot attend that window should call the library to arrange a collection; we have not authorized volunteers to make private collection arrangements using personal phone numbers.\n\nNo late fees will accrue from June 2 through June 15. This temporary waiver applies to items already overdue as well as items due during the move. It does not erase fees assessed before June 2. The distinction matters because members sometimes understand a fee waiver to mean that their whole balance has disappeared. Volunteers should explain the dates calmly and refer disputed older charges to the coordinator. The coordinator can review a disputed charge, but a referral is not a promise that the charge will be removed.\n\nAt the Alder Street building, members will enter through the courtyard gate, not the glass door facing the street. The street door opens into a room leased to another tenant. The courtyard entrance has a shallow ramp and an automatic opener. An accessible parking space is marked beside the gate, although the painted route from that space to the ramp is still awaiting approval. We should describe the installed ramp and opener accurately without announcing that the entire access project is finished. The access team will inspect the route after the contractor returns.\n\nPacking volunteers need to attend one orientation, either May 28 at 6 p.m. or May 30 at 10 a.m. Both sessions cover safe lifting, labeling, and the inventory scanner. People who attended last year’s general volunteer training must still attend this move orientation because the scanner workflow is new. Nobody is required to lift heavy equipment. Volunteers can choose seated labeling work, and a trained moving company will handle the heaviest machines. Mentioning the moving company should not imply that it will pack the whole collection; volunteer packing remains essential.\n\nThe communications group wants a notice that members can use without reading committee minutes. It should give the borrowing cutoff, explain where and when returns are accepted, and make clear that the reopening date depends on inspection. We have repeated those points in several meeting notes because they affect different teams, but the final notice should state each rule once in a useful place. The volunteer orientation information should appear in a distinct short section so members who are not helping with the move can skip it. We will send the notice on May 24 and update it after the inspection. Until that update, staff should continue to use conditional language about reopening.",
+    "rubric": {
+      "invariants": [
+        "June 1 borrowing cutoff.",
+        "June 8 move is conditional; inspection June 3 and revised reopening if unfinished by June 7.",
+        "West Hall return box through June 15 accepts hand tools only; large equipment June 6, 4–7 p.m. or call library.",
+        "Fee waiver June 2–15 covers already overdue items but does not erase earlier fees.",
+        "Courtyard entrance; ramp/opener installed but route approval pending.",
+        "Move orientation required even for previously trained volunteers; May 28 6 p.m. or May 30 10 a.m.; heavy lifting optional."
+      ],
+      "questions": [
+        {
+          "question": "Are pre-June-2 fees erased?",
+          "answer": "No."
+        },
+        {
+          "question": "Can a lawn aerator go in the return box?",
+          "answer": "No; use the staffed June 6 window or arrange collection through the library."
+        },
+        {
+          "question": "Is reopening on June 10 guaranteed?",
+          "answer": "No."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Drops exceptions to simplify the notice.",
+        "Reports the entire accessibility project complete."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "The tool library is moving from West Hall to the former bus office on Alder Street. June 8 is our target moving date; reopening is not yet confirmed. A final electrical inspection is booked for June 3, with a decision expected that afternoon. We’ll update members after the inspection. If required work cannot be finished by June 7, the move committee will publish a revised reopening date. June 10 is not a guaranteed opening date.\n\n**Borrowing and returns**\n\n- Borrow from West Hall through June 1. Borrowing then pauses while volunteers pack and check inventory.\n- Return hand tools to the box outside West Hall through June 15, including during the closure.\n- Return large equipment, including the tile saw and lawn aerator, during the staffed collection window on June 6, 4–7 p.m. If you cannot attend, call the library to arrange collection. Please use the library’s contact details; volunteers cannot arrange private collections through personal numbers.\n\n**Late fees**\n\nNo late fees will accrue from June 2 through June 15, including on items already overdue. Fees assessed before June 2 remain on your account. Disputed older charges can be referred to the coordinator for review, but review does not guarantee removal.\n\n**Access at Alder Street**\n\nEnter through the courtyard gate. The glass street door leads to another tenant’s room. The courtyard entrance has a shallow ramp and an automatic opener, with a marked accessible parking space beside the gate. The painted route from the space to the ramp still awaits approval. The access team will inspect it after the contractor returns; the access project is not yet complete.\n\n**For packing volunteers**\n\nAttend one move orientation: May 28 at 6 p.m. or May 30 at 10 a.m. Both cover safe lifting, labeling, and the new inventory scanner workflow. This orientation is required even if you attended last year’s general training.\n\nNobody is required to lift heavy equipment, and seated labeling work is available. A trained moving company will handle the heaviest machines; volunteers are still needed to pack the collection."
+      },
+      {
+        "label": "C",
+        "output": "The tool library is moving from West Hall to the former bus office on Alder Street. June 8 is the planned move date; reopening is not yet confirmed. The final electrical inspection is booked for June 3, with a decision expected that afternoon. We’ll update this notice after the inspection. If required work cannot be finished by June 7, the move committee will publish a revised reopening date.\n\n**Borrowing and returns**\n\nBorrow from West Hall through June 1. During the closure:\n\n- Return hand tools through the box outside West Hall, available through June 15.\n- Return large equipment, including the tile saw and lawn aerator, during the staffed collection window on June 6, from 4 to 7 p.m. If you cannot attend, call the library to arrange collection.\n\nNo late fees will accrue from June 2 through June 15, including on items already overdue. Fees assessed before June 2 remain on your account. Disputed older charges can be referred to the coordinator for review; review does not guarantee removal.\n\n**Access at Alder Street**\n\nEnter through the courtyard gate. The glass street door leads to another tenant’s room. The courtyard entrance has a shallow ramp and an automatic opener, with a marked accessible parking space beside the gate. The painted route from the space to the ramp is still awaiting approval and will be inspected after the contractor returns.\n\n**For packing volunteers**\n\nAttend one move orientation: May 28 at 6 p.m. or May 30 at 10 a.m. Both cover safe lifting, labeling, and the new inventory scanner workflow. This orientation is required even if you attended last year’s general training.\n\nSeated labeling work is available; nobody must lift heavy equipment. A trained moving company will handle the heaviest machines, while volunteers remain essential to packing the collection. Arrange member collections through the library, not through private arrangements using personal phone numbers. Refer disputed older fees to the coordinator."
+      },
+      {
+        "label": "B",
+        "output": "The tool library is moving from West Hall to the former bus office on Alder Street. June 8 is our target move date; a reopening date is not yet confirmed. The final electrical inspection is booked for June 3, with a decision expected that afternoon. We’ll update members after the inspection. If required work cannot be finished by June 7, the move committee will publish a revised reopening date.\n\nBorrowing at West Hall ends June 1. During the closure, please return items as follows:\n\n- Hand tools: use the return box outside West Hall through June 15.\n- Large equipment, including the tile saw and lawn aerator: return it during the staffed collection window on June 6, from 4 to 7 p.m. If you cannot attend, call the library to arrange collection. Please use the library’s contact number; volunteers cannot arrange private collections through personal phone numbers.\n\nNo late fees will accrue from June 2 through June 15, including on items already overdue. Fees assessed before June 2 remain on your account. The coordinator can review disputed older charges, but review does not guarantee removal.\n\nAt Alder Street, enter through the courtyard gate. The glass street door leads to another tenant’s room. The courtyard entrance has a shallow ramp and an automatic opener, and an accessible parking space is marked beside the gate. The painted route from the space to the ramp still awaits approval; the access team will inspect it after the contractor returns.\n\n**For packing volunteers**\n\nAttend one move orientation: May 28 at 6 p.m. or May 30 at 10 a.m. Both cover safe lifting, labeling, and the new inventory scanner workflow, so attendance is required even if you completed last year’s general training. Seated labeling work is available, and nobody has to lift heavy equipment. A trained moving company will handle the heaviest machines; volunteers are still needed to pack the collection."
+      },
+      {
+        "label": "A",
+        "output": "The tool library is moving from West Hall to the former bus office on Alder Street. June 8 is our target move date; reopening is not yet confirmed. The final electrical inspection is booked for June 3, with a decision expected that afternoon. We’ll update this notice after the inspection. If required work cannot be finished by June 7, the move committee will publish a revised reopening date.\n\nBorrowing at West Hall ends June 1. During the closure, return items as follows:\n\n- Hand tools: use the return box outside West Hall through June 15.\n- Large equipment, including the tile saw and lawn aerator: return it during the staffed collection window on June 6, 4–7 p.m. If you cannot attend, call the library to arrange collection. Volunteers cannot arrange private collections through personal phone numbers.\n\nNo late fees will accrue June 2–15, including on items already overdue. Fees assessed before June 2 remain on your account. Disputed older charges can be referred to the coordinator for review; review does not guarantee removal.\n\nAt Alder Street, enter through the courtyard gate. The glass street door leads to another tenant’s room. The courtyard entrance has a shallow ramp and automatic opener, with an accessible parking space beside the gate. The painted route from the space to the ramp still awaits approval, and the access team will inspect it after the contractor returns.\n\n**For packing volunteers**\n\nAttend one move orientation: May 28 at 6 p.m. or May 30 at 10 a.m. Both cover safe lifting, labeling, and the new inventory scanner workflow. Attendance is required even if you took last year’s general volunteer training.\n\nYou do not have to lift heavy equipment; seated labeling work is available. A trained moving company will handle the heaviest machines, while volunteers will pack the collection and reconcile inventory after borrowing ends."
+      }
+    ]
+  },
+  {
+    "id": "D02",
+    "request": "Edit this report into a readable board brief with findings, evidence limits, and a recommendation. Keep the material distinctions; length may increase locally where needed for clarity.\n\nThe pilot for the shared community kitchen ran for eight weeks and involved fourteen small food businesses. Ten businesses attended at least six sessions, while four attended fewer because of illness, staffing shortages, or equipment conflicts. This report describes what the pilot showed and what it did not show. Attendance was useful evidence of demand among the participating businesses, but it was not a survey of every food business in the district. The recruitment list came mainly from the market association, which means home-based producers outside that network may be underrepresented.\n\nBooking records show that the kitchen was reserved for 312 hours. Those are reserved hours, not verified hours of production. Staff observed several bookings that ended early, and the electronic door log failed during the third week. We therefore cannot calculate a reliable utilization percentage from the records available. The booking total is still useful for staffing estimates, provided it is labeled correctly. A slide prepared for an early sponsor meeting called all 312 hours productive use. That slide should not be treated as the final finding or repeated in the public summary.\n\nThe participant survey received eleven responses. Eight respondents said access to the kitchen helped them accept an order they otherwise would have declined. Two said it made no difference to orders, and one was unsure. These are self-reported responses, not audited sales results. We did not collect invoices, margins, or a comparison group. The findings support saying that several participants reported an operational benefit. They do not support a claim that the kitchen increased district revenue or that every participating business grew. The three nonrespondents may have had different experiences.\n\nCleaning was the clearest operational problem. Staff recorded nineteen occasions when a station needed additional cleaning before the next booking. Twelve involved the same oven, whose removable panels were difficult to access. It would be misleading to treat all nineteen as evidence of careless behavior by nineteen different businesses. The records do not identify nineteen distinct businesses, and the oven’s design may explain part of the problem. The equipment team has requested a safer cleaning demonstration from the manufacturer. Until that happens, staff should keep the oven’s turnaround buffer in place.\n\nThe pilot budget was $24,000, and recorded spending was $21,600. The apparent underspend is not money available for a new program. A refrigeration repair invoice is outstanding, and the contractor has not yet provided the final amount. The finance officer expects to close the pilot accounts after that invoice arrives. The board can discuss a second pilot now, but it should not describe the remaining $2,400 as confirmed savings. The next proposal should show both an operating budget and a reserve for equipment failures, which the first pilot budget did not separately identify.\n\nParticipants asked for evening slots and a clearer process for reporting broken equipment. Staff support testing one evening per week, subject to having two trained staff on site. The safety policy requires two staff whenever the kitchen is open, regardless of how many businesses have booked. A low-demand evening cannot operate with one person simply to reduce costs. The booking form should include a damage-report link, but submitting a report will not automatically cancel a booking or determine who pays for a repair. Those decisions remain with the kitchen manager after review.\n\nOur recommendation is to design a second, smaller test focused on evening demand and reliable use measurement. It is a recommendation for board consideration, not approval to spend or extend leases. A second test would require an approved budget and confirmation that staffing can meet the two-person rule. We should retain the limits of the evidence while making the practical next steps easier to see. Repeating every qualification after every finding makes the report difficult to read; placing each limit beside its relevant finding should be enough.",
+    "rubric": {
+      "invariants": [
+        "14 businesses, eight weeks; recruitment not district representative.",
+        "312 reserved hours; verified utilization unavailable; earlier productive-use slide superseded.",
+        "11 survey responses: eight positive, two no difference, one unsure; self-reported, not audited revenue.",
+        "19 cleaning incidents, twelve same oven; not nineteen businesses.",
+        "$24,000 budget and $21,600 recorded spending; outstanding invoice makes $2,400 unconfirmed savings.",
+        "Two trained staff required whenever open.",
+        "Second pilot recommendation needs budget approval and staffing confirmation."
+      ],
+      "questions": [
+        {
+          "question": "Were 312 hours verified productive use?",
+          "answer": "No, they were reserved hours."
+        },
+        {
+          "question": "Is $2,400 available to spend?",
+          "answer": "Not established; a repair invoice remains outstanding."
+        },
+        {
+          "question": "Can one employee staff a quiet evening?",
+          "answer": "No."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Turns recommendation into authorized spending.",
+        "Reports causal revenue growth.",
+        "Presents underspend as confirmed savings."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "**Recommendation for board consideration**\n\nDesign a smaller second pilot to test evening demand and measure actual use reliably. This recommendation does not authorize spending or lease extensions. A second pilot requires an approved budget and confirmation that two trained staff can be on site whenever the kitchen is open.\n\n**Findings and evidence limits**\n\n- **Participation suggests demand among the businesses involved.** The eight-week pilot included 14 businesses; 10 attended at least six sessions. Four attended fewer because of illness, staffing shortages, or equipment conflicts. Recruitment came mainly through the market association, so home-based producers outside that network may be underrepresented. Attendance does not establish district-wide demand.\n- **Bookings totaled 312 hours, but actual utilization is unknown.** Some bookings ended early, and the electronic door log failed in week three. These records cannot support a reliable utilization percentage. Reserved hours can inform staffing estimates if labeled correctly. The early sponsor slide describing all 312 hours as productive use should be corrected and excluded from the public summary.\n- **Several participants reported an operational benefit.** Of 11 survey respondents, eight said kitchen access helped them accept an order they otherwise would have declined; two reported no difference, and one was unsure. These are self-reports. No invoices, margins, or comparison-group data were collected, and the three nonrespondents may have had different experiences. The results do not establish increased district revenue or growth for every participant.\n- **Cleaning was the clearest operational problem.** Staff recorded 19 occasions when a station needed additional cleaning before the next booking. Twelve involved one oven with hard-to-access removable panels. The records do not identify 19 distinct businesses, and equipment design may explain part of the problem. The equipment team has requested a safer cleaning demonstration from the manufacturer. Keep the oven’s turnaround buffer until that demonstration takes place.\n- **The final cost remains open.** Recorded spending was $21,600 against a $24,000 budget. An outstanding refrigeration repair invoice has no final amount yet, so the $2,400 difference is not confirmed savings or available funding for another program. The finance officer expects to close the accounts once the invoice arrives.\n\n**Proposed next steps**\n\n1. Prepare a second-pilot proposal with an operating budget and a separate equipment-failure reserve.\n2. Test one evening per week, subject to having two trained staff on site. The two-person safety rule applies whenever the kitchen is open, including low-demand evenings.\n3. Establish reliable measurement of actual use, distinct from reserved hours.\n4. Add a damage-report link to the booking form. A report will not automatically cancel a booking or assign repair costs; the kitchen manager will decide after review.\n\nThe board can discuss this proposal while the first pilot’s accounts are being finalized."
+      },
+      {
+        "label": "C",
+        "output": "The eight-week community kitchen pilot showed demand among participating businesses and reported operational benefits. It also identified cleaning problems and gaps in use measurement. A smaller second pilot merits board consideration, subject to an approved budget and adequate staffing.\n\n**Findings and evidence limits**\n\n- **Participation:** Fourteen businesses joined; ten attended at least six sessions. Four attended fewer because of illness, staffing shortages, or equipment conflicts. Attendance indicates demand among participants, but recruitment mainly through the market association may have underrepresented home-based producers outside that network. This was not a district-wide survey.\n- **Bookings:** The kitchen was reserved for 312 hours. These were not verified production hours: some bookings ended early, and the electronic door log failed in week three. The records cannot support a reliable utilization percentage. The total can inform staffing estimates if labeled as reserved hours. The early sponsor slide describing all 312 hours as productive use should not be repeated as a final finding or in the public summary.\n- **Reported benefits:** Eleven businesses answered the survey. Eight said kitchen access helped them accept an order they otherwise would have declined; two reported no difference to orders, and one was unsure. These self-reports suggest operational benefits for several participants. Without invoices, margins, or a comparison group, they do not establish increased district revenue or growth for every participant. The three nonrespondents may have had different experiences.\n- **Cleaning:** Staff recorded 19 occasions when stations needed additional cleaning before the next booking. Twelve involved one oven with hard-to-access removable panels. These were incidents, not 19 distinct businesses, and equipment design may explain part of the problem. The equipment team has requested a safer cleaning demonstration from the manufacturer. Keep the oven’s turnaround buffer until that demonstration occurs.\n- **Finances:** Recorded spending was $21,600 against a $24,000 budget. An outstanding refrigeration repair invoice has no final amount, so the $2,400 difference is not confirmed savings or available funding for another program. The finance officer expects to close the accounts once the invoice arrives.\n\n**Recommendation for board consideration**\n\nDesign a smaller second pilot focused on evening demand and reliable measurement of actual use. Participants requested evening slots and a clearer way to report broken equipment. Staff support testing one evening per week, provided two trained staff are on site. The two-person safety rule applies whenever the kitchen is open, even when demand is low.\n\nThe proposal should include an operating budget, a separate equipment-failure reserve, and confirmation that staffing meets the safety rule. The first pilot did not separately identify such a reserve.\n\nAdd a damage-report link to the booking form. Reports will go to the kitchen manager for review; submitting one will not automatically cancel a booking or determine who pays for repairs.\n\nThis recommendation does not authorize spending or lease extensions. A second test requires budget approval and confirmed staffing."
+      },
+      {
+        "label": "B",
+        "output": "**Recommendation for board consideration**\n\nDevelop a smaller second pilot focused on evening demand and reliable measurement of kitchen use. The eight-week pilot showed demand and reported benefits among participating businesses, alongside cleaning and measurement problems that need attention. This recommendation does not authorize spending or lease extensions. A second test requires an approved budget and confirmation that staffing can meet the two-person safety rule.\n\n**Findings and evidence limits**\n\n- **Participation:** Fourteen businesses took part; ten attended at least six sessions. Four attended fewer because of illness, staffing shortages, or equipment conflicts. Attendance indicates demand among participants, but recruitment came mainly through the market association. Home-based producers outside that network may be underrepresented, so the results do not establish district-wide demand.\n- **Bookings:** The kitchen was reserved for 312 hours. These are booking hours, not verified production hours. Some bookings ended early, and the door log failed during week three, preventing a reliable utilization calculation. The total can inform staffing estimates if labeled as reserved hours. Correct the early sponsor slide’s description of all 312 hours as productive use, and do not repeat it in the public summary.\n- **Reported benefits:** Eleven businesses answered the survey. Eight said kitchen access helped them accept an order they otherwise would have declined; two reported no difference to orders, and one was unsure. These self-reports suggest an operational benefit for several participants. Without invoices, margins, or a comparison group, they do not establish increased district revenue or growth for every participant. The three nonrespondents may have had different experiences.\n- **Cleaning:** Staff recorded 19 occasions when a station needed additional cleaning before the next booking. Twelve involved the same oven, whose removable panels were difficult to access. These incidents do not represent 19 distinct businesses, and the oven’s design may explain part of the problem. The equipment team has requested a safer cleaning demonstration from the manufacturer. Keep the oven’s turnaround buffer until that demonstration takes place.\n- **Finances:** Recorded spending is $21,600 against a $24,000 budget. The remaining $2,400 is not confirmed savings or available funding: a refrigeration repair invoice is outstanding, and its final amount is unknown. The finance officer expects to close the accounts after it arrives.\n\n**Design of the proposed second test**\n\nTest one evening per week, as participants requested and staff support, subject to having two trained staff on site. The safety policy requires two staff whenever the kitchen is open, even on low-demand evenings.\n\nInclude a reliable way to measure actual use, an operating budget, and a separate reserve for equipment failures. The first pilot did not identify that reserve separately.\n\nAdd a damage-report link to the booking form to make reporting broken equipment clearer. Submitting a report will not automatically cancel a booking or decide who pays for repairs; the kitchen manager will make those decisions after review."
+      },
+      {
+        "label": "A",
+        "output": "The eight-week community kitchen pilot showed demand among participating businesses and reported operational benefits. It also exposed cleaning problems and gaps in usage and cost records. We recommend designing a smaller second test focused on evening demand and reliable measurement of actual use, for board consideration.\n\n**Findings and evidence limits**\n\nFourteen small food businesses participated. Ten attended at least six sessions; four attended fewer because of illness, staffing shortages, or equipment conflicts. This supports demand among participants, but recruitment mainly through the market association may have underrepresented home-based producers outside that network. It does not establish demand across the district.\n\nThe kitchen was reserved for 312 hours. These were booked hours, not verified production hours: some bookings ended early, and the electronic door log failed in week three. The records cannot support a reliable utilization percentage. The booking total can inform staffing estimates if labeled as reserved hours. The early sponsor slide describing all 312 hours as productive use should be corrected and excluded from the public summary.\n\nEleven participants answered the survey. Eight said kitchen access helped them accept an order they otherwise would have declined; two reported no difference to orders, and one was unsure. These self-reports indicate an operational benefit for several respondents. Without invoices, margins, or a comparison group, they do not establish revenue growth across the district or growth for every participant. The three nonrespondents may have had different experiences.\n\nStaff recorded nineteen occasions when a station needed additional cleaning before the next booking. Twelve involved the same oven, whose removable panels were difficult to access. These are incidents, not nineteen distinct businesses, and the oven’s design may explain part of the problem. The equipment team has requested a safer cleaning demonstration from the manufacturer. Keep the oven’s turnaround buffer until that demonstration occurs.\n\nRecorded spending was $21,600 against a $24,000 budget. The $2,400 difference is not confirmed savings: a refrigeration repair invoice remains outstanding, with the final amount unknown. The finance officer expects to close the accounts once it arrives.\n\n**Recommendation and conditions**\n\nDevelop a second, smaller test that measures actual kitchen use reliably and tests one evening per week, as participants requested and staff support. It requires an approved budget and confirmation that two trained staff can be on site. The two-person safety rule applies whenever the kitchen is open, including low-demand evenings. The proposal should include an operating budget and a separate equipment-failure reserve.\n\nAdd a damage-report link to the booking form to make reporting broken equipment clearer. Reports will not automatically cancel bookings or assign repair costs; the kitchen manager will make those decisions after review.\n\nThe board can consider the proposal now. This recommendation does not authorize spending or lease extensions."
+      }
+    ]
+  },
+  {
+    "id": "C01",
+    "request": "Write the next progress update. Earlier assistant: \"I will inspect the export and check totals before changing anything.\" New state: Inspection finished; 18 rows have missing dates. Totals match. No edits made. Next action is prepare a proposed correction list from source records. User asked for review before edits.",
+    "rubric": {
+      "invariants": [
+        "18 missing dates, totals match, no edits.",
+        "Next step proposed correction list; edits await review."
+      ],
+      "questions": [
+        {
+          "question": "Has the file changed?",
+          "answer": "No."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Claims corrections applied.",
+        "Asks permission for already authorized inspection."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "The totals match, but 18 rows are missing dates. I haven’t made any edits. I’ll use the source records to prepare a proposed correction list for your review."
+      },
+      {
+        "label": "C",
+        "output": "Inspection is complete: the totals match, and 18 rows have missing dates. No edits have been made. I’ll prepare a proposed correction list from the source records for your review before making changes."
+      },
+      {
+        "label": "B",
+        "output": "The inspection is complete: totals match, and 18 rows have missing dates. No edits have been made. I’ll prepare a proposed correction list from the source records for your review before making changes."
+      },
+      {
+        "label": "A",
+        "output": "The inspection is complete: totals match, and 18 rows have missing dates. No edits have been made. I’ll use the source records to prepare a proposed correction list for your review before making changes."
+      }
+    ]
+  },
+  {
+    "id": "C02",
+    "request": "Write a self-contained final answer. Prior updates: draft flyer created; venue corrected from East Hall to West Hall; screen preview checked. Current state: PDF saved locally at /workspace/output/autumn-fair.pdf, two pages, both visually checked. No printing or distribution requested. User requested a ready-to-review flyer. Mention the corrected venue and give the file link.",
+    "rubric": {
+      "invariants": [
+        "Final includes ready file, West Hall, two-page visual check.",
+        "Local completion not distribution."
+      ],
+      "questions": [
+        {
+          "question": "Which venue is in the finished flyer?",
+          "answer": "West Hall."
+        }
+      ],
+      "protected": [
+        "/workspace/output/autumn-fair.pdf"
+      ],
+      "hard_failures": [
+        "Says \"done as above\" without recap.",
+        "Claims printed or distributed."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Your [autumn fair flyer](/workspace/output/autumn-fair.pdf) is ready to review. The venue is corrected to West Hall, and both pages have been visually checked. The PDF is saved locally."
+      },
+      {
+        "label": "C",
+        "output": "The two-page [autumn fair flyer](/workspace/output/autumn-fair.pdf) is saved locally and ready for review. The venue is corrected to West Hall, and both pages have been visually checked."
+      },
+      {
+        "label": "B",
+        "output": "The [two-page flyer](/workspace/output/autumn-fair.pdf) is ready for review. The venue is corrected to West Hall, and both pages have been visually checked. The PDF is saved locally."
+      },
+      {
+        "label": "A",
+        "output": "Your [autumn fair flyer](/workspace/output/autumn-fair.pdf) is ready for review. The venue is corrected to West Hall, and both pages of the locally saved PDF have been visually checked."
+      }
+    ]
+  },
+  {
+    "id": "V01",
+    "request": "Make this fundraising note sound like a real neighbor, not a marketing campaign. Keep the modest scale: \"We are thrilled to announce a transformative opportunity to empower our vibrant community through the purchase of six folding tables for the weekly repair café. We need $360. If you can chip in, thank you. If not, come by with something to mend.\"",
+    "rubric": {
+      "invariants": [
+        "Six tables; $360; weekly repair café.",
+        "Welcoming invitation regardless of donation."
+      ],
+      "questions": [
+        {
+          "question": "What is the money for?",
+          "answer": "Six folding tables for the weekly repair café."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Adds grand impact claims or donation pressure."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "We’re raising $360 for six folding tables for the weekly repair café. If you can chip in, thank you. If not, come by with something to mend."
+      },
+      {
+        "label": "C",
+        "output": "We’re raising $360 for six folding tables for the weekly repair café. If you can chip in, thank you. If not, come by with something to mend."
+      },
+      {
+        "label": "B",
+        "output": "We’re raising $360 for six folding tables for the weekly repair café. If you can chip in, thank you. If not, come by with something to mend."
+      },
+      {
+        "label": "A",
+        "output": "We’re raising $360 for six folding tables for the weekly repair café. If you can chip in, thank you. If not, come by with something to mend."
+      }
+    ]
+  },
+  {
+    "id": "V02",
+    "request": "Polish only if needed, preserving the writer’s quiet voice: \"I liked the small room at the back. Nobody hurried us. We stayed until the rain stopped.\"",
+    "rubric": {
+      "invariants": [
+        "Quiet, concrete first-person voice.",
+        "Small back room; unhurried stay until rain stopped.",
+        "Unchanged is acceptable."
+      ],
+      "questions": [
+        {
+          "question": "Why did they leave when they did?",
+          "answer": "They stayed until the rain stopped; no further motive established."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Adds ornate imagery or invented emotions."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "I liked the small room at the back. Nobody hurried us. We stayed until the rain stopped."
+      },
+      {
+        "label": "C",
+        "output": "I liked the small room at the back. Nobody hurried us. We stayed until the rain stopped."
+      },
+      {
+        "label": "B",
+        "output": "I liked the small room at the back. Nobody hurried us. We stayed until the rain stopped."
+      },
+      {
+        "label": "A",
+        "output": "I liked the small room at the back. Nobody hurried us. We stayed until the rain stopped."
+      }
+    ]
+  },
+  {
+    "id": "M01",
+    "request": "Make this policy easy to read without changing logic: \"A refund is available only when the request is submitted within 14 days AND the item is unused. Original shipping charges are excluded unless the wrong item was sent.\"",
+    "rubric": {
+      "invariants": [
+        "Both timely request and unused condition required.",
+        "Original shipping excluded except wrong-item shipment."
+      ],
+      "questions": [
+        {
+          "question": "Does an unused item requested after 14 days qualify?",
+          "answer": "No."
+        },
+        {
+          "question": "When are original shipping charges refundable?",
+          "answer": "When the wrong item was sent."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Changes AND to OR.",
+        "Deletes shipping exception."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "To be eligible for a refund, you must submit your request within 14 days, and the item must be unused. Original shipping charges are excluded unless the wrong item was sent."
+      },
+      {
+        "label": "C",
+        "output": "A refund is available only if you submit your request within 14 days and the item is unused. Original shipping charges are not refunded unless we sent the wrong item."
+      },
+      {
+        "label": "B",
+        "output": "To be eligible for a refund, you must submit your request within 14 days and the item must be unused. Original shipping charges are excluded unless the wrong item was sent."
+      },
+      {
+        "label": "A",
+        "output": "A refund is available only if you submit your request within 14 days and the item is unused. Original shipping charges are not refundable unless the wrong item was sent."
+      }
+    ]
+  },
+  {
+    "id": "M02",
+    "request": "Summarize this finding accurately: \"Of 80 surveyed commuters, 52 preferred the proposed timetable. The survey was conducted at the central station on two weekday mornings. It does not represent all route users, and no weekend riders were surveyed.\"",
+    "rubric": {
+      "invariants": [
+        "52 of 80 surveyed preferred proposal.",
+        "Two weekday mornings at central station.",
+        "Not all riders; no weekend sample."
+      ],
+      "questions": [
+        {
+          "question": "Can this establish that most weekend riders prefer the proposal?",
+          "answer": "No."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Says most route users prefer it.",
+        "Invents representative sampling."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "Of 80 commuters surveyed at the central station on two weekday mornings, 52 preferred the proposed timetable. The survey does not represent all route users and included no weekend riders."
+      },
+      {
+        "label": "C",
+        "output": "Of 80 commuters surveyed at the central station on two weekday mornings, 52 preferred the proposed timetable. The survey does not represent all route users and included no weekend riders."
+      },
+      {
+        "label": "B",
+        "output": "Of 80 commuters surveyed at the central station on two weekday mornings, 52 preferred the proposed timetable. The survey does not represent all route users and included no weekend riders."
+      },
+      {
+        "label": "A",
+        "output": "Of 80 commuters surveyed at the central station on two weekday mornings, 52 preferred the proposed timetable. The findings do not represent all route users; no weekend riders were surveyed."
+      }
+    ]
+  },
+  {
+    "id": "F01",
+    "request": "Tighten the prose in this Markdown without changing code, URL, placeholder, or quoted error:\n\n## Connect\nYou will need to run the following command in order to connect:\n```sh\nclient connect --workspace \"$WORKSPACE_ID\"\n```\nIf you see \"Access pending\", your owner has not approved access yet. You can find further information at [setup guide](https://example.org/docs/setup?mode=team#access). Send the owner {{request_id}}.",
+    "rubric": {
+      "invariants": [
+        "Command and link exact.",
+        "Pending means owner approval not yet granted.",
+        "Keep request placeholder."
+      ],
+      "questions": [
+        {
+          "question": "What does Access pending mean?",
+          "answer": "The owner has not yet approved access."
+        }
+      ],
+      "protected": [
+        "client connect --workspace \"$WORKSPACE_ID\"",
+        "\"Access pending\"",
+        "https://example.org/docs/setup?mode=team#access",
+        "{{request_id}}"
+      ],
+      "hard_failures": [
+        "Edits command syntax, URL, quote, or placeholder."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "## Connect\nRun this command to connect:\n```sh\nclient connect --workspace \"$WORKSPACE_ID\"\n```\nIf you see \"Access pending\", your owner has not approved access yet. See the [setup guide](https://example.org/docs/setup?mode=team#access) for details. Send the owner {{request_id}}."
+      },
+      {
+        "label": "C",
+        "output": "## Connect\nRun this command to connect:\n```sh\nclient connect --workspace \"$WORKSPACE_ID\"\n```\nIf you see \"Access pending\", your owner has not approved access yet. See the [setup guide](https://example.org/docs/setup?mode=team#access) for details. Send the owner {{request_id}}."
+      },
+      {
+        "label": "B",
+        "output": "## Connect\nRun this command to connect:\n```sh\nclient connect --workspace \"$WORKSPACE_ID\"\n```\nIf you see \"Access pending\", your owner has not approved access yet. See the [setup guide](https://example.org/docs/setup?mode=team#access) for details. Send the owner {{request_id}}."
+      },
+      {
+        "label": "A",
+        "output": "## Connect\nRun this command to connect:\n```sh\nclient connect --workspace \"$WORKSPACE_ID\"\n```\nIf you see \"Access pending\", your owner has not approved access yet. See the [setup guide](https://example.org/docs/setup?mode=team#access). Send the owner {{request_id}}."
+      }
+    ]
+  },
+  {
+    "id": "F02",
+    "request": "Improve only the prose around this quote; preserve quote verbatim and attribution. Text: \"The report provides the following helpful statement: > ‘The sample was too small to support a regional estimate.’ — Field Notes, p. 7. This means that it would not be appropriate to present the findings as a regional total.\"",
+    "rubric": {
+      "invariants": [
+        "Quote and attribution unchanged.",
+        "No regional total supported."
+      ],
+      "questions": [
+        {
+          "question": "Can the findings be presented as a regional total?",
+          "answer": "No."
+        }
+      ],
+      "protected": [
+        "‘The sample was too small to support a regional estimate.’",
+        "Field Notes, p. 7"
+      ],
+      "hard_failures": [
+        "Paraphrases inside quotation marks.",
+        "Weakens limitation."
+      ]
+    },
+    "outputs": [
+      {
+        "label": "D",
+        "output": "The report states:\n\n> ‘The sample was too small to support a regional estimate.’ — Field Notes, p. 7.\n\nThe findings should not be presented as a regional total."
+      },
+      {
+        "label": "C",
+        "output": "The report states:\n\n> ‘The sample was too small to support a regional estimate.’ — Field Notes, p. 7.\n\nDo not present the findings as a regional total."
+      },
+      {
+        "label": "B",
+        "output": "The report states:\n\n> ‘The sample was too small to support a regional estimate.’ — Field Notes, p. 7.\n\nThe findings should not be presented as a regional total."
+      },
+      {
+        "label": "A",
+        "output": "The report states:\n\n> ‘The sample was too small to support a regional estimate.’ — Field Notes, p. 7.\n\nThe findings should not be presented as a regional total."
+      }
+    ]
+  }
+]

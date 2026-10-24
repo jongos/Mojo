@@ -1,0 +1,392 @@
+[
+  {
+    "id": "S01",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves ongoing review and Thursday expectation conditional on the Tuesday fire-marshal answer."
+  },
+  {
+    "id": "S02",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Appropriately unchanged; closing time and north-entrance slot remain exact."
+  },
+  {
+    "id": "S03",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Direct and considerate; preserves two free weeks and refusal of six months."
+  },
+  {
+    "id": "S04",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Explains route download, required Wi-Fi, departure timing, and unavailable live detours."
+  },
+  {
+    "id": "S05",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Two sentences preserve both directions of kit/reservation independence, $18 price, and own-supplies alternative."
+  },
+  {
+    "id": "S06",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Appropriately unchanged; photo for registration remains distinct from paper receipt for warranty."
+  },
+  {
+    "id": "S07",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves conditional indoor move, Friday noon announcement, and ticket validity."
+  },
+  {
+    "id": "S08",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Explains Preview sequence, both flag types, nonmutation, and source-file corrections before Import."
+  },
+  {
+    "id": "S09",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Removes scolding while preserving wheels, axle exclusion rationale, and quote offer."
+  },
+  {
+    "id": "S10",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves city residency and age-or-pass logic. Final residency reminder is mildly repetitive but maintains the boundary."
+  },
+  {
+    "id": "D01",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 1
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves conditional dates, return exceptions, fee limits, accessibility status, and volunteer rules. Minor restraint issue: older-fee coordinator referral occurs twice despite the request to state each rule once."
+  },
+  {
+    "id": "D02",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves counts, denominators, reserved-hours distinction, survey limits, cleaning attribution, pending invoice, and budget/staffing approval gates. No causal revenue or authorized-spending claim."
+  },
+  {
+    "id": "D03",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Separates migrated searches from unmigrated alerts, retains old-dashboard action and conditional estimate."
+  },
+  {
+    "id": "D04",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Appropriately unchanged; confirmed booking, return deadline, closed-reception fallback, and key restriction remain."
+  },
+  {
+    "id": "D05",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Explains setup sequence, 48-hour expiry, inviter resend, and independently assigned workspace access."
+  },
+  {
+    "id": "D06",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves closure boundaries and priority, access limitations, seasonal dog exclusion, bicycle/mobility distinction, parking terms, and separate walk registration. No invented repair date."
+  },
+  {
+    "id": "D07",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves queue transition, phone assistance, optional references, scan timing distinctions, conditional alternatives, fee threshold and quote acceptance, separate reviews, and publication-rights limits."
+  },
+  {
+    "id": "D08",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves times, passengers, reported-injury qualifier, lift availability, unconfirmed causation, and absent return date."
+  },
+  {
+    "id": "D09",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Conflicting records remain unresolved; dispatch differs from delivery and written confirmation precedes installation commitment."
+  },
+  {
+    "id": "D10",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Keeps weekday figures, clinic rationale, unmeasured weekends, four-week count proposal, and unapproved November recommendation."
+  },
+  {
+    "id": "C01",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Reports 18 missing dates and matching totals, no edits, and source-based correction list for review."
+  },
+  {
+    "id": "C02",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Self-contained artifact link with corrected West Hall venue and both-page visual check; no distribution claim."
+  },
+  {
+    "id": "C03",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Explicitly corrects duplicate hypothesis, reports seven exclusions, and specifies timestamp comparison without declaring root cause solved."
+  },
+  {
+    "id": "C04",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Distinguishes four conversions from three successful checks and continues work without asking permission."
+  },
+  {
+    "id": "C05",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Focuses on numbering failure and fix/check before upload approval; no premature readiness claim."
+  },
+  {
+    "id": "C06",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Names Safari focus fix, browser checks, all 38 tests, and local-only status with no commit/push/deployment."
+  },
+  {
+    "id": "C07",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Acknowledges missed deadline, separates drafted summary from blocked comparison, and identifies reconciliation work."
+  },
+  {
+    "id": "C08",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Exact partial count, pending mapping, destination collision, no overwrite, and protected receipt link are all present."
+  },
+  {
+    "id": "C09",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Reconciles 4912 and 4920 using eight legitimate archived exclusions; export remains running."
+  },
+  {
+    "id": "C10",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Gives verified Cedar recommendation and price, Birch insufficiency, and unresolved Pine suitability without invention."
+  }
+]

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Mojo"
+  short_description: "Cut repetition, needless nuance, and cautious padding"
+  default_prompt: "Use $mojo-language to make this clear and direct, cutting repetition, unnecessary nuance, and overly cautious language."
+policy:
+  allow_implicit_invocation: true

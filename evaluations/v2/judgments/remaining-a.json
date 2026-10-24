@@ -1,0 +1,1514 @@
+[
+  {
+    "id": "S03",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves refusal of six free months and offer of two free weeks; direct and considerate without new compensation."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves refusal of six free months and offer of two free weeks; direct and considerate without new compensation."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves refusal of six free months and offer of two free weeks; direct and considerate without new compensation."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves refusal of six free months and offer of two free weeks; direct and considerate without new compensation."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "S04",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Explains route download, required Wi-Fi setup before departure, and unavailable live detours."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Explains route download, required Wi-Fi setup before departure, and unavailable live detours."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Explains route download, required Wi-Fi setup before departure, and unavailable live detours."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Explains route download, required Wi-Fi setup before departure, and unavailable live detours."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "S05",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Within two sentences; preserves both directions of reservation/kit independence, $18 price, and bring-your-own option."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Within two sentences; preserves both directions of reservation/kit independence, $18 price, and bring-your-own option."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Within two sentences; preserves both directions of reservation/kit independence, $18 price, and bring-your-own option."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Within two sentences; preserves both directions of reservation/kit independence, $18 price, and bring-your-own option."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "S06",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Correctly leaves the already concise instruction unchanged and retains the registration/warranty distinction."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Correctly leaves the already concise instruction unchanged and retains the registration/warranty distinction."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Correctly leaves the already concise instruction unchanged and retains the registration/warranty distinction."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Correctly leaves the already concise instruction unchanged and retains the registration/warranty distinction."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "S07",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains conditional indoor move, Friday noon announcement, and ticket validity at either venue."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains conditional indoor move, Friday noon announcement, and ticket validity at either venue."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains conditional indoor move, Friday noon announcement, and ticket validity at either venue."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains conditional indoor move, Friday noon announcement, and ticket validity at either venue."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "S08",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Gives the nonmutating Preview check, both error types, and source-file repair before Import."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Gives the nonmutating Preview check, both error types, and source-file repair before Import."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Gives the nonmutating Preview check, both error types, and source-file repair before Import."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Gives the nonmutating Preview check, both error types, and source-file repair before Import."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "S09",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Removes the scolding reminder and preserves wheels, axle exclusion rationale, and separate quote."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 1,
+          "usefulness": 2,
+          "clarity": 1,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "The axle exclusion is only implied by its absence from the original order and the quote offer; the other versions explicitly state it is not included. The stated reason and all other facts remain understandable."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Removes the scolding reminder and preserves wheels, axle exclusion rationale, and separate quote."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Removes the scolding reminder and preserves wheels, axle exclusion rationale, and separate quote."
+      }
+    ],
+    "preferred": [
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "S10",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves city residency for everyone and the alternative age/pass criteria in an actionable sentence."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves city residency for everyone and the alternative age/pass criteria in an actionable sentence."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves city residency for everyone and the alternative age/pass criteria in an actionable sentence."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 1,
+          "usefulness": 1,
+          "clarity": 0,
+          "voice_scope": 2,
+          "edit_restraint": 1
+        },
+        "hard_failures": [
+          "\"Live within city limits and are 65 or older or have a current disability transit pass?\" permits the reading (resident AND 65+) OR pass holder, failing the invariant that city residency is required for everyone and the request for precise eligibility."
+        ],
+        "comprehension_pass": true,
+        "notes": "The supplied 40-year-old city-resident comprehension example still passes, but mixed ungrouped AND/OR makes nonresident pass-holder eligibility ambiguous. A, B and C retain the residency gate clearly."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "D03",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves completed saved-search migration, pending alerts, old-dashboard changes, and conditional next-week estimate."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves completed saved-search migration, pending alerts, old-dashboard changes, and conditional next-week estimate."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves completed saved-search migration, pending alerts, old-dashboard changes, and conditional next-week estimate."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves completed saved-search migration, pending alerts, old-dashboard changes, and conditional next-week estimate."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "D04",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Appropriately returns the unchanged policy, retaining booking eligibility, return timing, fallback and prohibition."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Appropriately returns the unchanged policy, retaining booking eligibility, return timing, fallback and prohibition."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Appropriately returns the unchanged policy, retaining booking eligibility, return timing, fallback and prohibition."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Appropriately returns the unchanged policy, retaining booking eligibility, return timing, fallback and prohibition."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "D05",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Provides the invitation expiry and recovery, password/code sequence, and separately assigned administrator access."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Provides the invitation expiry and recovery, password/code sequence, and separately assigned administrator access."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Provides the invitation expiry and recovery, password/code sequence, and separately assigned administrator access."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Provides the invitation expiry and recovery, password/code sequence, and separately assigned administrator access."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "D06",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves open/closed sections, closure precedence, access limits and toilets, nesting rules, bicycle/mobility distinction, prices and optional registered walk without inventing a repair date."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves open/closed sections, closure precedence, access limits and toilets, nesting rules, bicycle/mobility distinction, prices and optional registered walk without inventing a repair date."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves open/closed sections, closure precedence, access limits and toilets, nesting rules, bicycle/mobility distinction, prices and optional registered walk without inventing a repair date."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves open/closed sections, closure precedence, access limits and toilets, nesting rules, bicycle/mobility distinction, prices and optional registered walk without inventing a repair date."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "D07",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves request routes and legacy queue, optional reference, qualified scan timing, independent checks, conditional alternatives, total-request charges and publication-rights limits."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves request routes and legacy queue, optional reference, qualified scan timing, independent checks, conditional alternatives, total-request charges and publication-rights limits."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves request routes and legacy queue, optional reference, qualified scan timing, independent checks, conditional alternatives, total-request charges and publication-rights limits."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves request routes and legacy queue, optional reference, qualified scan timing, independent checks, conditional alternatives, total-request charges and publication-rights limits."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "D08",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains incident times, two passengers, reported-injury qualifier, lift availability, unconfirmed sensor causality, replacement order and absent return date."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains incident times, two passengers, reported-injury qualifier, lift availability, unconfirmed sensor causality, replacement order and absent return date."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains incident times, two passengers, reported-injury qualifier, lift availability, unconfirmed sensor causality, replacement order and absent return date."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains incident times, two passengers, reported-injury qualifier, lift availability, unconfirmed sensor causality, replacement order and absent return date."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "D09",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Uses two paragraphs, keeps conflicting sources distinct, avoids confirming arrival or installation, and requests supplier confirmation."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Uses two paragraphs, keeps conflicting sources distinct, avoids confirming arrival or installation, and requests supplier confirmation."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Uses two paragraphs, keeps conflicting sources distinct, avoids confirming arrival or installation, and requests supplier confirmation."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Uses two paragraphs, keeps conflicting sources distinct, avoids confirming arrival or installation, and requests supplier confirmation."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "D10",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves unapproved weekday recommendation, exact ridership data, clinic rationale, unmeasured weekends and proposed four-week count."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves unapproved weekday recommendation, exact ridership data, clinic rationale, unmeasured weekends and proposed four-week count."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves unapproved weekday recommendation, exact ridership data, clinic rationale, unmeasured weekends and proposed four-week count."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves unapproved weekday recommendation, exact ridership data, clinic rationale, unmeasured weekends and proposed four-week count."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "C03",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Rejects duplicate imports, reports seven timezone-filter exclusions, leaves their cause unresolved and specifies the timestamp/boundary comparison."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Rejects duplicate imports, reports seven timezone-filter exclusions, leaves their cause unresolved and specifies the timestamp/boundary comparison."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Rejects duplicate imports, reports seven timezone-filter exclusions, leaves their cause unresolved and specifies the timestamp/boundary comparison."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Rejects duplicate imports, reports seven timezone-filter exclusions, leaves their cause unresolved and specifies the timestamp/boundary comparison."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "C04",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Separates four conversions from three passed keyboard checks and continues with the fourth check then fifth conversion."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Separates four conversions from three passed keyboard checks and continues with the fourth check then fifth conversion."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Separates four conversions from three passed keyboard checks and continues with the fourth check then fifth conversion."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Separates four conversions from three passed keyboard checks and continues with the fourth check then fifth conversion."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "C05",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Reports the numbering problem and repair/recheck before upload approval, without repeating completed copy edits or claiming readiness."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Reports the numbering problem and repair/recheck before upload approval, without repeating completed copy edits or claiming readiness."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Reports the numbering problem and repair/recheck before upload approval, without repeating completed copy edits or claiming readiness."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Reports the numbering problem and repair/recheck before upload approval, without repeating completed copy edits or claiming readiness."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "C06",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Stands alone with the Safari focus fix, both browser keyboard checks, all 38 tests, and explicit local-only status."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Stands alone with the Safari focus fix, both browser keyboard checks, all 38 tests, and explicit local-only status."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Stands alone with the Safari focus fix, both browser keyboard checks, all 38 tests, and explicit local-only status."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Stands alone with the Safari focus fix, both browser keyboard checks, all 38 tests, and explicit local-only status."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "C07",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Acknowledges missed deadline, distinguishes drafted summary from blocked comparison, identifies conflicting totals and the calculation check."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Acknowledges missed deadline, distinguishes drafted summary from blocked comparison, identifies conflicting totals and the calculation check."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Acknowledges missed deadline, distinguishes drafted summary from blocked comparison, identifies conflicting totals and the calculation check."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Acknowledges missed deadline, distinguishes drafted summary from blocked comparison, identifies conflicting totals and the calculation check."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "C08",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Precisely reports 11 of 12, the protected unfinished mapping and collision, no overwrite, and the exact receipt link."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Precisely reports 11 of 12, the protected unfinished mapping and collision, no overwrite, and the exact receipt link."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Precisely reports 11 of 12, the protected unfinished mapping and collision, no overwrite, and the exact receipt link."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Precisely reports 11 of 12, the protected unfinished mapping and collision, no overwrite, and the exact receipt link."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "C09",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Reconciles 4,912 with 4,920 through eight legitimate archived exclusions and clearly leaves export running."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Reconciles 4,912 with 4,920 through eight legitimate archived exclusions and clearly leaves export running."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Reconciles 4,912 with 4,920 through eight legitimate archived exclusions and clearly leaves export running."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Reconciles 4,912 with 4,920 through eight legitimate archived exclusions and clearly leaves export running."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "C10",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Recommends verified five-editor Cedar at $18, excludes one-editor Birch at $12, and leaves Pine unresolved."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Recommends verified five-editor Cedar at $18, excludes one-editor Birch at $12, and leaves Pine unresolved."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Recommends verified five-editor Cedar at $18, excludes one-editor Birch at $12, and leaves Pine unresolved."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Recommends verified five-editor Cedar at $18, excludes one-editor Birch at $12, and leaves Pine unresolved."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  }
+]

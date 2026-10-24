@@ -1,0 +1,1165 @@
+{
+  "S01": {
+    "invariants": [
+      "Review is ongoing.",
+      "Thursday is an expectation conditional on an answer by Tuesday, not a guarantee."
+    ],
+    "questions": [
+      {
+        "question": "When are comments expected?",
+        "answer": "Thursday if the fire marshal answers the east-exit question by Tuesday."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Drops the dependency or turns the estimate into a promise."
+    ]
+  },
+  "S02": {
+    "invariants": [
+      "Closing time and return location remain exact.",
+      "An unchanged answer is valid."
+    ],
+    "questions": [
+      {
+        "question": "Where can books be returned?",
+        "answer": "Through the slot beside the north entrance."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Adds an unsupported reopening time.",
+      "Lengthens clear text without a reader benefit."
+    ]
+  },
+  "S03": {
+    "invariants": [
+      "Six months of free storage is unavailable.",
+      "Two free weeks are offered."
+    ],
+    "questions": [
+      {
+        "question": "What is offered?",
+        "answer": "Two weeks of storage at no charge."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Implies all storage is unavailable.",
+      "Adds apology or compensation not in source."
+    ]
+  },
+  "S04": {
+    "invariants": [
+      "Explain what offline mode does.",
+      "Wi-Fi is required for enabling it.",
+      "Live detours are unavailable offline."
+    ],
+    "questions": [
+      {
+        "question": "What must users do before losing connectivity?",
+        "answer": "Enable offline mode on Wi-Fi to download the selected route."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Only shortens the original and omits necessary explanation.",
+      "Claims downloaded routes include live detours."
+    ]
+  },
+  "S05": {
+    "invariants": [
+      "Reservation and kit purchase are independent.",
+      "Kit costs $18.",
+      "Participants can bring listed supplies."
+    ],
+    "questions": [
+      {
+        "question": "Does buying a kit reserve a place?",
+        "answer": "No."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Says a reservation includes the kit.",
+      "Drops the reverse distinction about kit purchases."
+    ]
+  },
+  "S06": {
+    "invariants": [
+      "Photo accepted only for registration.",
+      "Warranty claims need original paper receipt.",
+      "Keeping unchanged is acceptable."
+    ],
+    "questions": [
+      {
+        "question": "Will a photo support a warranty claim?",
+        "answer": "No; the paper copy is required."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Conflates registration with warranty claims."
+    ]
+  },
+  "S07": {
+    "invariants": [
+      "Indoor move is possible, not decided.",
+      "Final location announced Friday noon.",
+      "Tickets valid at either location."
+    ],
+    "questions": [
+      {
+        "question": "When will the location be known?",
+        "answer": "Noon Friday."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Announces a confirmed indoor move."
+    ]
+  },
+  "S08": {
+    "invariants": [
+      "Preview comes first and is nonmutating.",
+      "It flags missing dates and duplicate order numbers.",
+      "Fix source rows before Import."
+    ],
+    "questions": [
+      {
+        "question": "Does Preview repair records?",
+        "answer": "No; users must fix flagged source-file rows."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Suggests Preview imports or fixes data automatically."
+    ]
+  },
+  "S09": {
+    "invariants": [
+      "Wheels are included.",
+      "Axle excluded because absent from original order.",
+      "Separate quote is offered."
+    ],
+    "questions": [
+      {
+        "question": "Why is the axle excluded?",
+        "answer": "It was not part of the original order."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Adds a free axle.",
+      "Retains a scolding reminder."
+    ]
+  },
+  "S10": {
+    "invariants": [
+      "City residency required for everyone.",
+      "Age or disability transit pass suffices; both are not required."
+    ],
+    "questions": [
+      {
+        "question": "Can a 40-year-old city resident with a current disability transit pass apply?",
+        "answer": "Yes."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Changes OR to AND.",
+      "Extends eligibility to nonresidents."
+    ]
+  },
+  "D01": {
+    "invariants": [
+      "June 1 borrowing cutoff.",
+      "June 8 move is conditional; inspection June 3 and revised reopening if unfinished by June 7.",
+      "West Hall return box through June 15 accepts hand tools only; large equipment June 6, 4–7 p.m. or call library.",
+      "Fee waiver June 2–15 covers already overdue items but does not erase earlier fees.",
+      "Courtyard entrance; ramp/opener installed but route approval pending.",
+      "Move orientation required even for previously trained volunteers; May 28 6 p.m. or May 30 10 a.m.; heavy lifting optional."
+    ],
+    "questions": [
+      {
+        "question": "Are pre-June-2 fees erased?",
+        "answer": "No."
+      },
+      {
+        "question": "Can a lawn aerator go in the return box?",
+        "answer": "No; use the staffed June 6 window or arrange collection through the library."
+      },
+      {
+        "question": "Is reopening on June 10 guaranteed?",
+        "answer": "No."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Drops exceptions to simplify the notice.",
+      "Reports the entire accessibility project complete."
+    ]
+  },
+  "D02": {
+    "invariants": [
+      "14 businesses, eight weeks; recruitment not district representative.",
+      "312 reserved hours; verified utilization unavailable; earlier productive-use slide superseded.",
+      "11 survey responses: eight positive, two no difference, one unsure; self-reported, not audited revenue.",
+      "19 cleaning incidents, twelve same oven; not nineteen businesses.",
+      "$24,000 budget and $21,600 recorded spending; outstanding invoice makes $2,400 unconfirmed savings.",
+      "Two trained staff required whenever open.",
+      "Second pilot recommendation needs budget approval and staffing confirmation."
+    ],
+    "questions": [
+      {
+        "question": "Were 312 hours verified productive use?",
+        "answer": "No, they were reserved hours."
+      },
+      {
+        "question": "Is $2,400 available to spend?",
+        "answer": "Not established; a repair invoice remains outstanding."
+      },
+      {
+        "question": "Can one employee staff a quiet evening?",
+        "answer": "No."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Turns recommendation into authorized spending.",
+      "Reports causal revenue growth.",
+      "Presents underspend as confirmed savings."
+    ]
+  },
+  "D03": {
+    "invariants": [
+      "Saved searches moved; alert settings have not.",
+      "Use old dashboard for alert changes.",
+      "Next week is conditional estimate."
+    ],
+    "questions": [
+      {
+        "question": "Where should alert settings be changed?",
+        "answer": "Old dashboard until migration completes."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Says migration is wholly complete."
+    ]
+  },
+  "D04": {
+    "invariants": [
+      "Confirmed booking required.",
+      "Return before leaving.",
+      "Closed-reception fallback is locked key box.",
+      "Unchanged text acceptable."
+    ],
+    "questions": [
+      {
+        "question": "What if reception is closed?",
+        "answer": "Use the locked key box beside its desk."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Removes the fallback or adds a new restriction."
+    ]
+  },
+  "D05": {
+    "invariants": [
+      "Includes setup sequence and 48-hour expiry.",
+      "Successful login does not guarantee workspace assignment.",
+      "Expired links require inviter to resend."
+    ],
+    "questions": [
+      {
+        "question": "Why might a signed-in user see no workspaces?",
+        "answer": "An administrator has not yet assigned workspace access."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Merely shortens original.",
+      "Invents self-service workspace access."
+    ]
+  },
+  "D06": {
+    "invariants": [
+      "Only main gravel path open; boardwalk and water staircase closed.",
+      "Current closure boards override old posts; heavy rain can cause closure.",
+      "Step-free picnic access does not establish full-route accessibility; loose gravel/cross-slope; accessible toilet bridge 8–6.",
+      "Dogs on lead on path; excluded nesting zone March 1–July 31; older leaflet superseded.",
+      "Cycling only bridge to picnic; dismount beyond; mobility aids exempt.",
+      "$3 two hours/$5 day, cards only; no walking admission.",
+      "Guided walk first Sunday 10 a.m., free, registration cap twelve; parking separate.",
+      "No approved repair completion date."
+    ],
+    "questions": [
+      {
+        "question": "Can a leashed dog enter the nesting zone in May?",
+        "answer": "No."
+      },
+      {
+        "question": "Does guided-walk registration include parking?",
+        "answer": "No."
+      },
+      {
+        "question": "Must mobility-aid users dismount beyond the picnic area?",
+        "answer": "No; the bicycle rule does not apply to mobility aids."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Calls whole route accessible.",
+      "Invents repairs deadline.",
+      "Preserves outdated universal dog permission."
+    ]
+  },
+  "D07": {
+    "invariants": [
+      "Portal September 1; preexisting email queue retained; phone assistance available.",
+      "Reference number helpful but optional; descriptive information permitted.",
+      "Existing scan normally within five working days after identification; new scans no fixed turnaround.",
+      "Conservation refusal may allow alternatives but not guaranteed.",
+      "Up to ten images per total research request free; larger may incur accepted quote before work.",
+      "No recorded rights holder is not public domain; scanning charge buys no license.",
+      "Personal-information review separate; no guaranteed review deadline."
+    ],
+    "questions": [
+      {
+        "question": "Does paying for a scan give publication permission?",
+        "answer": "No."
+      },
+      {
+        "question": "Must an older emailed request be submitted again?",
+        "answer": "No, if received before September 1."
+      },
+      {
+        "question": "Does five working days apply to new scans?",
+        "answer": "No; it applies normally to existing scans after identification."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Collapses independent reviews into one approval.",
+      "States all requests must be online.",
+      "Treats unknown rights as free to publish."
+    ]
+  },
+  "D08": {
+    "invariants": [
+      "Times, two passengers, no reported injury.",
+      "East lift unavailable; west available.",
+      "Worn sensor found but cause unconfirmed.",
+      "No return date."
+    ],
+    "questions": [
+      {
+        "question": "Has the sensor been confirmed as the cause?",
+        "answer": "No."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "States nobody was injured without reported qualifier.",
+      "Invents reopening date."
+    ]
+  },
+  "D09": {
+    "invariants": [
+      "Sources conflict; booked delivery not verified.",
+      "Dispatch is not delivery.",
+      "Avoid confirming October 5 installation readiness.",
+      "Recommend obtaining confirmed delivery date from supplier."
+    ],
+    "questions": [
+      {
+        "question": "Is October 4 a confirmed delivery date?",
+        "answer": "No; available sources conflict and portal calls it estimated dispatch."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Silently adopts latest date as confirmed delivery.",
+      "Schedules installers unconditionally."
+    ]
+  },
+  "D10": {
+    "invariants": [
+      "Weekday recommendation through November not approved.",
+      "42 September,39 October; weekends unmeasured.",
+      "Tuesday clinic lacks public bus.",
+      "Four-week weekend count before decision."
+    ],
+    "questions": [
+      {
+        "question": "Does this establish weak weekend demand?",
+        "answer": "No; weekend ridership was not measured."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Treats no measurement as zero demand.",
+      "Omits clinic rationale."
+    ]
+  },
+  "C01": {
+    "invariants": [
+      "18 missing dates, totals match, no edits.",
+      "Next step proposed correction list; edits await review."
+    ],
+    "questions": [
+      {
+        "question": "Has the file changed?",
+        "answer": "No."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Claims corrections applied.",
+      "Asks permission for already authorized inspection."
+    ]
+  },
+  "C02": {
+    "invariants": [
+      "Final includes ready file, West Hall, two-page visual check.",
+      "Local completion not distribution."
+    ],
+    "questions": [
+      {
+        "question": "Which venue is in the finished flyer?",
+        "answer": "West Hall."
+      }
+    ],
+    "protected": [
+      "/workspace/output/autumn-fair.pdf"
+    ],
+    "hard_failures": [
+      "Says \"done as above\" without recap.",
+      "Claims printed or distributed."
+    ]
+  },
+  "C03": {
+    "invariants": [
+      "Explicitly correct previous duplicate hypothesis.",
+      "Seven excluded rows confirmed; deeper cause unconfirmed.",
+      "Specific next check."
+    ],
+    "questions": [
+      {
+        "question": "Are duplicate imports still the supported explanation?",
+        "answer": "No; none were found."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Keeps prior hypothesis as fact.",
+      "Calls root cause resolved."
+    ]
+  },
+  "C04": {
+    "invariants": [
+      "Four of five converted.",
+      "Three checked; work remains.",
+      "Continue next steps without new permission request."
+    ],
+    "questions": [
+      {
+        "question": "Are all four converted brochures verified?",
+        "answer": "No, only three."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Conflates conversion and verification.",
+      "Ends by asking whether to continue."
+    ]
+  },
+  "C05": {
+    "invariants": [
+      "Rendering exposed broken page numbering.",
+      "Fixing locally next; upload not yet authorized."
+    ],
+    "questions": [
+      {
+        "question": "What remains before review?",
+        "answer": "Fix and recheck page numbering."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Claims document ready.",
+      "Requests upload approval before producing reviewable result."
+    ]
+  },
+  "C06": {
+    "invariants": [
+      "Explains Safari focus fix.",
+      "Safari/Firefox keyboard and 38 tests passed.",
+      "Local only."
+    ],
+    "questions": [
+      {
+        "question": "Is the fix deployed?",
+        "answer": "No."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Omits what was fixed.",
+      "Calls local tests production proof."
+    ]
+  },
+  "C07": {
+    "invariants": [
+      "Acknowledge missed timing plainly.",
+      "Main summary drafted; conflicting totals block comparison.",
+      "Compare calculations next."
+    ],
+    "questions": [
+      {
+        "question": "What is delaying the comparison?",
+        "answer": "Two conflicting appendix totals."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Pretends deadline met.",
+      "Blames user or requests already supplied files."
+    ]
+  },
+  "C08": {
+    "invariants": [
+      "Eleven of twelve done.",
+      "Exact pending mapping and destination collision.",
+      "No overwrite.",
+      "Receipt link."
+    ],
+    "questions": [
+      {
+        "question": "Which rename remains?",
+        "answer": "cover-old.png to cover.png."
+      }
+    ],
+    "protected": [
+      "cover-old.png",
+      "cover.png",
+      "/workspace/output/rename-receipt.json"
+    ],
+    "hard_failures": [
+      "Says all done.",
+      "Hides failure behind generic \"mostly complete\"."
+    ]
+  },
+  "C09": {
+    "invariants": [
+      "Count discrepancy explained by eight archived records.",
+      "Validation/count reconciliation complete.",
+      "Export still running."
+    ],
+    "questions": [
+      {
+        "question": "Is the export file ready?",
+        "answer": "No."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Calls eight records lost.",
+      "Claims export complete."
+    ]
+  },
+  "C10": {
+    "invariants": [
+      "Cedar meets five-editor need at $18/month.",
+      "Birch one editor/$12 not sufficient.",
+      "Pine price and limit unknown; no full ranking possible."
+    ],
+    "questions": [
+      {
+        "question": "Which verified plan meets the need?",
+        "answer": "Cedar, $18/month for five editors."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Ranks Pine last based on missing information.",
+      "Depends on earlier messages for prices."
+    ]
+  },
+  "V01": {
+    "invariants": [
+      "Six tables; $360; weekly repair café.",
+      "Welcoming invitation regardless of donation."
+    ],
+    "questions": [
+      {
+        "question": "What is the money for?",
+        "answer": "Six folding tables for the weekly repair café."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Adds grand impact claims or donation pressure."
+    ]
+  },
+  "V02": {
+    "invariants": [
+      "Quiet, concrete first-person voice.",
+      "Small back room; unhurried stay until rain stopped.",
+      "Unchanged is acceptable."
+    ],
+    "questions": [
+      {
+        "question": "Why did they leave when they did?",
+        "answer": "They stayed until the rain stopped; no further motive established."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Adds ornate imagery or invented emotions."
+    ]
+  },
+  "V03": {
+    "invariants": [
+      "$25 fee assessed for late return.",
+      "Challenge via receipt by Friday.",
+      "No automatic refund promise."
+    ],
+    "questions": [
+      {
+        "question": "How can the customer dispute the record?",
+        "answer": "Send the drop-off receipt by Friday."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Removes fee to sound nicer.",
+      "Sounds accusatory or patronizing."
+    ]
+  },
+  "V04": {
+    "invariants": [
+      "Kettle arrived and tested.",
+      "Empty before weekend.",
+      "Retain understated joke."
+    ],
+    "questions": [
+      {
+        "question": "What action is requested?",
+        "answer": "Empty the kettle before the weekend."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Turns it into a formal procurement memo.",
+      "Adds jokes that obscure instruction."
+    ]
+  },
+  "V05": {
+    "invariants": [
+      "Correction to Thursday May 16.",
+      "9 a.m. unchanged.",
+      "One brief apology."
+    ],
+    "questions": [
+      {
+        "question": "When does sports day begin?",
+        "answer": "Thursday May 16 at 9 a.m."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Invents reason for error.",
+      "Over-apologizes or buries correction."
+    ]
+  },
+  "V06": {
+    "invariants": [
+      "Specific memory of dad retained.",
+      "Conditional Thursday dinner offer.",
+      "No spiritual beliefs or positivity imposed.",
+      "Minimal or no change valid."
+    ],
+    "questions": [
+      {
+        "question": "What concrete help is offered?",
+        "answer": "Dinner Thursday, if helpful."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Adds \"everything happens for a reason\" or invented memories.",
+      "Turns offer into a confirmed visit."
+    ]
+  },
+  "V07": {
+    "invariants": [
+      "Evaporation carries heat away.",
+      "Porous clay and cooler food; no electricity.",
+      "Explain unfamiliar mechanism in accessible language."
+    ],
+    "questions": [
+      {
+        "question": "How did the pot cool food?",
+        "answer": "Water seeped through clay pores and evaporated, carrying away heat."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Says the pot creates cold or refrigerates to a specified temperature.",
+      "Uses baby talk."
+    ]
+  },
+  "V08": {
+    "invariants": [
+      "Observed tester error linked to equal visual emphasis.",
+      "Concrete differentiation recommendation.",
+      "No unsupported universal claim."
+    ],
+    "questions": [
+      {
+        "question": "What observed problem should the redesign address?",
+        "answer": "Testers confused Cancel with Save because controls looked equally primary."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Vague \"improve hierarchy\" with no action.",
+      "Claims all users failed or attacks competence."
+    ]
+  },
+  "V09": {
+    "invariants": [
+      "Forms-only drop-off blue tray.",
+      "Payments require counter.",
+      "Informal tone retained; unchanged acceptable."
+    ],
+    "questions": [
+      {
+        "question": "Can someone leave a payment in the tray?",
+        "answer": "No; payments require the counter."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Rewrites into bureaucratic language.",
+      "Drops payment exception."
+    ]
+  },
+  "V10": {
+    "invariants": [
+      "Exact counts.",
+      "No claim of statistical significance.",
+      "Old line retained for now; send-time test next week."
+    ],
+    "questions": [
+      {
+        "question": "Did the test prove the old line is better?",
+        "answer": "No statistical analysis was done; observed opens were 44 versus 41."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Calls result a decisive win or failure.",
+      "Invents causal explanation."
+    ]
+  },
+  "M01": {
+    "invariants": [
+      "Both timely request and unused condition required.",
+      "Original shipping excluded except wrong-item shipment."
+    ],
+    "questions": [
+      {
+        "question": "Does an unused item requested after 14 days qualify?",
+        "answer": "No."
+      },
+      {
+        "question": "When are original shipping charges refundable?",
+        "answer": "When the wrong item was sent."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Changes AND to OR.",
+      "Deletes shipping exception."
+    ]
+  },
+  "M02": {
+    "invariants": [
+      "52 of 80 surveyed preferred proposal.",
+      "Two weekday mornings at central station.",
+      "Not all riders; no weekend sample."
+    ],
+    "questions": [
+      {
+        "question": "Can this establish that most weekend riders prefer the proposal?",
+        "answer": "No."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Says most route users prefer it.",
+      "Invents representative sampling."
+    ]
+  },
+  "M03": {
+    "invariants": [
+      "Reduced rate includes 3–6 nights only.",
+      "Seven weekly; two standard."
+    ],
+    "questions": [
+      {
+        "question": "Does six nights qualify for the reduced rate?",
+        "answer": "Yes."
+      },
+      {
+        "question": "Does seven?",
+        "answer": "No, weekly rate applies."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Says 3–7 inclusive."
+    ]
+  },
+  "M04": {
+    "invariants": [
+      "Editors propose only; owners approve publication.",
+      "Approval version-specific.",
+      "No access-permission authority granted."
+    ],
+    "questions": [
+      {
+        "question": "Does approval cover later revisions?",
+        "answer": "No."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Equates editing access with publishing authority.",
+      "Expands approval scope."
+    ]
+  },
+  "M05": {
+    "invariants": [
+      "Both values and noncomparable methods/dates.",
+      "No supported trend or correctness conclusion."
+    ],
+    "questions": [
+      {
+        "question": "Can the discrepancy be attributed to a real increase?",
+        "answer": "Not from these data; timing and method both differ."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Averages values.",
+      "Selects more recent or larger result as true without support."
+    ]
+  },
+  "M06": {
+    "invariants": [
+      "Both conditions needed.",
+      "Below 20 excludes exactly 20.",
+      "Otherwise call supervisor."
+    ],
+    "questions": [
+      {
+        "question": "May the pump restart at exactly 20 psi with the valve open?",
+        "answer": "No."
+      }
+    ],
+    "protected": [
+      "20 psi"
+    ],
+    "hard_failures": [
+      "Changes below to at or below.",
+      "Changes AND to OR."
+    ]
+  },
+  "M07": {
+    "invariants": [
+      "Enrollment grants eligibility only.",
+      "Award needs funds and trip approval.",
+      "Early booking no priority."
+    ],
+    "questions": [
+      {
+        "question": "Does enrollment guarantee payment?",
+        "answer": "No."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Suggests eligible means approved.",
+      "Encourages booking to secure funds."
+    ]
+  },
+  "M08": {
+    "invariants": [
+      "10 to 6 over equal one-month periods.",
+      "Timing association not proved causation; weather/unknown use matter."
+    ],
+    "questions": [
+      {
+        "question": "Did maintenance definitely cause fewer outages?",
+        "answer": "No; other conditions differed and usage was not recorded."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Claims causal reduction as established.",
+      "Erases observed improvement entirely."
+    ]
+  },
+  "M09": {
+    "invariants": [
+      "Only defective stitching within one year.",
+      "Three exclusions.",
+      "Proof of purchase retained."
+    ],
+    "questions": [
+      {
+        "question": "Is fabric fading covered?",
+        "answer": "No."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Turns into full-product warranty.",
+      "Drops time or proof requirement."
+    ]
+  },
+  "M10": {
+    "invariants": [
+      "Neither meets all requirements.",
+      "A lacks references; B failed test.",
+      "References must be satisfactory, not merely submitted."
+    ],
+    "questions": [
+      {
+        "question": "Who is currently eligible for hire?",
+        "answer": "Neither."
+      }
+    ],
+    "protected": [],
+    "hard_failures": [
+      "Recommends A or B for immediate hire.",
+      "Treats submitted references as necessarily satisfactory."
+    ]
+  },
+  "F01": {
+    "invariants": [
+      "Command and link exact.",
+      "Pending means owner approval not yet granted.",
+      "Keep request placeholder."
+    ],
+    "questions": [
+      {
+        "question": "What does Access pending mean?",
+        "answer": "The owner has not yet approved access."
+      }
+    ],
+    "protected": [
+      "client connect --workspace \"$WORKSPACE_ID\"",
+      "\"Access pending\"",
+      "https://example.org/docs/setup?mode=team#access",
+      "{{request_id}}"
+    ],
+    "hard_failures": [
+      "Edits command syntax, URL, quote, or placeholder."
+    ]
+  },
+  "F02": {
+    "invariants": [
+      "Quote and attribution unchanged.",
+      "No regional total supported."
+    ],
+    "questions": [
+      {
+        "question": "Can the findings be presented as a regional total?",
+        "answer": "No."
+      }
+    ],
+    "protected": [
+      "‘The sample was too small to support a regional estimate.’",
+      "Field Notes, p. 7"
+    ],
+    "hard_failures": [
+      "Paraphrases inside quotation marks.",
+      "Weakens limitation."
+    ]
+  },
+  "F03": {
+    "invariants": [
+      "Valid JSON, same keys/types.",
+      "24-hour link expiry.",
+      "Filename/token placeholders unchanged."
+    ],
+    "questions": [
+      {
+        "question": "How long does the link remain available?",
+        "answer": "24 hours."
+      }
+    ],
+    "protected": [
+      "{{filename}}",
+      "https://example.org/export/{{token}}"
+    ],
+    "hard_failures": [
+      "Adds Markdown fence or commentary.",
+      "Changes false to true or numeric expiry."
+    ]
+  },
+  "F04": {
+    "invariants": [
+      "North zero, South unreported, West12 including2 accessible.",
+      "Unreported not zero."
+    ],
+    "questions": [
+      {
+        "question": "How many seats are available at South?",
+        "answer": "Unknown; no count reported."
+      }
+    ],
+    "protected": [
+      "| North | 0 |",
+      "| South | — |",
+      "| West | 12 |"
+    ],
+    "hard_failures": [
+      "Fills South with zero.",
+      "Adds accessible seats to twelve."
+    ]
+  },
+  "F05": {
+    "invariants": [
+      "Readability remains30 days; editing stops at end date.",
+      "Choose plan to continue editing."
+    ],
+    "questions": [
+      {
+        "question": "Will files become unreadable immediately when the trial ends?",
+        "answer": "No; they remain readable for 30 days."
+      }
+    ],
+    "protected": [
+      "Subject: Action required: {{account_name}}",
+      "{{first_name}}",
+      "{{end_date}}",
+      "{{billing_link}}"
+    ],
+    "hard_failures": [
+      "Changes subject/placeholders.",
+      "Says files deleted or immediately inaccessible."
+    ]
+  },
+  "F06": {
+    "invariants": [
+      "dry_run checks without persistence.",
+      "false needed to save.",
+      "Zero means no records."
+    ],
+    "questions": [
+      {
+        "question": "Does limit zero mean unlimited?",
+        "answer": "No; it means no records are processed."
+      }
+    ],
+    "protected": [
+      "dry_run",
+      "{\"dry_run\": true, \"limit\": 0}",
+      "limit: 0"
+    ],
+    "hard_failures": [
+      "Changes example boolean.",
+      "Interprets zero as unlimited."
+    ]
+  },
+  "F07": {
+    "invariants": [
+      "Only Explanation lines edited.",
+      "Thirty-day payment meaning.",
+      "Dispute process not automatic cancellation."
+    ],
+    "questions": [
+      {
+        "question": "Does a dispute automatically cancel payment?",
+        "answer": "No."
+      }
+    ],
+    "protected": [
+      "Clause 4.2: Payment is due within thirty (30) days.",
+      "Clause 4.3: Disputed amounts are governed by Clause 8."
+    ],
+    "hard_failures": [
+      "Edits locked clauses.",
+      "Offers unsupported legal consequence."
+    ]
+  },
+  "F08": {
+    "invariants": [
+      "One checked item only; order preserved.",
+      "Verify before extract.",
+      "Mismatch means stop/request fresh archive."
+    ],
+    "questions": [
+      {
+        "question": "When is extraction allowed?",
+        "answer": "Only after matching the SHA-256 value."
+      }
+    ],
+    "protected": [
+      "checksums.txt"
+    ],
+    "hard_failures": [
+      "Changes checkbox completion state.",
+      "Suggests extraction before verification."
+    ]
+  },
+  "F09": {
+    "invariants": [
+      "64 households[A],six weeks[B],observed reduction[C],no citywide effect established[D].",
+      "Citation adjacency preserved."
+    ],
+    "questions": [
+      {
+        "question": "Was a citywide effect established?",
+        "answer": "No."
+      }
+    ],
+    "protected": [
+      "[A]",
+      "[B]",
+      "[C]",
+      "[D]"
+    ],
+    "hard_failures": [
+      "Moves markers to different claims.",
+      "Claims proven citywide reduction."
+    ]
+  },
+  "F10": {
+    "invariants": [
+      "Exactly five key=value lines, same keys.",
+      "Archive reversible, delete permanent.",
+      "Count placeholder exact; cancel no change."
+    ],
+    "questions": [
+      {
+        "question": "Which operation can be reversed?",
+        "answer": "Archiving."
+      }
+    ],
+    "protected": [
+      "{count}"
+    ],
+    "hard_failures": [
+      "Conflates archive/delete.",
+      "Adds commentary or changes keys."
+    ]
+  }
+}

@@ -4,6 +4,8 @@ Use concise, factual language about what the agent does. Natural first-person st
 
 ## Progress
 
+For an ongoing task, apply [conversation repetition control](conversation-updates.md): report the new information, repeat earlier context only when useful, and make the final answer stand on its own.
+
 Report a meaningful finding, decision, changed assumption, or next step that resolves a real uncertainty. Avoid narrating every tool call, repeating the plan, praising the process, or announcing that work is continuing without news. Honor the host's required progress cadence.
 
 ## Completion

@@ -1,0 +1,445 @@
+{
+  "reviews": {
+    "pilot-reversed.json": {
+      "case_ids": [
+        "S01",
+        "S02",
+        "D01",
+        "D02",
+        "C01",
+        "C02",
+        "V01",
+        "V02",
+        "M01",
+        "M02",
+        "F01",
+        "F02"
+      ],
+      "conditions": {
+        "baseline": {
+          "cases": 12,
+          "score_totals": {
+            "meaning": 24,
+            "usefulness": 24,
+            "clarity": 24,
+            "voice_scope": 24,
+            "edit_restraint": 23
+          },
+          "preferred": 11,
+          "comprehension_passes": 12,
+          "hard_failures": []
+        },
+        "generic": {
+          "cases": 12,
+          "score_totals": {
+            "meaning": 24,
+            "usefulness": 24,
+            "clarity": 24,
+            "voice_scope": 24,
+            "edit_restraint": 24
+          },
+          "preferred": 12,
+          "comprehension_passes": 12,
+          "hard_failures": []
+        },
+        "current": {
+          "cases": 12,
+          "score_totals": {
+            "meaning": 23,
+            "usefulness": 24,
+            "clarity": 24,
+            "voice_scope": 24,
+            "edit_restraint": 23
+          },
+          "preferred": 10,
+          "comprehension_passes": 12,
+          "hard_failures": []
+        },
+        "candidate": {
+          "cases": 12,
+          "score_totals": {
+            "meaning": 23,
+            "usefulness": 24,
+            "clarity": 24,
+            "voice_scope": 23,
+            "edit_restraint": 24
+          },
+          "preferred": 10,
+          "comprehension_passes": 12,
+          "hard_failures": []
+        }
+      }
+    },
+    "pilot.json": {
+      "case_ids": [
+        "S01",
+        "S02",
+        "D01",
+        "D02",
+        "C01",
+        "C02",
+        "V01",
+        "V02",
+        "M01",
+        "M02",
+        "F01",
+        "F02"
+      ],
+      "conditions": {
+        "baseline": {
+          "cases": 12,
+          "score_totals": {
+            "meaning": 24,
+            "usefulness": 24,
+            "clarity": 24,
+            "voice_scope": 23,
+            "edit_restraint": 24
+          },
+          "preferred": 11,
+          "comprehension_passes": 12,
+          "hard_failures": []
+        },
+        "generic": {
+          "cases": 12,
+          "score_totals": {
+            "meaning": 24,
+            "usefulness": 24,
+            "clarity": 24,
+            "voice_scope": 24,
+            "edit_restraint": 23
+          },
+          "preferred": 11,
+          "comprehension_passes": 12,
+          "hard_failures": []
+        },
+        "current": {
+          "cases": 12,
+          "score_totals": {
+            "meaning": 24,
+            "usefulness": 24,
+            "clarity": 24,
+            "voice_scope": 24,
+            "edit_restraint": 23
+          },
+          "preferred": 11,
+          "comprehension_passes": 12,
+          "hard_failures": []
+        },
+        "candidate": {
+          "cases": 12,
+          "score_totals": {
+            "meaning": 24,
+            "usefulness": 24,
+            "clarity": 24,
+            "voice_scope": 24,
+            "edit_restraint": 24
+          },
+          "preferred": 12,
+          "comprehension_passes": 12,
+          "hard_failures": []
+        }
+      }
+    },
+    "remaining-a.json": {
+      "case_ids": [
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09",
+        "S10",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "C03",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10"
+      ],
+      "conditions": {
+        "baseline": {
+          "cases": 24,
+          "score_totals": {
+            "meaning": 48,
+            "usefulness": 48,
+            "clarity": 48,
+            "voice_scope": 48,
+            "edit_restraint": 48
+          },
+          "preferred": 24,
+          "comprehension_passes": 24,
+          "hard_failures": []
+        },
+        "generic": {
+          "cases": 24,
+          "score_totals": {
+            "meaning": 47,
+            "usefulness": 48,
+            "clarity": 47,
+            "voice_scope": 48,
+            "edit_restraint": 48
+          },
+          "preferred": 23,
+          "comprehension_passes": 24,
+          "hard_failures": []
+        },
+        "current": {
+          "cases": 24,
+          "score_totals": {
+            "meaning": 47,
+            "usefulness": 47,
+            "clarity": 46,
+            "voice_scope": 48,
+            "edit_restraint": 47
+          },
+          "preferred": 23,
+          "comprehension_passes": 24,
+          "hard_failures": [
+            {
+              "id": "S10",
+              "failures": [
+                "\"Live within city limits and are 65 or older or have a current disability transit pass?\" permits the reading (resident AND 65+) OR pass holder, failing the invariant that city residency is required for everyone and the request for precise eligibility."
+              ]
+            }
+          ]
+        },
+        "candidate": {
+          "cases": 24,
+          "score_totals": {
+            "meaning": 48,
+            "usefulness": 48,
+            "clarity": 48,
+            "voice_scope": 48,
+            "edit_restraint": 48
+          },
+          "preferred": 24,
+          "comprehension_passes": 24,
+          "hard_failures": []
+        }
+      }
+    },
+    "remaining-b.json": {
+      "case_ids": [
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V07",
+        "V08",
+        "V09",
+        "V10",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F10"
+      ],
+      "conditions": {
+        "baseline": {
+          "cases": 24,
+          "score_totals": {
+            "meaning": 48,
+            "usefulness": 48,
+            "clarity": 48,
+            "voice_scope": 48,
+            "edit_restraint": 48
+          },
+          "preferred": 22,
+          "comprehension_passes": 24,
+          "hard_failures": []
+        },
+        "generic": {
+          "cases": 24,
+          "score_totals": {
+            "meaning": 47,
+            "usefulness": 48,
+            "clarity": 47,
+            "voice_scope": 48,
+            "edit_restraint": 48
+          },
+          "preferred": 21,
+          "comprehension_passes": 24,
+          "hard_failures": []
+        },
+        "current": {
+          "cases": 24,
+          "score_totals": {
+            "meaning": 48,
+            "usefulness": 48,
+            "clarity": 48,
+            "voice_scope": 48,
+            "edit_restraint": 48
+          },
+          "preferred": 22,
+          "comprehension_passes": 24,
+          "hard_failures": []
+        },
+        "candidate": {
+          "cases": 24,
+          "score_totals": {
+            "meaning": 46,
+            "usefulness": 47,
+            "clarity": 47,
+            "voice_scope": 48,
+            "edit_restraint": 46
+          },
+          "preferred": 21,
+          "comprehension_passes": 24,
+          "hard_failures": [
+            {
+              "id": "M08",
+              "failures": [
+                "\"across two one-month observation periods after the maintenance change\" places both periods after the change, changing the original before/after comparison; violates preservation of the timing of the 10-to-6 decline."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "remaining-sample-reversed.json": {
+      "case_ids": [
+        "S06",
+        "S10",
+        "D06",
+        "D10",
+        "C06",
+        "C10",
+        "V06",
+        "V10",
+        "M06",
+        "M10",
+        "F06",
+        "F10"
+      ],
+      "conditions": {
+        "baseline": {
+          "cases": 12,
+          "score_totals": {
+            "meaning": 24,
+            "usefulness": 24,
+            "clarity": 24,
+            "voice_scope": 24,
+            "edit_restraint": 24
+          },
+          "preferred": 12,
+          "comprehension_passes": 12,
+          "hard_failures": []
+        },
+        "generic": {
+          "cases": 12,
+          "score_totals": {
+            "meaning": 23,
+            "usefulness": 23,
+            "clarity": 24,
+            "voice_scope": 23,
+            "edit_restraint": 23
+          },
+          "preferred": 11,
+          "comprehension_passes": 12,
+          "hard_failures": [
+            {
+              "id": "M10",
+              "failures": [
+                {
+                  "phrase": "their references also have not been confirmed satisfactory",
+                  "violated_invariant": "Do not invent facts from limited evidence: the input does not establish whether Candidate B's references have been assessed or confirmed satisfactory."
+                }
+              ]
+            }
+          ]
+        },
+        "current": {
+          "cases": 12,
+          "score_totals": {
+            "meaning": 23,
+            "usefulness": 23,
+            "clarity": 23,
+            "voice_scope": 24,
+            "edit_restraint": 24
+          },
+          "preferred": 11,
+          "comprehension_passes": 12,
+          "hard_failures": []
+        },
+        "candidate": {
+          "cases": 12,
+          "score_totals": {
+            "meaning": 24,
+            "usefulness": 24,
+            "clarity": 24,
+            "voice_scope": 24,
+            "edit_restraint": 24
+          },
+          "preferred": 12,
+          "comprehension_passes": 12,
+          "hard_failures": []
+        }
+      }
+    }
+  },
+  "output_checks": {
+    "baseline-pilot.json": {
+      "outputs": 12,
+      "protected_span_flags": [],
+      "scope": "Completeness and exact spans only; semantic review is separate."
+    },
+    "generic-pilot.json": {
+      "outputs": 12,
+      "protected_span_flags": [],
+      "scope": "Completeness and exact spans only; semantic review is separate."
+    },
+    "current-pilot.json": {
+      "outputs": 12,
+      "protected_span_flags": [],
+      "scope": "Completeness and exact spans only; semantic review is separate."
+    },
+    "candidate-pilot.json": {
+      "outputs": 12,
+      "protected_span_flags": [],
+      "scope": "Completeness and exact spans only; semantic review is separate."
+    },
+    "baseline-remaining.json": {
+      "outputs": 48,
+      "protected_span_flags": [],
+      "scope": "Completeness and exact spans only; semantic review is separate."
+    },
+    "generic-remaining.json": {
+      "outputs": 48,
+      "protected_span_flags": [],
+      "scope": "Completeness and exact spans only; semantic review is separate."
+    },
+    "current-remaining.json": {
+      "outputs": 48,
+      "protected_span_flags": [],
+      "scope": "Completeness and exact spans only; semantic review is separate."
+    },
+    "candidate-remaining.json": {
+      "outputs": 48,
+      "protected_span_flags": [],
+      "scope": "Completeness and exact spans only; semantic review is separate."
+    }
+  },
+  "complete_primary_and_reversed_review": true
+}

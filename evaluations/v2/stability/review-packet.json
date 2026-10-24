@@ -1,0 +1,206 @@
+[
+  {
+    "id": "S01",
+    "request": "Tighten this email without changing the commitment: \"We are currently in the process of reviewing the revised seating plan. We expect to send comments by Thursday, provided the fire marshal answers our question about the east exit by Tuesday.\"",
+    "before": "We’re reviewing the revised seating plan and expect to send comments by Thursday, provided the fire marshal answers our question about the east exit by Tuesday.",
+    "after": "We’re reviewing the revised seating plan and expect to send comments by Thursday, provided the fire marshal answers our question about the east exit by Tuesday.",
+    "rubric": {
+      "invariants": [
+        "Review is ongoing.",
+        "Thursday is an expectation conditional on an answer by Tuesday, not a guarantee."
+      ],
+      "questions": [
+        {
+          "question": "When are comments expected?",
+          "answer": "Thursday if the fire marshal answers the east-exit question by Tuesday."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Drops the dependency or turns the estimate into a promise."
+      ]
+    }
+  },
+  {
+    "id": "S02",
+    "request": "Edit only if it helps: \"The library closes at 6 p.m. Return books through the slot beside the north entrance.\"",
+    "before": "The library closes at 6 p.m. Return books through the slot beside the north entrance.",
+    "after": "The library closes at 6 p.m. Return books through the slot beside the north entrance.",
+    "rubric": {
+      "invariants": [
+        "Closing time and return location remain exact.",
+        "An unchanged answer is valid."
+      ],
+      "questions": [
+        {
+          "question": "Where can books be returned?",
+          "answer": "Through the slot beside the north entrance."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Adds an unsupported reopening time.",
+        "Lengthens clear text without a reader benefit."
+      ]
+    }
+  },
+  {
+    "id": "D01",
+    "request": "Turn the following internal draft into a clear member notice. Remove repetition, preserve essential rules and distinctions, and keep volunteer details separate. Do not invent a confirmed reopening date.\n\nThe neighborhood tool library is preparing to move from its borrowed room at West Hall to the former bus office on Alder Street. The move is scheduled for June 8, but that date is a planning target rather than a promise to reopen. The new building still needs a final electrical inspection. We have booked the inspector for June 3 and expect a decision that afternoon. If the inspection identifies work that cannot be finished by June 7, the move committee will publish a revised reopening date. Please do not tell members that the new location is guaranteed to open on June 10.\n\nMembers can continue borrowing from West Hall through June 1. After that date, volunteers will pack the collection and reconcile its inventory. The return box outside West Hall will remain available through June 15, including during the closure. It accepts hand tools only. Large equipment, including the tile saw and lawn aerator, must be returned during the staffed collection window on June 6 from 4 to 7 p.m. A member who cannot attend that window should call the library to arrange a collection; we have not authorized volunteers to make private collection arrangements using personal phone numbers.\n\nNo late fees will accrue from June 2 through June 15. This temporary waiver applies to items already overdue as well as items due during the move. It does not erase fees assessed before June 2. The distinction matters because members sometimes understand a fee waiver to mean that their whole balance has disappeared. Volunteers should explain the dates calmly and refer disputed older charges to the coordinator. The coordinator can review a disputed charge, but a referral is not a promise that the charge will be removed.\n\nAt the Alder Street building, members will enter through the courtyard gate, not the glass door facing the street. The street door opens into a room leased to another tenant. The courtyard entrance has a shallow ramp and an automatic opener. An accessible parking space is marked beside the gate, although the painted route from that space to the ramp is still awaiting approval. We should describe the installed ramp and opener accurately without announcing that the entire access project is finished. The access team will inspect the route after the contractor returns.\n\nPacking volunteers need to attend one orientation, either May 28 at 6 p.m. or May 30 at 10 a.m. Both sessions cover safe lifting, labeling, and the inventory scanner. People who attended last year’s general volunteer training must still attend this move orientation because the scanner workflow is new. Nobody is required to lift heavy equipment. Volunteers can choose seated labeling work, and a trained moving company will handle the heaviest machines. Mentioning the moving company should not imply that it will pack the whole collection; volunteer packing remains essential.\n\nThe communications group wants a notice that members can use without reading committee minutes. It should give the borrowing cutoff, explain where and when returns are accepted, and make clear that the reopening date depends on inspection. We have repeated those points in several meeting notes because they affect different teams, but the final notice should state each rule once in a useful place. The volunteer orientation information should appear in a distinct short section so members who are not helping with the move can skip it. We will send the notice on May 24 and update it after the inspection. Until that update, staff should continue to use conditional language about reopening.",
+    "before": "The tool library is moving from West Hall to the former bus office on Alder Street. June 8 is our target move date; reopening is not yet confirmed. The final electrical inspection is booked for June 3, with a decision expected that afternoon. We’ll update this notice after the inspection. If required work cannot be finished by June 7, the move committee will publish a revised reopening date.\n\nBorrowing at West Hall ends June 1. During the closure, return items as follows:\n\n- Hand tools: use the return box outside West Hall through June 15.\n- Large equipment, including the tile saw and lawn aerator: return it during the staffed collection window on June 6, 4–7 p.m. If you cannot attend, call the library to arrange collection. Volunteers cannot arrange private collections through personal phone numbers.\n\nNo late fees will accrue June 2–15, including on items already overdue. Fees assessed before June 2 remain on your account. Disputed older charges can be referred to the coordinator for review; review does not guarantee removal.\n\nAt Alder Street, enter through the courtyard gate. The glass street door leads to another tenant’s room. The courtyard entrance has a shallow ramp and automatic opener, with an accessible parking space beside the gate. The painted route from the space to the ramp still awaits approval, and the access team will inspect it after the contractor returns.\n\n**For packing volunteers**\n\nAttend one move orientation: May 28 at 6 p.m. or May 30 at 10 a.m. Both cover safe lifting, labeling, and the new inventory scanner workflow. Attendance is required even if you took last year’s general volunteer training.\n\nYou do not have to lift heavy equipment; seated labeling work is available. A trained moving company will handle the heaviest machines, while volunteers will pack the collection and reconcile inventory after borrowing ends.",
+    "after": "The tool library is moving from West Hall to the former bus office on Alder Street. June 8 is our target move date; reopening is not yet confirmed. The final electrical inspection is booked for June 3, with a decision expected that afternoon. We’ll update this notice after the inspection. If required work cannot be finished by June 7, the move committee will publish a revised reopening date.\n\nBorrowing at West Hall ends June 1. During the closure, return items as follows:\n\n- Hand tools: use the return box outside West Hall through June 15.\n- Large equipment, including the tile saw and lawn aerator: return it during the staffed collection window on June 6, 4–7 p.m. If you cannot attend, call the library to arrange collection. Volunteers cannot arrange private collections through personal phone numbers.\n\nNo late fees will accrue June 2–15, including on items already overdue. Fees assessed before June 2 remain on your account. Disputed older charges can be referred to the coordinator for review; review does not guarantee removal.\n\nAt Alder Street, enter through the courtyard gate. The glass street door leads to another tenant’s room. The courtyard entrance has a shallow ramp and automatic opener, with an accessible parking space beside the gate. The painted route from the space to the ramp still awaits approval, and the access team will inspect it after the contractor returns.\n\n**For packing volunteers**\n\nAttend one move orientation: May 28 at 6 p.m. or May 30 at 10 a.m. Both cover safe lifting, labeling, and the new inventory scanner workflow. Attendance is required even if you took last year’s general volunteer training.\n\nYou do not have to lift heavy equipment; seated labeling work is available. A trained moving company will handle the heaviest machines, while volunteers will pack the collection and reconcile inventory after borrowing ends.",
+    "rubric": {
+      "invariants": [
+        "June 1 borrowing cutoff.",
+        "June 8 move is conditional; inspection June 3 and revised reopening if unfinished by June 7.",
+        "West Hall return box through June 15 accepts hand tools only; large equipment June 6, 4–7 p.m. or call library.",
+        "Fee waiver June 2–15 covers already overdue items but does not erase earlier fees.",
+        "Courtyard entrance; ramp/opener installed but route approval pending.",
+        "Move orientation required even for previously trained volunteers; May 28 6 p.m. or May 30 10 a.m.; heavy lifting optional."
+      ],
+      "questions": [
+        {
+          "question": "Are pre-June-2 fees erased?",
+          "answer": "No."
+        },
+        {
+          "question": "Can a lawn aerator go in the return box?",
+          "answer": "No; use the staffed June 6 window or arrange collection through the library."
+        },
+        {
+          "question": "Is reopening on June 10 guaranteed?",
+          "answer": "No."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Drops exceptions to simplify the notice.",
+        "Reports the entire accessibility project complete."
+      ]
+    }
+  },
+  {
+    "id": "V01",
+    "request": "Make this fundraising note sound like a real neighbor, not a marketing campaign. Keep the modest scale: \"We are thrilled to announce a transformative opportunity to empower our vibrant community through the purchase of six folding tables for the weekly repair café. We need $360. If you can chip in, thank you. If not, come by with something to mend.\"",
+    "before": "We’re raising $360 for six folding tables for the weekly repair café. If you can chip in, thank you. If not, come by with something to mend.",
+    "after": "We’re raising $360 for six folding tables for the weekly repair café. If you can chip in, thank you. If not, come by with something to mend.",
+    "rubric": {
+      "invariants": [
+        "Six tables; $360; weekly repair café.",
+        "Welcoming invitation regardless of donation."
+      ],
+      "questions": [
+        {
+          "question": "What is the money for?",
+          "answer": "Six folding tables for the weekly repair café."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Adds grand impact claims or donation pressure."
+      ]
+    }
+  },
+  {
+    "id": "V02",
+    "request": "Polish only if needed, preserving the writer’s quiet voice: \"I liked the small room at the back. Nobody hurried us. We stayed until the rain stopped.\"",
+    "before": "I liked the small room at the back. Nobody hurried us. We stayed until the rain stopped.",
+    "after": "I liked the small room at the back. Nobody hurried us. We stayed until the rain stopped.",
+    "rubric": {
+      "invariants": [
+        "Quiet, concrete first-person voice.",
+        "Small back room; unhurried stay until rain stopped.",
+        "Unchanged is acceptable."
+      ],
+      "questions": [
+        {
+          "question": "Why did they leave when they did?",
+          "answer": "They stayed until the rain stopped; no further motive established."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Adds ornate imagery or invented emotions."
+      ]
+    }
+  },
+  {
+    "id": "M01",
+    "request": "Make this policy easy to read without changing logic: \"A refund is available only when the request is submitted within 14 days AND the item is unused. Original shipping charges are excluded unless the wrong item was sent.\"",
+    "before": "To be eligible for a refund, you must submit your request within 14 days and the item must be unused. Original shipping charges are excluded unless the wrong item was sent.",
+    "after": "To be eligible for a refund, you must submit your request within 14 days and the item must be unused. Original shipping charges are excluded unless the wrong item was sent.",
+    "rubric": {
+      "invariants": [
+        "Both timely request and unused condition required.",
+        "Original shipping excluded except wrong-item shipment."
+      ],
+      "questions": [
+        {
+          "question": "Does an unused item requested after 14 days qualify?",
+          "answer": "No."
+        },
+        {
+          "question": "When are original shipping charges refundable?",
+          "answer": "When the wrong item was sent."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Changes AND to OR.",
+        "Deletes shipping exception."
+      ]
+    }
+  },
+  {
+    "id": "M02",
+    "request": "Summarize this finding accurately: \"Of 80 surveyed commuters, 52 preferred the proposed timetable. The survey was conducted at the central station on two weekday mornings. It does not represent all route users, and no weekend riders were surveyed.\"",
+    "before": "Of 80 commuters surveyed at the central station on two weekday mornings, 52 preferred the proposed timetable. The survey does not represent all route users and included no weekend riders.",
+    "after": "Of 80 commuters surveyed at the central station on two weekday mornings, 52 preferred the proposed timetable. The survey does not represent all route users and included no weekend riders.",
+    "rubric": {
+      "invariants": [
+        "52 of 80 surveyed preferred proposal.",
+        "Two weekday mornings at central station.",
+        "Not all riders; no weekend sample."
+      ],
+      "questions": [
+        {
+          "question": "Can this establish that most weekend riders prefer the proposal?",
+          "answer": "No."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Says most route users prefer it.",
+        "Invents representative sampling."
+      ]
+    }
+  },
+  {
+    "id": "F01",
+    "request": "Tighten the prose in this Markdown without changing code, URL, placeholder, or quoted error:\n\n## Connect\nYou will need to run the following command in order to connect:\n```sh\nclient connect --workspace \"$WORKSPACE_ID\"\n```\nIf you see \"Access pending\", your owner has not approved access yet. You can find further information at [setup guide](https://example.org/docs/setup?mode=team#access). Send the owner {{request_id}}.",
+    "before": "## Connect\nRun this command to connect:\n```sh\nclient connect --workspace \"$WORKSPACE_ID\"\n```\nIf you see \"Access pending\", your owner has not approved access yet. See the [setup guide](https://example.org/docs/setup?mode=team#access) for details. Send the owner {{request_id}}.",
+    "after": "## Connect\nRun this command to connect:\n```sh\nclient connect --workspace \"$WORKSPACE_ID\"\n```\nIf you see \"Access pending\", your owner has not approved access yet. See the [setup guide](https://example.org/docs/setup?mode=team#access) for details. Send the owner {{request_id}}.",
+    "rubric": {
+      "invariants": [
+        "Command and link exact.",
+        "Pending means owner approval not yet granted.",
+        "Keep request placeholder."
+      ],
+      "questions": [
+        {
+          "question": "What does Access pending mean?",
+          "answer": "The owner has not yet approved access."
+        }
+      ],
+      "protected": [
+        "client connect --workspace \"$WORKSPACE_ID\"",
+        "\"Access pending\"",
+        "https://example.org/docs/setup?mode=team#access",
+        "{{request_id}}"
+      ],
+      "hard_failures": [
+        "Edits command syntax, URL, quote, or placeholder."
+      ]
+    }
+  }
+]

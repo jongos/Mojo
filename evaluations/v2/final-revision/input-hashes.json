@@ -1,0 +1,7 @@
+{
+  "cases.json": "41dd37a0229dfd49281dfdc4f4d466d3f5f75359b6f6a66733bb35b9a7168385",
+  "rubric.json": "ae66917c2f3fb4bee42c5239f2df6ab99e307b76f9d3aed52e208b9184ffab72",
+  "packets/regression-pilot.json": "d7861b46f4713070399093c483dfa77ab0c840b678deb0f32bf635884bfa3581",
+  "packets/regression-remaining.json": "1ed08c86f1c8417c4b3c156ae1c7ef08f31935b134fc81b1d0f4e4adfcb3473c",
+  "packets/supplemental.json": "b47e904990e5f20bb144618cf45553560e24cbc9eae07edc22b6a8958abe1e20"
+}

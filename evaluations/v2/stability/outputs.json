@@ -1,0 +1,34 @@
+[
+  {
+    "id": "S01",
+    "output": "We’re reviewing the revised seating plan and expect to send comments by Thursday, provided the fire marshal answers our question about the east exit by Tuesday."
+  },
+  {
+    "id": "S02",
+    "output": "The library closes at 6 p.m. Return books through the slot beside the north entrance."
+  },
+  {
+    "id": "D01",
+    "output": "The tool library is moving from West Hall to the former bus office on Alder Street. June 8 is our target move date; reopening is not yet confirmed. The final electrical inspection is booked for June 3, with a decision expected that afternoon. We’ll update this notice after the inspection. If required work cannot be finished by June 7, the move committee will publish a revised reopening date.\n\nBorrowing at West Hall ends June 1. During the closure, return items as follows:\n\n- Hand tools: use the return box outside West Hall through June 15.\n- Large equipment, including the tile saw and lawn aerator: return it during the staffed collection window on June 6, 4–7 p.m. If you cannot attend, call the library to arrange collection. Volunteers cannot arrange private collections through personal phone numbers.\n\nNo late fees will accrue June 2–15, including on items already overdue. Fees assessed before June 2 remain on your account. Disputed older charges can be referred to the coordinator for review; review does not guarantee removal.\n\nAt Alder Street, enter through the courtyard gate. The glass street door leads to another tenant’s room. The courtyard entrance has a shallow ramp and automatic opener, with an accessible parking space beside the gate. The painted route from the space to the ramp still awaits approval, and the access team will inspect it after the contractor returns.\n\n**For packing volunteers**\n\nAttend one move orientation: May 28 at 6 p.m. or May 30 at 10 a.m. Both cover safe lifting, labeling, and the new inventory scanner workflow. Attendance is required even if you took last year’s general volunteer training.\n\nYou do not have to lift heavy equipment; seated labeling work is available. A trained moving company will handle the heaviest machines, while volunteers will pack the collection and reconcile inventory after borrowing ends."
+  },
+  {
+    "id": "V01",
+    "output": "We’re raising $360 for six folding tables for the weekly repair café. If you can chip in, thank you. If not, come by with something to mend."
+  },
+  {
+    "id": "V02",
+    "output": "I liked the small room at the back. Nobody hurried us. We stayed until the rain stopped."
+  },
+  {
+    "id": "M01",
+    "output": "To be eligible for a refund, you must submit your request within 14 days and the item must be unused. Original shipping charges are excluded unless the wrong item was sent."
+  },
+  {
+    "id": "M02",
+    "output": "Of 80 commuters surveyed at the central station on two weekday mornings, 52 preferred the proposed timetable. The survey does not represent all route users and included no weekend riders."
+  },
+  {
+    "id": "F01",
+    "output": "## Connect\nRun this command to connect:\n```sh\nclient connect --workspace \"$WORKSPACE_ID\"\n```\nIf you see \"Access pending\", your owner has not approved access yet. See the [setup guide](https://example.org/docs/setup?mode=team#access) for details. Send the owner {{request_id}}."
+  }
+]

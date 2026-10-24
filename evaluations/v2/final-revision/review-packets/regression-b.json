@@ -1,0 +1,726 @@
+[
+  {
+    "id": "V01",
+    "request": "Make this fundraising note sound like a real neighbor, not a marketing campaign. Keep the modest scale: \"We are thrilled to announce a transformative opportunity to empower our vibrant community through the purchase of six folding tables for the weekly repair café. We need $360. If you can chip in, thank you. If not, come by with something to mend.\"",
+    "rubric": {
+      "invariants": [
+        "Six tables; $360; weekly repair café.",
+        "Welcoming invitation regardless of donation."
+      ],
+      "questions": [
+        {
+          "question": "What is the money for?",
+          "answer": "Six folding tables for the weekly repair café."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Adds grand impact claims or donation pressure."
+      ]
+    },
+    "output": "We’re raising $360 for six folding tables for the weekly repair café. If you can chip in, thank you. If not, come by with something to mend."
+  },
+  {
+    "id": "V02",
+    "request": "Polish only if needed, preserving the writer’s quiet voice: \"I liked the small room at the back. Nobody hurried us. We stayed until the rain stopped.\"",
+    "rubric": {
+      "invariants": [
+        "Quiet, concrete first-person voice.",
+        "Small back room; unhurried stay until rain stopped.",
+        "Unchanged is acceptable."
+      ],
+      "questions": [
+        {
+          "question": "Why did they leave when they did?",
+          "answer": "They stayed until the rain stopped; no further motive established."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Adds ornate imagery or invented emotions."
+      ]
+    },
+    "output": "I liked the small room at the back. Nobody hurried us. We stayed until the rain stopped."
+  },
+  {
+    "id": "V03",
+    "request": "Rewrite for a friendly but firm customer-service voice: \"You failed to return the rented projector on time. Therefore, a $25 late fee has been assessed. If you believe our return record is incorrect, send your drop-off receipt by Friday.\"",
+    "rubric": {
+      "invariants": [
+        "$25 fee assessed for late return.",
+        "Challenge via receipt by Friday.",
+        "No automatic refund promise."
+      ],
+      "questions": [
+        {
+          "question": "How can the customer dispute the record?",
+          "answer": "Send the drop-off receipt by Friday."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Removes fee to sound nicer.",
+        "Sounds accusatory or patronizing."
+      ]
+    },
+    "output": "Our records show the rented projector was returned late, so a $25 late fee has been added. If the return record is incorrect, please send your drop-off receipt by Friday."
+  },
+  {
+    "id": "V04",
+    "request": "Keep the dry humor, remove only clutter: \"The new office kettle is, after an unnecessarily elaborate procurement journey, here. It boils water. We have tested this revolutionary capability. Please empty it before the weekend.\"",
+    "rubric": {
+      "invariants": [
+        "Kettle arrived and tested.",
+        "Empty before weekend.",
+        "Retain understated joke."
+      ],
+      "questions": [
+        {
+          "question": "What action is requested?",
+          "answer": "Empty the kettle before the weekend."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Turns it into a formal procurement memo.",
+        "Adds jokes that obscure instruction."
+      ]
+    },
+    "output": "After an unnecessarily elaborate procurement journey, the new office kettle is here. It boils water. We have tested this revolutionary capability. Please empty it before the weekend."
+  },
+  {
+    "id": "V05",
+    "request": "Write a calm correction for a school newsletter. Facts: Yesterday’s newsletter said sports day is Wednesday; correct day is Thursday, May 16. Start time remains 9 a.m. Keep it plain, with one brief apology, no defensive explanation.",
+    "rubric": {
+      "invariants": [
+        "Correction to Thursday May 16.",
+        "9 a.m. unchanged.",
+        "One brief apology."
+      ],
+      "questions": [
+        {
+          "question": "When does sports day begin?",
+          "answer": "Thursday May 16 at 9 a.m."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Invents reason for error.",
+        "Over-apologizes or buries correction."
+      ]
+    },
+    "output": "Sports day is Thursday, May 16, at 9 a.m. Yesterday’s newsletter incorrectly said Wednesday. Sorry for the error."
+  },
+  {
+    "id": "V06",
+    "request": "Edit this note from a grieving friend without making it cheerful or adding beliefs: \"I don’t know the right thing to say. I loved how your dad always made room at the table. I can bring dinner Thursday, if that would help.\"",
+    "rubric": {
+      "invariants": [
+        "Specific memory of dad retained.",
+        "Conditional Thursday dinner offer.",
+        "No spiritual beliefs or positivity imposed.",
+        "Minimal or no change valid."
+      ],
+      "questions": [
+        {
+          "question": "What concrete help is offered?",
+          "answer": "Dinner Thursday, if helpful."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Adds \"everything happens for a reason\" or invented memories.",
+        "Turns offer into a confirmed visit."
+      ]
+    },
+    "output": "I don’t know the right thing to say. I loved how your dad always made room at the table. I can bring dinner Thursday, if that would help."
+  },
+  {
+    "id": "V07",
+    "request": "Rewrite a museum label for curious 10-year-olds without baby talk: \"This vessel facilitated the preservation of perishable provisions through evaporative cooling.\" Facts: Water seeped through tiny pores in the clay. As it evaporated, it carried heat away. Food inside stayed cooler. No electricity was used.",
+    "rubric": {
+      "invariants": [
+        "Evaporation carries heat away.",
+        "Porous clay and cooler food; no electricity.",
+        "Explain unfamiliar mechanism in accessible language."
+      ],
+      "questions": [
+        {
+          "question": "How did the pot cool food?",
+          "answer": "Water seeped through clay pores and evaporated, carrying away heat."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Says the pot creates cold or refrigerates to a specified temperature.",
+        "Uses baby talk."
+      ]
+    },
+    "output": "This clay container kept food cooler without electricity. Water seeped through tiny pores in the clay. As the water evaporated, it carried heat away, cooling the food inside."
+  },
+  {
+    "id": "V08",
+    "request": "Write a confident design critique using only this observation: Three primary buttons use identical color and size, so testers repeatedly chose Cancel instead of Save. Suggest a concrete visual change. Do not hedge every sentence or insult the designer.",
+    "rubric": {
+      "invariants": [
+        "Observed tester error linked to equal visual emphasis.",
+        "Concrete differentiation recommendation.",
+        "No unsupported universal claim."
+      ],
+      "questions": [
+        {
+          "question": "What observed problem should the redesign address?",
+          "answer": "Testers confused Cancel with Save because controls looked equally primary."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Vague \"improve hierarchy\" with no action.",
+        "Claims all users failed or attacks competence."
+      ]
+    },
+    "output": "The three primary buttons have identical color and size, and testers repeatedly chose Cancel instead of Save. Give Save a filled accent color and make Cancel an outlined button so the actions are visually distinct."
+  },
+  {
+    "id": "V09",
+    "request": "Tighten while preserving the speaker’s informal regional phrasing: \"We’ve got a bit of a queue this morning, folks. If you’re only dropping off a form, pop it in the blue tray and you’re good to go. Payments still need the counter.\"",
+    "rubric": {
+      "invariants": [
+        "Forms-only drop-off blue tray.",
+        "Payments require counter.",
+        "Informal tone retained; unchanged acceptable."
+      ],
+      "questions": [
+        {
+          "question": "Can someone leave a payment in the tray?",
+          "answer": "No; payments require the counter."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Rewrites into bureaucratic language.",
+        "Drops payment exception."
+      ]
+    },
+    "output": "We’ve got a queue this morning, folks. Just dropping off a form? Pop it in the blue tray and you’re good to go. Payments still need the counter."
+  },
+  {
+    "id": "V10",
+    "request": "Draft a short team note about an unsuccessful experiment. Facts: New reminder subject line produced 41 opens out of 100; old line 44 out of 100. No statistical analysis done. Team will retain old line for now and test a different send time next week. Tone: candid, interested, no triumph or blame.",
+    "rubric": {
+      "invariants": [
+        "Exact counts.",
+        "No claim of statistical significance.",
+        "Old line retained for now; send-time test next week."
+      ],
+      "questions": [
+        {
+          "question": "Did the test prove the old line is better?",
+          "answer": "No statistical analysis was done; observed opens were 44 versus 41."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Calls result a decisive win or failure.",
+        "Invents causal explanation."
+      ]
+    },
+    "output": "The new reminder subject line got 41 opens out of 100, compared with 44 out of 100 for the old line. We haven’t run a statistical analysis, so this doesn’t establish a reliable difference. We’ll keep the old line for now and test a different send time next week."
+  },
+  {
+    "id": "M01",
+    "request": "Make this policy easy to read without changing logic: \"A refund is available only when the request is submitted within 14 days AND the item is unused. Original shipping charges are excluded unless the wrong item was sent.\"",
+    "rubric": {
+      "invariants": [
+        "Both timely request and unused condition required.",
+        "Original shipping excluded except wrong-item shipment."
+      ],
+      "questions": [
+        {
+          "question": "Does an unused item requested after 14 days qualify?",
+          "answer": "No."
+        },
+        {
+          "question": "When are original shipping charges refundable?",
+          "answer": "When the wrong item was sent."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Changes AND to OR.",
+        "Deletes shipping exception."
+      ]
+    },
+    "output": "To qualify for a refund, you must submit your request within 14 days and the item must be unused. Original shipping charges are excluded unless the wrong item was sent."
+  },
+  {
+    "id": "M02",
+    "request": "Summarize this finding accurately: \"Of 80 surveyed commuters, 52 preferred the proposed timetable. The survey was conducted at the central station on two weekday mornings. It does not represent all route users, and no weekend riders were surveyed.\"",
+    "rubric": {
+      "invariants": [
+        "52 of 80 surveyed preferred proposal.",
+        "Two weekday mornings at central station.",
+        "Not all riders; no weekend sample."
+      ],
+      "questions": [
+        {
+          "question": "Can this establish that most weekend riders prefer the proposal?",
+          "answer": "No."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Says most route users prefer it.",
+        "Invents representative sampling."
+      ]
+    },
+    "output": "Of 80 commuters surveyed at the central station on two weekday mornings, 52 preferred the proposed timetable. The survey does not represent all route users and included no weekend riders."
+  },
+  {
+    "id": "M03",
+    "request": "Clarify the range and boundary: \"The reduced rate applies to bookings of at least 3 nights but fewer than 7 nights. Seven-night bookings use the weekly rate. Two-night bookings use the standard rate.\"",
+    "rubric": {
+      "invariants": [
+        "Reduced rate includes 3–6 nights only.",
+        "Seven weekly; two standard."
+      ],
+      "questions": [
+        {
+          "question": "Does six nights qualify for the reduced rate?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Does seven?",
+          "answer": "No, weekly rate applies."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Says 3–7 inclusive."
+      ]
+    },
+    "output": "The reduced rate applies to bookings of 3–6 nights. Seven-night bookings use the weekly rate; two-night bookings use the standard rate."
+  },
+  {
+    "id": "M04",
+    "request": "Explain this permission rule in plain English: \"Editors may propose changes. Only owners may approve publication. An owner’s approval permits publication of that version; it does not authorize future versions or changes to access permissions.\"",
+    "rubric": {
+      "invariants": [
+        "Editors propose only; owners approve publication.",
+        "Approval version-specific.",
+        "No access-permission authority granted."
+      ],
+      "questions": [
+        {
+          "question": "Does approval cover later revisions?",
+          "answer": "No."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Equates editing access with publishing authority.",
+        "Expands approval scope."
+      ]
+    },
+    "output": "Editors can suggest changes, but only owners can approve publication. Approval covers that version only. It does not approve future versions or changes to who can access the content."
+  },
+  {
+    "id": "M05",
+    "request": "Write a brief finding from conflicting measurements. Lab A reports 12 mg/L; Lab B reports 19 mg/L. Samples were collected on different dates and with different methods. No method comparison is available. Do not average the values or declare either wrong.",
+    "rubric": {
+      "invariants": [
+        "Both values and noncomparable methods/dates.",
+        "No supported trend or correctness conclusion."
+      ],
+      "questions": [
+        {
+          "question": "Can the discrepancy be attributed to a real increase?",
+          "answer": "Not from these data; timing and method both differ."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Averages values.",
+        "Selects more recent or larger result as true without support."
+      ]
+    },
+    "output": "Lab A reported 12 mg/L and Lab B reported 19 mg/L. The samples were collected on different dates using different methods. Without a method comparison, the results do not establish why the measurements differ or that either is wrong."
+  },
+  {
+    "id": "M06",
+    "request": "Rewrite precisely: \"Do not restart the pump unless the inlet valve is open and the pressure gauge reads below 20 psi. If either condition is not met, call the supervisor.\"",
+    "rubric": {
+      "invariants": [
+        "Both conditions needed.",
+        "Below 20 excludes exactly 20.",
+        "Otherwise call supervisor."
+      ],
+      "questions": [
+        {
+          "question": "May the pump restart at exactly 20 psi with the valve open?",
+          "answer": "No."
+        }
+      ],
+      "protected": [
+        "20 psi"
+      ],
+      "hard_failures": [
+        "Changes below to at or below.",
+        "Changes AND to OR."
+      ]
+    },
+    "output": "Do not restart the pump unless both conditions are met: the inlet valve is open and the pressure gauge reads below 20 psi. If either condition is not met, call the supervisor."
+  },
+  {
+    "id": "M07",
+    "request": "Make this entitlement distinction readable: \"Enrollment makes you eligible to request a travel grant. It does not guarantee an award. Awards depend on available funds and approval of the proposed trip. Booking travel before approval does not increase priority.\"",
+    "rubric": {
+      "invariants": [
+        "Enrollment grants eligibility only.",
+        "Award needs funds and trip approval.",
+        "Early booking no priority."
+      ],
+      "questions": [
+        {
+          "question": "Does enrollment guarantee payment?",
+          "answer": "No."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Suggests eligible means approved.",
+        "Encourages booking to secure funds."
+      ]
+    },
+    "output": "Enrollment lets you request a travel grant; it does not guarantee an award. Awards depend on available funds and approval of your proposed trip. Booking before approval does not increase your priority."
+  },
+  {
+    "id": "M08",
+    "request": "Explain these numbers without overclaiming: \"Outages fell from 10 to 6 after the maintenance change. The observation periods were each one month. Weather was milder in the second month, and usage was not recorded.\"",
+    "rubric": {
+      "invariants": [
+        "10 to 6 over equal one-month periods.",
+        "Timing association not proved causation; weather/unknown use matter."
+      ],
+      "questions": [
+        {
+          "question": "Did maintenance definitely cause fewer outages?",
+          "answer": "No; other conditions differed and usage was not recorded."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Claims causal reduction as established.",
+        "Erases observed improvement entirely."
+      ]
+    },
+    "output": "Outages fell from 10 in a one-month observation period before the maintenance change to 6 in a one-month period after it. The second month had milder weather, and usage was not recorded, so the decrease cannot be attributed to maintenance alone."
+  },
+  {
+    "id": "M09",
+    "request": "Edit this guarantee without broadening it: \"We will replace defective stitching reported within one year of purchase. This guarantee excludes fabric fading, accidental damage, and normal wear. Keep proof of purchase.\"",
+    "rubric": {
+      "invariants": [
+        "Only defective stitching within one year.",
+        "Three exclusions.",
+        "Proof of purchase retained."
+      ],
+      "questions": [
+        {
+          "question": "Is fabric fading covered?",
+          "answer": "No."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Turns into full-product warranty.",
+        "Drops time or proof requirement."
+      ]
+    },
+    "output": "We will replace defective stitching reported within one year of purchase. This guarantee excludes fabric fading, accidental damage, and normal wear. Keep proof of purchase."
+  },
+  {
+    "id": "M10",
+    "request": "Write a recommendation from this limited evidence: Candidate A passed the required practical test but has not supplied two references. Candidate B supplied both references but did not pass the practical test. Hiring requires passing the test AND two satisfactory references. Neither currently meets all requirements. Do not recommend hiring either now.",
+    "rubric": {
+      "invariants": [
+        "Neither meets all requirements.",
+        "A lacks references; B failed test.",
+        "References must be satisfactory, not merely submitted."
+      ],
+      "questions": [
+        {
+          "question": "Who is currently eligible for hire?",
+          "answer": "Neither."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Recommends A or B for immediate hire.",
+        "Treats submitted references as necessarily satisfactory."
+      ]
+    },
+    "output": "Do not hire either candidate yet. Hiring requires a passed practical test and two satisfactory references. Candidate A passed the test but has not supplied two references. Candidate B supplied both references but failed the test; their references have not been established as satisfactory. Obtain and assess A’s references before reconsidering eligibility."
+  },
+  {
+    "id": "F01",
+    "request": "Tighten the prose in this Markdown without changing code, URL, placeholder, or quoted error:\n\n## Connect\nYou will need to run the following command in order to connect:\n```sh\nclient connect --workspace \"$WORKSPACE_ID\"\n```\nIf you see \"Access pending\", your owner has not approved access yet. You can find further information at [setup guide](https://example.org/docs/setup?mode=team#access). Send the owner {{request_id}}.",
+    "rubric": {
+      "invariants": [
+        "Command and link exact.",
+        "Pending means owner approval not yet granted.",
+        "Keep request placeholder."
+      ],
+      "questions": [
+        {
+          "question": "What does Access pending mean?",
+          "answer": "The owner has not yet approved access."
+        }
+      ],
+      "protected": [
+        "client connect --workspace \"$WORKSPACE_ID\"",
+        "\"Access pending\"",
+        "https://example.org/docs/setup?mode=team#access",
+        "{{request_id}}"
+      ],
+      "hard_failures": [
+        "Edits command syntax, URL, quote, or placeholder."
+      ]
+    },
+    "output": "## Connect\nRun this command to connect:\n```sh\nclient connect --workspace \"$WORKSPACE_ID\"\n```\nIf you see \"Access pending\", your owner has not approved access yet. See the [setup guide](https://example.org/docs/setup?mode=team#access). Send the owner {{request_id}}."
+  },
+  {
+    "id": "F02",
+    "request": "Improve only the prose around this quote; preserve quote verbatim and attribution. Text: \"The report provides the following helpful statement: > ‘The sample was too small to support a regional estimate.’ — Field Notes, p. 7. This means that it would not be appropriate to present the findings as a regional total.\"",
+    "rubric": {
+      "invariants": [
+        "Quote and attribution unchanged.",
+        "No regional total supported."
+      ],
+      "questions": [
+        {
+          "question": "Can the findings be presented as a regional total?",
+          "answer": "No."
+        }
+      ],
+      "protected": [
+        "‘The sample was too small to support a regional estimate.’",
+        "Field Notes, p. 7"
+      ],
+      "hard_failures": [
+        "Paraphrases inside quotation marks.",
+        "Weakens limitation."
+      ]
+    },
+    "output": "The report states:\n\n> ‘The sample was too small to support a regional estimate.’ — Field Notes, p. 7.\n\nDo not present the findings as a regional total."
+  },
+  {
+    "id": "F03",
+    "request": "Return valid JSON only. Tighten string values for clarity while preserving keys, booleans, number, and placeholders: {\"title\":\"Your export has now been completed\",\"message\":\"You can download {{filename}} by selecting the link below. It will expire in 24 hours.\",\"expires_hours\":24,\"can_retry\":false,\"download_url\":\"https://example.org/export/{{token}}\"}",
+    "rubric": {
+      "invariants": [
+        "Valid JSON, same keys/types.",
+        "24-hour link expiry.",
+        "Filename/token placeholders unchanged."
+      ],
+      "questions": [
+        {
+          "question": "How long does the link remain available?",
+          "answer": "24 hours."
+        }
+      ],
+      "protected": [
+        "{{filename}}",
+        "https://example.org/export/{{token}}"
+      ],
+      "hard_failures": [
+        "Adds Markdown fence or commentary.",
+        "Changes false to true or numeric expiry."
+      ]
+    },
+    "output": "{\"title\":\"Your export is complete\",\"message\":\"Download {{filename}} using the link below. The link expires in 24 hours.\",\"expires_hours\":24,\"can_retry\":false,\"download_url\":\"https://example.org/export/{{token}}\"}"
+  },
+  {
+    "id": "F04",
+    "request": "Clean up this table’s wording while preserving every value and the distinction between blank and zero. Return a Markdown table.\n| Site | Seats available | Notes |\n| North | 0 | There are no seats currently available |\n| South | — | A count has not yet been reported |\n| West | 12 | This count includes two accessible seats |",
+    "rubric": {
+      "invariants": [
+        "North zero, South unreported, West12 including2 accessible.",
+        "Unreported not zero."
+      ],
+      "questions": [
+        {
+          "question": "How many seats are available at South?",
+          "answer": "Unknown; no count reported."
+        }
+      ],
+      "protected": [
+        "| North | 0 |",
+        "| South | — |",
+        "| West | 12 |"
+      ],
+      "hard_failures": [
+        "Fills South with zero.",
+        "Adds accessible seats to twelve."
+      ]
+    },
+    "output": "| Site | Seats available | Notes |\n|---|---|---|\n| North | 0 | No seats available |\n| South | — | Count not yet reported |\n| West | 12 | Includes two accessible seats |"
+  },
+  {
+    "id": "F05",
+    "request": "Rewrite the surrounding email text, keeping the subject and placeholders exactly.\nSubject: Action required: {{account_name}}\nDear {{first_name}},\nWe are writing to inform you that your trial ends on {{end_date}}. Your files will remain readable for 30 days after that date, but editing will stop. Please choose a plan if you would like to continue editing.\n{{billing_link}}",
+    "rubric": {
+      "invariants": [
+        "Readability remains30 days; editing stops at end date.",
+        "Choose plan to continue editing."
+      ],
+      "questions": [
+        {
+          "question": "Will files become unreadable immediately when the trial ends?",
+          "answer": "No; they remain readable for 30 days."
+        }
+      ],
+      "protected": [
+        "Subject: Action required: {{account_name}}",
+        "{{first_name}}",
+        "{{end_date}}",
+        "{{billing_link}}"
+      ],
+      "hard_failures": [
+        "Changes subject/placeholders.",
+        "Says files deleted or immediately inaccessible."
+      ]
+    },
+    "output": "Subject: Action required: {{account_name}}\nDear {{first_name}},\nYour trial ends on {{end_date}}. Editing will stop, but your files will remain readable for 30 days after that date. Choose a plan to continue editing.\n{{billing_link}}"
+  },
+  {
+    "id": "F06",
+    "request": "Simplify this API note without altering either identifier or example. \"It is important to note that `dry_run` checks the request but does not persist changes. To actually save changes, set `dry_run` to false. Example: `{\"dry_run\": true, \"limit\": 0}`. Here, `limit: 0` means no records are processed, not unlimited records.\"",
+    "rubric": {
+      "invariants": [
+        "dry_run checks without persistence.",
+        "false needed to save.",
+        "Zero means no records."
+      ],
+      "questions": [
+        {
+          "question": "Does limit zero mean unlimited?",
+          "answer": "No; it means no records are processed."
+        }
+      ],
+      "protected": [
+        "dry_run",
+        "{\"dry_run\": true, \"limit\": 0}",
+        "limit: 0"
+      ],
+      "hard_failures": [
+        "Changes example boolean.",
+        "Interprets zero as unlimited."
+      ]
+    },
+    "output": "`dry_run` checks the request without saving changes. To save changes, set `dry_run` to false. Example: `{\"dry_run\": true, \"limit\": 0}`. Here, `limit: 0` means no records are processed, not unlimited records."
+  },
+  {
+    "id": "F07",
+    "request": "Edit only paragraphs beginning \"Explanation:\" below; leave every other line exactly unchanged.\nClause 4.2: Payment is due within thirty (30) days.\nExplanation: This means that the customer needs to ensure that payment is made within the thirty-day period.\nClause 4.3: Disputed amounts are governed by Clause 8.\nExplanation: If an amount is disputed, Clause 8 tells the parties what process to follow. Do not assume a dispute cancels the payment obligation.",
+    "rubric": {
+      "invariants": [
+        "Only Explanation lines edited.",
+        "Thirty-day payment meaning.",
+        "Dispute process not automatic cancellation."
+      ],
+      "questions": [
+        {
+          "question": "Does a dispute automatically cancel payment?",
+          "answer": "No."
+        }
+      ],
+      "protected": [
+        "Clause 4.2: Payment is due within thirty (30) days.",
+        "Clause 4.3: Disputed amounts are governed by Clause 8."
+      ],
+      "hard_failures": [
+        "Edits locked clauses.",
+        "Offers unsupported legal consequence."
+      ]
+    },
+    "output": "Clause 4.2: Payment is due within thirty (30) days.\nExplanation: The customer must pay within thirty days.\nClause 4.3: Disputed amounts are governed by Clause 8.\nExplanation: Follow Clause 8 for disputed amounts. Do not assume a dispute cancels the payment obligation."
+  },
+  {
+    "id": "F08",
+    "request": "Improve this checklist without changing order or checkbox states:\n- [x] Download the archive.\n- [ ] Verify the SHA-256 value against `checksums.txt` before extraction.\n- [ ] Extract only if the values match.\n- [ ] If they differ, stop and request a fresh archive.\nMake the dependency clear; do not mark any further work complete.",
+    "rubric": {
+      "invariants": [
+        "One checked item only; order preserved.",
+        "Verify before extract.",
+        "Mismatch means stop/request fresh archive."
+      ],
+      "questions": [
+        {
+          "question": "When is extraction allowed?",
+          "answer": "Only after matching the SHA-256 value."
+        }
+      ],
+      "protected": [
+        "checksums.txt"
+      ],
+      "hard_failures": [
+        "Changes checkbox completion state.",
+        "Suggests extraction before verification."
+      ]
+    },
+    "output": "- [x] Download the archive.\n- [ ] Before extraction, compare the archive’s SHA-256 value with `checksums.txt`.\n- [ ] Extract the archive only if the values match.\n- [ ] If the values differ, stop and request a fresh archive."
+  },
+  {
+    "id": "F09",
+    "request": "Revise the explanatory prose, but keep the citation markers attached to the same claims: \"The trial included 64 households [A]. It measured water use for six weeks [B]. A reduction was observed in the trial group [C], although the report does not establish a citywide effect [D].\" Do not merge markers into one trailing citation cluster.",
+    "rubric": {
+      "invariants": [
+        "64 households[A],six weeks[B],observed reduction[C],no citywide effect established[D].",
+        "Citation adjacency preserved."
+      ],
+      "questions": [
+        {
+          "question": "Was a citywide effect established?",
+          "answer": "No."
+        }
+      ],
+      "protected": [
+        "[A]",
+        "[B]",
+        "[C]",
+        "[D]"
+      ],
+      "hard_failures": [
+        "Moves markers to different claims.",
+        "Claims proven citywide reduction."
+      ]
+    },
+    "output": "The trial included 64 households [A] and measured water use for six weeks [B]. Water use fell in the trial group [C], but the report does not establish a citywide effect [D]."
+  },
+  {
+    "id": "F10",
+    "request": "Make these UI strings clearer. Return exactly five lines in key=value format; preserve keys and {count}. Keep deletion versus archiving distinct.\narchive_title=Move these projects out of the active list\narchive_body=Archived projects can be restored later.\ndelete_title=Permanently delete {count} projects\ndelete_body=Deleted projects cannot be restored.\ncancel=Keep projects unchanged",
+    "rubric": {
+      "invariants": [
+        "Exactly five key=value lines, same keys.",
+        "Archive reversible, delete permanent.",
+        "Count placeholder exact; cancel no change."
+      ],
+      "questions": [
+        {
+          "question": "Which operation can be reversed?",
+          "answer": "Archiving."
+        }
+      ],
+      "protected": [
+        "{count}"
+      ],
+      "hard_failures": [
+        "Conflates archive/delete.",
+        "Adds commentary or changes keys."
+      ]
+    },
+    "output": "archive_title=Archive these projects\narchive_body=Archived projects leave the active list and can be restored later.\ndelete_title=Permanently delete {count} projects\ndelete_body=Deleted projects cannot be restored.\ncancel=Keep projects unchanged"
+  }
+]

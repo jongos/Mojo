@@ -1,0 +1,158 @@
+[
+  {
+    "id": "T01",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves both exact measurement windows, median values, the unmeasured 14 May, and the separate routing and staffing dates. The causal limitation remains explicit."
+  },
+  {
+    "id": "T02",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves the measured June baseline, September model, conditional December forecast, unbooked status, and both launches not having occurred by June. Plain-language edits remain within scope."
+  },
+  {
+    "id": "T03",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves the account cutoff and both inclusive claim-window endpoints. Explicitly retains exclusion of April-opened accounts and all late claims; customer-facing wording is clear."
+  },
+  {
+    "id": "T04",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Appropriately leaves the accurate paragraph unchanged. Both percentages, sample sizes, customer types, and the restriction on longitudinal conclusions remain intact."
+  },
+  {
+    "id": "T05",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Each timestamp retains its source, UTC, and shared date. The engineering mitigation time remains unverified against the deployment log, and the complaint is explicitly distinguished from outage start."
+  },
+  {
+    "id": "T06",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves the weekly reporting periods, percentages, and simultaneous launch of all three changes on 9 November. No causal credit is assigned to the payment form."
+  },
+  {
+    "id": "T07",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Correctly resolves yesterday to 11 October, tomorrow to 13 October, next Friday to 23 October, and the calendar-day deadline to 25 October 2026. Receipt is completed while check and review remain scheduled."
+  },
+  {
+    "id": "T08",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves each conflicting date and its documentary source. Neither possible explanation is asserted as fact, and owner confirmation remains necessary before settling a date."
+  },
+  {
+    "id": "T09",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Appropriately leaves the notice unchanged. Optional availability and automatic rollout retain separate dates, and the qualification concerning offline devices remains intact."
+  },
+  {
+    "id": "T10",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Adds a useful explanation of both three-versus-two-month windows and placed-versus-shipped counting rules. All dates, totals, and exclusions are retained; the final sentence explains comparability without calculating a rate or asserting a trend."
+  },
+  {
+    "id": "T11",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Adds both exact UTC cutoffs, the consequence of inaction, and the optional paid-plan choice. Explicitly states no automatic conversion or automatic charge, preserving the fictional service rules."
+  },
+  {
+    "id": "T12",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Appropriately leaves necessary snapshot qualifications unchanged. The exact count and cutoff, exclusion of later completions, and unconfirmed expectation for the remaining 16 all survive."
+  }
+]

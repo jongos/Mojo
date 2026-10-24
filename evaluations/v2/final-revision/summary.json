@@ -1,0 +1,38 @@
+{
+  "regression-a": {
+    "cases": 30,
+    "scores": {
+      "clarity": 60,
+      "edit_restraint": 60,
+      "meaning": 58,
+      "usefulness": 59,
+      "voice_scope": 60
+    },
+    "comprehension_passes": 29,
+    "hard_failures": []
+  },
+  "regression-b": {
+    "cases": 30,
+    "scores": {
+      "clarity": 60,
+      "edit_restraint": 60,
+      "meaning": 60,
+      "usefulness": 60,
+      "voice_scope": 60
+    },
+    "comprehension_passes": 30,
+    "hard_failures": []
+  },
+  "supplemental": {
+    "cases": 12,
+    "scores": {
+      "clarity": 24,
+      "edit_restraint": 24,
+      "meaning": 24,
+      "usefulness": 24,
+      "voice_scope": 24
+    },
+    "comprehension_passes": 12,
+    "hard_failures": []
+  }
+}

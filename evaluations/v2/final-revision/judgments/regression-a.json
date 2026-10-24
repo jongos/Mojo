@@ -1,0 +1,392 @@
+[
+  {
+    "id": "C01",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Accurately distinguishes inspection from edits and commits to preparing the proposed correction list for review without a redundant permission question."
+  },
+  {
+    "id": "C02",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Self-contained local completion report with exact protected link, West Hall correction, and visual checks of both PDF pages; no distribution claim."
+  },
+  {
+    "id": "C03",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Explicitly retracts the duplicate hypothesis, reports seven filtered rows, and gives the timestamp/boundary comparison without claiming the deeper cause resolved."
+  },
+  {
+    "id": "C04",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Accurately separates four conversions from three keyboard checks and states the authorized remaining sequence."
+  },
+  {
+    "id": "C05",
+    "scores": {
+      "meaning": 1,
+      "usefulness": 1,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": false,
+    "notes": "Keeps upload approval pending and avoids repeating copy-edit history. However, 'Rendering broke' assigns causation where the state only says numbering broke after rendering and the rubric says rendering exposed it. It also mentions fixing but omits the recheck required by the comprehension answer."
+  },
+  {
+    "id": "C06",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Names the Safari focus fix, gives Safari/Firefox keyboard evidence and 38/38 automated results, and explicitly limits completion to local uncommitted work."
+  },
+  {
+    "id": "C07",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Plainly acknowledges the missed deadline, separates drafted summary from blocked comparison, and gives the next calculation check without requesting supplied files."
+  },
+  {
+    "id": "C08",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Precise partial-completion report with 11/12, the exact protected remaining mapping, destination collision, no overwrite, and receipt link."
+  },
+  {
+    "id": "C09",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Reconciles both exact counts through the eight documented exclusions while explicitly leaving export generation running."
+  },
+  {
+    "id": "C10",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Provides the supported Cedar choice and prices/editor limits for the known plans while preserving both Pine unknowns and avoiding an unsupported ranking."
+  },
+  {
+    "id": "D01",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves dates, conditional reopening, restricted returns, old-fee exception, pending access approval, and required move orientation. Volunteer details are separated and no reopening guarantee is invented."
+  },
+  {
+    "id": "D02",
+    "scores": {
+      "meaning": 1,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Retains substantive evidence limits, spending conditions, safety rule, and manager decisions. Minor attribution drift: 'one evening per week, as requested by participants' implies participants requested that exact frequency; the source says they requested evening slots and staff supported testing one evening weekly."
+  },
+  {
+    "id": "D03",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Clearly separates completed search migration from pending alerts, preserves the old-dashboard instruction, and retains the verification condition on next week."
+  },
+  {
+    "id": "D04",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Appropriately returns the paragraph unchanged, preserving confirmed booking, return deadline, locked-box fallback, and prohibition on leaving keys in the room."
+  },
+  {
+    "id": "D05",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Includes the complete setup sequence, expiry remedy, and separate administrator assignment; the proposed administrator contact follows directly from that responsibility."
+  },
+  {
+    "id": "D06",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves current access restrictions, weather closure precedence, accessibility limits, dog exclusion dates, mobility-aid exemption, prices, and separate guided-walk registration. Omitting internal repair correspondence is appropriate."
+  },
+  {
+    "id": "D07",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves the separate reviews and rights decisions, phone assistance, old email queue, conditional scan timing, total-request fee rule, and rights uncertainty in practical researcher guidance."
+  },
+  {
+    "id": "D08",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Retains both incident times, two passengers, reported-injury qualifier, sensor uncertainty, replacement order, and unavailable return date. The repeated availability statement adds the checks condition."
+  },
+  {
+    "id": "D09",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Two paragraphs preserve all three conflicting source claims and dispatch/delivery distinction; supplier confirmation is a concrete next step without unsupported installation readiness."
+  },
+  {
+    "id": "D10",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves ridership numbers, clinic rationale, absent weekend measurement, four-week proposed count, and pending budget approval."
+  },
+  {
+    "id": "S01",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves ongoing review and the expected Thursday date conditional on the fire marshal answering the east-exit question by Tuesday."
+  },
+  {
+    "id": "S02",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Correctly leaves already clear wording unchanged; exact closing time and return slot location survive."
+  },
+  {
+    "id": "S03",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Keeps the two-week free offer and refuses the full six-month free period without adding compensation or an apology."
+  },
+  {
+    "id": "S04",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Adds the needed explanation: download the selected route while on Wi-Fi before departure; no live detours offline."
+  },
+  {
+    "id": "S05",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Meets the two-sentence limit while preserving both directions of the reservation/materials distinction, the $18 price, and supplied-items alternative."
+  },
+  {
+    "id": "S06",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Appropriately unchanged: original paper receipt remains required for warranty claims while a photo suffices for registration."
+  },
+  {
+    "id": "S07",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Retains conditional indoor relocation, Friday noon announcement, and ticket validity at either location."
+  },
+  {
+    "id": "S08",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Makes the sequence actionable and preserves both flagged error types, nonmutating Preview, and source-file corrections before Import."
+  },
+  {
+    "id": "S09",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Removes the scolding reminder while keeping wheels included, the original-order reason for excluding the axle, and the separate quote offer."
+  },
+  {
+    "id": "S10",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Keeps city residency mandatory and the age/pass alternatives disjunctive; current pass remains specified."
+  }
+]

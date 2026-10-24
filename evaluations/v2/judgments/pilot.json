@@ -1,0 +1,755 @@
+[
+  {
+    "id": "S01",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves ongoing review and the conditional Thursday expectation, including the Tuesday east-exit answer. Tightening does not change the commitment."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves ongoing review and the conditional Thursday expectation, including the Tuesday east-exit answer. Tightening does not change the commitment."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves ongoing review and the conditional Thursday expectation, including the Tuesday east-exit answer. Tightening does not change the commitment."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves ongoing review and the conditional Thursday expectation, including the Tuesday east-exit answer. Tightening does not change the commitment."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "S02",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Correctly retains already clear prose unchanged. Closing time and the north-entrance return slot are exact."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Correctly retains already clear prose unchanged. Closing time and the north-entrance return slot are exact."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Correctly retains already clear prose unchanged. Closing time and the north-entrance return slot are exact."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Correctly retains already clear prose unchanged. Closing time and the north-entrance return slot are exact."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "D01",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves all dates, return restrictions and collection alternative, old-fee distinction, unfinished access route, and required orientation with optional heavy lifting. Volunteer orientation remains separate; reopening is unconfirmed."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves all dates, return restrictions and collection alternative, old-fee distinction, unfinished access route, and required orientation with optional heavy lifting. Volunteer orientation remains separate; reopening is unconfirmed."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 1
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves all dates, return restrictions and collection alternative, old-fee distinction, unfinished access route, and required orientation with optional heavy lifting. Volunteer orientation remains separate; reopening is unconfirmed. Repeats the older-fee referral at the end despite the request to state each rule once; this is a minor repetition, not a lost exception."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 1
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves all dates, return restrictions and collection alternative, old-fee distinction, unfinished access route, and required orientation with optional heavy lifting. Volunteer orientation remains separate; reopening is unconfirmed. Repeats the unconfirmed opening and incomplete-access points explicitly after already stating their relevant limits. These are accurate but less effective at removing repetition."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "D02",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains the sample and recruitment limits, reserved rather than verified hours, survey counts and self-report limitations, cleaning incident distinction, unresolved invoice, and universal two-person staffing rule. Recommendation remains subject to approval; findings and next steps are usable."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains the sample and recruitment limits, reserved rather than verified hours, survey counts and self-report limitations, cleaning incident distinction, unresolved invoice, and universal two-person staffing rule. Recommendation remains subject to approval; findings and next steps are usable."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains the sample and recruitment limits, reserved rather than verified hours, survey counts and self-report limitations, cleaning incident distinction, unresolved invoice, and universal two-person staffing rule. Recommendation remains subject to approval; findings and next steps are usable."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Retains the sample and recruitment limits, reserved rather than verified hours, survey counts and self-report limitations, cleaning incident distinction, unresolved invoice, and universal two-person staffing rule. Recommendation remains subject to approval; findings and next steps are usable."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "C01",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Accurately reports 18 missing dates, matching totals and no edits. Proposes a source-based correction list for review, without claiming implementation or asking to repeat authorized inspection."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Accurately reports 18 missing dates, matching totals and no edits. Proposes a source-based correction list for review, without claiming implementation or asking to repeat authorized inspection."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Accurately reports 18 missing dates, matching totals and no edits. Proposes a source-based correction list for review, without claiming implementation or asking to repeat authorized inspection."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Accurately reports 18 missing dates, matching totals and no edits. Proposes a source-based correction list for review, without claiming implementation or asking to repeat authorized inspection. The review-before-edit boundary is implicit in the proposed list for review rather than separately restated; it is still adequately conveyed."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "C02",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Self-contained completion statement includes the correct file link, corrected West Hall venue, both pages visually checked, and local save status. No distribution is claimed."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Self-contained completion statement includes the correct file link, corrected West Hall venue, both pages visually checked, and local save status. No distribution is claimed."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Self-contained completion statement includes the correct file link, corrected West Hall venue, both pages visually checked, and local save status. No distribution is claimed."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Self-contained completion statement includes the correct file link, corrected West Hall venue, both pages visually checked, and local save status. No distribution is claimed."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "V01",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Removes promotional inflation while retaining six folding tables, $360 and the weekly repair cafe. Keeps the welcoming invitation without donation pressure."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Removes promotional inflation while retaining six folding tables, $360 and the weekly repair cafe. Keeps the welcoming invitation without donation pressure."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Removes promotional inflation while retaining six folding tables, $360 and the weekly repair cafe. Keeps the welcoming invitation without donation pressure."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Removes promotional inflation while retaining six folding tables, $360 and the weekly repair cafe. Keeps the welcoming invitation without donation pressure."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "V02",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Appropriately leaves the quiet first-person account unchanged. Retains the room, unhurried stay and rain endpoint without inventing motives or feelings."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Appropriately leaves the quiet first-person account unchanged. Retains the room, unhurried stay and rain endpoint without inventing motives or feelings."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Appropriately leaves the quiet first-person account unchanged. Retains the room, unhurried stay and rain endpoint without inventing motives or feelings."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Appropriately leaves the quiet first-person account unchanged. Retains the room, unhurried stay and rain endpoint without inventing motives or feelings."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "M01",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves both required refund conditions and the wrong-item exception for original shipping charges. The reader can recover both policy answers."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves both required refund conditions and the wrong-item exception for original shipping charges. The reader can recover both policy answers."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 1,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves both required refund conditions and the wrong-item exception for original shipping charges. The reader can recover both policy answers. Introduces a seller voice with \"we sent the wrong item\" where the source was neutral. The ordinary policy meaning is retained, but that voice change is unnecessary."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves both required refund conditions and the wrong-item exception for original shipping charges. The reader can recover both policy answers."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  {
+    "id": "M02",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves 52 of 80, the central station and two weekday mornings, and both sampling limits. Does not generalize to all users or weekend riders."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves 52 of 80, the central station and two weekday mornings, and both sampling limits. Does not generalize to all users or weekend riders."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves 52 of 80, the central station and two weekday mornings, and both sampling limits. Does not generalize to all users or weekend riders."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves 52 of 80, the central station and two weekday mornings, and both sampling limits. Does not generalize to all users or weekend riders."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "F01",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Tightens only surrounding prose. Command, quoted error, URL and placeholder remain exact; pending approval meaning is clear."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Tightens only surrounding prose. Command, quoted error, URL and placeholder remain exact; pending approval meaning is clear."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Tightens only surrounding prose. Command, quoted error, URL and placeholder remain exact; pending approval meaning is clear."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Tightens only surrounding prose. Command, quoted error, URL and placeholder remain exact; pending approval meaning is clear."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "F02",
+    "assessments": [
+      {
+        "label": "A",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves the quote and attribution verbatim and keeps the prohibition on presenting a regional total. Changes only surrounding prose."
+      },
+      {
+        "label": "B",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves the quote and attribution verbatim and keeps the prohibition on presenting a regional total. Changes only surrounding prose."
+      },
+      {
+        "label": "C",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves the quote and attribution verbatim and keeps the prohibition on presenting a regional total. Changes only surrounding prose. The imperative is a reasonable direct rendering of the same limitation."
+      },
+      {
+        "label": "D",
+        "scores": {
+          "meaning": 2,
+          "usefulness": 2,
+          "clarity": 2,
+          "voice_scope": 2,
+          "edit_restraint": 2
+        },
+        "hard_failures": [],
+        "comprehension_pass": true,
+        "notes": "Preserves the quote and attribution verbatim and keeps the prohibition on presenting a regional total. Changes only surrounding prose."
+      }
+    ],
+    "preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  }
+]

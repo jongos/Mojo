@@ -1,0 +1,394 @@
+[
+  {
+    "id": "V01",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Keeps six tables, $360, weekly cafe, and invitation regardless of donation; removes inflated impact language."
+  },
+  {
+    "id": "V02",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Appropriately unchanged; quiet concrete voice and timing remain intact with no invented motive."
+  },
+  {
+    "id": "V03",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Keeps assessed $25 fee and Friday receipt deadline; friendly record-based explanation without refund promise."
+  },
+  {
+    "id": "V04",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves both understated jokes, tested kettle, and weekend instruction with restrained restructuring."
+  },
+  {
+    "id": "V05",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Correct day, date, and time lead; exactly one brief apology and no invented explanation."
+  },
+  {
+    "id": "V06",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Appropriately unchanged; specific memory and conditional Thursday dinner offer remain intact."
+  },
+  {
+    "id": "V07",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Accessible explanation preserves porous clay, evaporation removing heat, cooler food, and no electricity."
+  },
+  {
+    "id": "V08",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves observed repeated Cancel/Save error and recommends concrete filled/outlined differentiation without broader claims."
+  },
+  {
+    "id": "V09",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Retains folks, pop it, and good to go; forms-only tray and counter payment exception remain clear."
+  },
+  {
+    "id": "V10",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Exact counts, no statistical analysis, provisional old-line retention, and next-week send-time test are intact."
+  },
+  {
+    "id": "M01",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Both refund conditions remain necessary; shipping exclusion and wrong-item exception remain intact."
+  },
+  {
+    "id": "M02",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves counts, central station, two weekday mornings, and both sampling limitations."
+  },
+  {
+    "id": "M03",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Correct 3-6 boundary and seven-night weekly/two-night standard distinctions."
+  },
+  {
+    "id": "M04",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Preserves proposal versus approval authority, version-specific scope, and access-permission exclusion."
+  },
+  {
+    "id": "M05",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Both values and differing dates/methods retained; no averaging, correctness claim, or unsupported trend."
+  },
+  {
+    "id": "M06",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Both conditions required; strictly below 20 psi and supervisor instruction preserved."
+  },
+  {
+    "id": "M07",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Eligibility remains distinct from award; funds, trip approval, and no early-booking priority preserved."
+  },
+  {
+    "id": "M08",
+    "scores": {
+      "meaning": 1,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 1
+    },
+    "hard_failures": [
+      "Invented timing specificity: immediately preceding and following months are not established by the source."
+    ],
+    "comprehension_pass": true,
+    "notes": "The month before and month after add immediate timing around maintenance. Source specifies two one-month observation periods without their adjacency to the change. Counts and causal caveats otherwise remain intact."
+  },
+  {
+    "id": "M09",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Appropriately unchanged; stitching coverage, one-year reporting, exclusions, and proof of purchase intact."
+  },
+  {
+    "id": "M10",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Rejects immediate hiring; preserves both requirements and distinguishes submitted references from satisfactory ones."
+  },
+  {
+    "id": "F01",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Command, quoted error, URL, and placeholder exact; pending owner approval preserved."
+  },
+  {
+    "id": "F02",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Quote and attribution verbatim; regional-total limitation remains explicit."
+  },
+  {
+    "id": "F03",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Valid JSON only; keys/types, false, 24, and exact placeholders/URL preserved."
+  },
+  {
+    "id": "F04",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Valid table retains zero versus unreported distinction and twelve including two accessible seats."
+  },
+  {
+    "id": "F05",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Subject/placeholders exact; editing ends at trial expiration while readability continues thirty days."
+  },
+  {
+    "id": "F06",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Identifiers/example exact; no persistence during dry run, false for saving, zero means no records."
+  },
+  {
+    "id": "F07",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Locked clause lines exact; only Explanation lines changed, preserving payment timing and dispute caveat."
+  },
+  {
+    "id": "F08",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Order/check states intact; verify before extracting, match required, mismatch stops and requests fresh archive."
+  },
+  {
+    "id": "F09",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Each citation remains attached to its original claim; all figures and citywide limitation retained."
+  },
+  {
+    "id": "F10",
+    "scores": {
+      "meaning": 2,
+      "usefulness": 2,
+      "clarity": 2,
+      "voice_scope": 2,
+      "edit_restraint": 2
+    },
+    "hard_failures": [],
+    "comprehension_pass": true,
+    "notes": "Exactly five lines, same keys and placeholder; active-list meaning retained in body and archive/delete distinction clear."
+  }
+]

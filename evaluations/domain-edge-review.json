@@ -1,0 +1,163 @@
+{
+  "method": "Informed single-agent analytical replay. The author designed the cases, produced the responses and reviewed them against the stated invariants. No blinded comparison, live service, participant study or independent judge.",
+  "cases": [
+    {
+      "id": "only",
+      "request": "Tighten: Only administrators may export reports.",
+      "invariants": [
+        "Preserve exclusivity"
+      ],
+      "response": "Only administrators can export reports.",
+      "review": {
+        "result": "pass",
+        "basis": "Response inspected against each stated invariant; scoped to this fictional case."
+      }
+    },
+    {
+      "id": "bound",
+      "request": "Tighten: You may submit no more than five files.",
+      "invariants": [
+        "Inclusive upper bound"
+      ],
+      "response": "Submit up to five files.",
+      "review": {
+        "result": "pass",
+        "basis": "Response inspected against each stated invariant; scoped to this fictional case."
+      }
+    },
+    {
+      "id": "necessary",
+      "request": "Tighten: A verified address is required to apply, but verification does not guarantee approval.",
+      "invariants": [
+        "Necessary not sufficient"
+      ],
+      "response": "You need a verified address to apply. Approval is not guaranteed.",
+      "review": {
+        "result": "pass",
+        "basis": "Response inspected against each stated invariant; scoped to this fictional case."
+      }
+    },
+    {
+      "id": "evidence",
+      "request": "Tighten: The treatment has not been proven effective in this study.",
+      "invariants": [
+        "Absence of evidence not negative proof"
+      ],
+      "response": "This study did not establish that the treatment works.",
+      "review": {
+        "result": "pass",
+        "basis": "Response inspected against each stated invariant; scoped to this fictional case."
+      }
+    },
+    {
+      "id": "or",
+      "request": "Tighten: An owner or an administrator may restore the archive; other users cannot.",
+      "invariants": [
+        "OR and exclusion"
+      ],
+      "response": "Only an owner or administrator can restore the archive.",
+      "review": {
+        "result": "pass",
+        "basis": "Response inspected against each stated invariant; scoped to this fictional case."
+      },
+      "initial_response": "Only owners and administrators can restore the archive.",
+      "initial_review": {
+        "result": "needs-revision",
+        "basis": "The list joined by and is ordinarily inclusive, but an explicit or preserves the permission rule without ambiguity."
+      }
+    },
+    {
+      "id": "and",
+      "request": "Tighten: To qualify, the account must be active and the invoice must be paid.",
+      "invariants": [
+        "Both conditions required"
+      ],
+      "response": "To qualify, your account must be active and your invoice paid.",
+      "review": {
+        "result": "pass",
+        "basis": "Response inspected against each stated invariant; scoped to this fictional case."
+      },
+      "initial_response": "You qualify when the account is active and the invoice is paid.",
+      "initial_review": {
+        "result": "fail",
+        "basis": "You qualify when turns necessary conditions into sufficient conditions."
+      }
+    },
+    {
+      "id": "language",
+      "request": "Tighten in Spanish: Es importante tener en cuenta que solo los administradores pueden exportar.",
+      "invariants": [
+        "Keep Spanish",
+        "Keep restriction"
+      ],
+      "response": "Solo los administradores pueden exportar.",
+      "review": {
+        "result": "pass",
+        "basis": "Response inspected against each stated invariant; scoped to this fictional case."
+      }
+    },
+    {
+      "id": "unknown",
+      "request": "Write a status update: upload requested; response lost; persistence unknown; supported status lookup available.",
+      "invariants": [
+        "No false completion",
+        "No unsupported resend"
+      ],
+      "response": "The upload response was lost, so its status is unknown. Check the upload status before retrying.",
+      "review": {
+        "result": "pass",
+        "basis": "Response inspected against each stated invariant; scoped to this fictional case."
+      }
+    },
+    {
+      "id": "conflict",
+      "request": "Write one accurate availability line. Sources say both all accounts can export and only paid accounts can export.",
+      "invariants": [
+        "Do not pick a claim",
+        "Identify needed fact"
+      ],
+      "response": "The sources disagree on export access. Confirm whether export requires a paid account.",
+      "review": {
+        "result": "pass",
+        "basis": "Response inspected against each stated invariant; scoped to this fictional case."
+      }
+    },
+    {
+      "id": "protected",
+      "request": "Tighten the surrounding prose but preserve the quoted label exactly: It is important to note that the button is labelled \"Do not publish\".",
+      "invariants": [
+        "Preserve quote"
+      ],
+      "response": "The button is labelled \"Do not publish\".",
+      "review": {
+        "result": "pass",
+        "basis": "Response inspected against each stated invariant; scoped to this fictional case."
+      }
+    },
+    {
+      "id": "threshold",
+      "request": "Tighten: The discount applies to orders greater than $100, excluding tax.",
+      "invariants": [
+        "Strict bound",
+        "Keep tax basis"
+      ],
+      "response": "The discount applies to orders over $100 before tax.",
+      "review": {
+        "result": "pass",
+        "basis": "Response inspected against each stated invariant; scoped to this fictional case."
+      }
+    },
+    {
+      "id": "unchanged",
+      "request": "Tighten if useful: Save your changes.",
+      "invariants": [
+        "No needless rewrite"
+      ],
+      "response": "Save your changes.",
+      "review": {
+        "result": "pass",
+        "basis": "Response inspected against each stated invariant; scoped to this fictional case."
+      }
+    }
+  ]
+}

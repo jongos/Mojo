@@ -1,0 +1,345 @@
+[
+  {
+    "id": "T01",
+    "request": "Tighten this internal operations update without changing its meaning: 'Before the routing change on 14 May 2026, the median queue time was 18 minutes during 1–13 May. During 15–28 May, after the change, it was 12 minutes. We did not collect data on 14 May. Staffing also increased on 15 May, so these figures do not isolate the effect of routing.'",
+    "rubric": {
+      "invariants": [
+        "Compare 1–13 May with 15–28 May 2026, not equal periods that include 14 May.",
+        "Median queue time changed from 18 to 12 minutes; 14 May was unmeasured.",
+        "Routing changed 14 May and staffing increased 15 May; routing's isolated effect is unknown."
+      ],
+      "questions": [
+        {
+          "question": "Which day lacks measurements?",
+          "answer": "14 May 2026."
+        },
+        {
+          "question": "Can the decrease be attributed solely to routing?",
+          "answer": "No; staffing also increased on 15 May."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Claims routing caused the decrease.",
+        "Changes the measurement windows, values, or statistic.",
+        "Presents 14 May as measured."
+      ]
+    },
+    "output": "Median queue time fell from 18 minutes during 1–13 May 2026, before the 14 May routing change, to 12 minutes during 15–28 May. No data was collected on 14 May. Staffing also increased on 15 May, so the figures do not isolate routing’s effect."
+  },
+  {
+    "id": "T02",
+    "request": "Edit this investor briefing paragraph for plain language, retaining the distinction between measured and expected results: 'At 30 June 2026, recurring revenue was $240,000 per month. Our September planning model projects $310,000 per month by 31 December 2026 if the two scheduled launches proceed. The $310,000 figure is a forecast, not booked revenue. Neither launch had occurred by 30 June.'",
+    "rubric": {
+      "invariants": [
+        "$240,000 monthly recurring revenue was measured at 30 June 2026.",
+        "$310,000 is a conditional forecast for 31 December 2026 in the September planning model.",
+        "Both scheduled launches had not occurred by 30 June."
+      ],
+      "questions": [
+        {
+          "question": "Which revenue figure is measured?",
+          "answer": "$240,000 per month at 30 June 2026."
+        },
+        {
+          "question": "What condition underlies the year-end forecast?",
+          "answer": "The two scheduled launches proceed."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Presents $310,000 as achieved or booked revenue.",
+        "Moves the baseline measurement to September.",
+        "Claims the launches occurred by 30 June or guarantees the forecast."
+      ]
+    },
+    "output": "Monthly recurring revenue was $240,000 at 30 June 2026. The September planning model forecasts $310,000 per month by 31 December 2026 if both scheduled launches proceed. This is a forecast, not booked revenue; neither launch had occurred by 30 June."
+  },
+  {
+    "id": "T03",
+    "request": "Make this customer eligibility notice easier to understand. All rules are fictional and fully specified here: 'Accounts opened on or before 31 March 2026 qualify for the legacy credit if they submit a claim between 1 April and 30 April 2026 inclusive. Accounts opened from 1 April 2026 onward do not qualify, even if they submit during April. Claims submitted after 30 April are ineligible regardless of account age.'",
+    "rubric": {
+      "invariants": [
+        "Eligible accounts opened on or before 31 March 2026.",
+        "Eligible claims must be submitted 1–30 April 2026 inclusive.",
+        "Opening from 1 April onward or claiming after 30 April prevents eligibility."
+      ],
+      "questions": [
+        {
+          "question": "Can an account opened on 31 March qualify?",
+          "answer": "Yes, if it claims from 1 through 30 April inclusive."
+        },
+        {
+          "question": "Does an April claim make an account opened 1 April eligible?",
+          "answer": "No."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Excludes either endpoint of the claim window.",
+        "Makes April-opened accounts eligible.",
+        "Allows late claims based on account age."
+      ]
+    },
+    "output": "You qualify for the legacy credit if your account was opened on or before 31 March 2026 and you submit a claim from 1–30 April 2026, including both dates. Accounts opened on or after 1 April do not qualify, even if they claim during April. Claims submitted after 30 April are ineligible, regardless of when the account was opened."
+  },
+  {
+    "id": "T04",
+    "request": "Review this research note for clarity. It is already accurate, so leave it unchanged if an edit would remove useful detail: 'The January survey found 62% satisfaction among 120 first-time customers. The April survey found 74% satisfaction among 90 returning customers. These are different cohorts, not repeated measurements of the same customers, so the results do not establish that customer satisfaction improved over time.'",
+    "rubric": {
+      "invariants": [
+        "January: 62% of 120 first-time customers; April: 74% of 90 returning customers.",
+        "The cohorts differ and are not repeated measurements.",
+        "No longitudinal satisfaction improvement is established; unchanged source text is acceptable."
+      ],
+      "questions": [
+        {
+          "question": "Were the same customers surveyed twice?",
+          "answer": "No; the cohorts differ."
+        },
+        {
+          "question": "Does this comparison establish improvement over time?",
+          "answer": "No."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Claims satisfaction improved over time.",
+        "Describes the cohorts as identical or paired.",
+        "Drops cohort differences while presenting a time trend."
+      ]
+    },
+    "output": "The January survey found 62% satisfaction among 120 first-time customers. The April survey found 74% satisfaction among 90 returning customers. These are different cohorts, not repeated measurements of the same customers, so the results do not establish that customer satisfaction improved over time."
+  },
+  {
+    "id": "T05",
+    "request": "Rewrite this incident summary into a concise paragraph, preserving which team supplied each time: 'The monitoring system recorded the first error at 08:42 UTC on 6 August 2026. Support reported receiving the first customer complaint at 08:47 UTC. Engineering says mitigation began at 08:45 UTC, but that time has not been verified against the deployment log. Monitoring recorded recovery at 09:03 UTC. Do not treat the first complaint as the start of the outage.'",
+    "rubric": {
+      "invariants": [
+        "All times concern 6 August 2026 and use UTC.",
+        "Monitoring: first error 08:42, recovery 09:03; support: first complaint 08:47.",
+        "Engineering reports mitigation at 08:45, unverified against deployment logs.",
+        "The first complaint is not the outage start."
+      ],
+      "questions": [
+        {
+          "question": "Which time remains unverified?",
+          "answer": "Engineering's reported mitigation start of 08:45 UTC."
+        },
+        {
+          "question": "What did support report at 08:47?",
+          "answer": "The first customer complaint, not the outage start."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Calls 08:47 the outage start.",
+        "Presents 08:45 as log-verified.",
+        "Swaps sources or timestamps."
+      ]
+    },
+    "output": "On 6 August 2026, monitoring recorded the first error at 08:42 UTC and recovery at 09:03 UTC. Engineering reports that mitigation began at 08:45 UTC, but this time remains unverified against the deployment log. Support reported receiving the first customer complaint at 08:47 UTC; that complaint does not mark the outage’s start."
+  },
+  {
+    "id": "T06",
+    "request": "Improve this product update without making the evidence sound stronger: 'Between the week of 2 November and the week of 9 November 2026, checkout completion rose from 61% to 66%. We launched the simpler payment form on 9 November. A shipping discount and a new advertising campaign also began that day. We can report the increase, but we cannot attribute it to the payment form from this comparison.'",
+    "rubric": {
+      "invariants": [
+        "Checkout completion was 61% in the week of 2 November and 66% in the week of 9 November 2026.",
+        "Payment form, discount, and advertising campaign all launched 9 November.",
+        "The comparison cannot identify the form's causal effect."
+      ],
+      "questions": [
+        {
+          "question": "What other changes coincided with the form launch?",
+          "answer": "A shipping discount and a new advertising campaign."
+        },
+        {
+          "question": "Can the form be credited with causing the increase?",
+          "answer": "No, not from this comparison."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Attributes the increase to the form.",
+        "Omits concurrent changes while implying causality.",
+        "Changes the reporting periods or percentages."
+      ]
+    },
+    "output": "Checkout completion rose from 61% in the week of 2 November to 66% in the week of 9 November 2026. The simpler payment form launched on 9 November, alongside a shipping discount and a new advertising campaign. This comparison shows an increase but cannot attribute it to the payment form."
+  },
+  {
+    "id": "T07",
+    "request": "Turn this draft into a durable handoff note by replacing relative dates with absolute dates. The draft was written on Monday, 12 October 2026; its author uses calendar days, and 'next Friday' means the Friday in the following calendar week. Draft: 'Yesterday we received the supplier file. Tomorrow Priya will check it. The client review is next Friday. Corrections are due two days after that review.' Preserve future work as planned, not completed.",
+    "rubric": {
+      "invariants": [
+        "Supplier file received 11 October 2026.",
+        "Priya's check planned for 13 October 2026.",
+        "Client review scheduled for 23 October 2026, with corrections due 25 October.",
+        "Future activities remain planned and receipt remains completed."
+      ],
+      "questions": [
+        {
+          "question": "When is the client review?",
+          "answer": "23 October 2026."
+        },
+        {
+          "question": "When are corrections due?",
+          "answer": "25 October 2026."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Interprets next Friday as 16 October.",
+        "Uses business days to move the corrections deadline.",
+        "Presents the check or review as already completed.",
+        "Fails to replace the relative dates."
+      ]
+    },
+    "output": "We received the supplier file on 11 October 2026. Priya is scheduled to check it on 13 October 2026. The client review is scheduled for 23 October 2026, and corrections are due on 25 October 2026."
+  },
+  {
+    "id": "T08",
+    "request": "Edit this archival note for clarity without resolving the conflicting records: 'The signed acceptance form is dated 18 February 2026. The project tracker lists acceptance on 20 February 2026. The invoice refers to acceptance on 19 February 2026. We have not established whether these record different milestones or a date-entry error. Until the owner confirms, no single acceptance date should be treated as settled.'",
+    "rubric": {
+      "invariants": [
+        "Signed acceptance form: 18 February; tracker: 20 February; invoice: 19 February, all 2026.",
+        "Different milestones versus entry error is unresolved.",
+        "Owner confirmation is pending; no acceptance date is settled."
+      ],
+      "questions": [
+        {
+          "question": "Which date is on the signed acceptance form?",
+          "answer": "18 February 2026."
+        },
+        {
+          "question": "Has the discrepancy's cause been established?",
+          "answer": "No."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Chooses one date as authoritative.",
+        "Declares a typo or distinct milestones as fact.",
+        "Swaps dates between source records."
+      ]
+    },
+    "output": "The records give three acceptance dates: 18 February 2026 on the signed acceptance form, 20 February 2026 in the project tracker, and 19 February 2026 on the invoice. It is unclear whether these reflect different milestones or a date-entry error. No single acceptance date is settled until the owner confirms."
+  },
+  {
+    "id": "T09",
+    "request": "Check this short release notice and change it only if necessary for clarity. Preserve all timing distinctions: 'Version 4.2 became available for optional download on 3 September 2026. Automatic updates began on 10 September. Devices that remained offline had not necessarily updated by either date.'",
+    "rubric": {
+      "invariants": [
+        "Version 4.2 optional download availability began 3 September 2026.",
+        "Automatic updates began 10 September.",
+        "Offline devices were not necessarily updated by either date; unchanged wording is acceptable."
+      ],
+      "questions": [
+        {
+          "question": "Did automatic updates begin on 3 September?",
+          "answer": "No, they began on 10 September."
+        },
+        {
+          "question": "Were all devices updated by 10 September?",
+          "answer": "Not necessarily, particularly devices remaining offline."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Collapses availability and automatic rollout into one date.",
+        "Claims all devices were updated by either date."
+      ]
+    },
+    "output": "Version 4.2 became available for optional download on 3 September 2026. Automatic updates began on 10 September. Devices that remained offline had not necessarily updated by either date."
+  },
+  {
+    "id": "T10",
+    "request": "Expand this overly terse explanation into a useful paragraph for a new analyst: 'The totals are not comparable.' Context: the earlier report covers 1 January–31 March 2026 and counts all 480 orders placed in that period, including cancellations. The newer report covers 1 April–31 May 2026 and counts 290 shipped orders, excluding cancellations and orders still awaiting shipment. Explain both the unequal time windows and the different counting rules. Do not invent a corrected trend or calculate an adjusted rate.",
+    "rubric": {
+      "invariants": [
+        "Earlier report covers 1 January–31 March 2026: 480 placed orders including cancellations.",
+        "Newer report covers 1 April–31 May 2026: 290 shipped orders excluding cancellations and awaiting-shipment orders.",
+        "Explanation identifies both unequal window length and different counting rules.",
+        "Response expands the terse statement without inventing a comparable trend."
+      ],
+      "questions": [
+        {
+          "question": "Why are the reporting periods different?",
+          "answer": "The earlier window spans three months; the newer window spans two."
+        },
+        {
+          "question": "How do the counting rules differ?",
+          "answer": "Earlier counts placed orders including cancellations; newer counts shipped orders excluding cancellations and unshipped orders."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Reports a decline or growth as a comparable trend.",
+        "Calculates an adjusted rate.",
+        "Explains only one of the two comparability problems.",
+        "Leaves only a terse unexplained assertion."
+      ]
+    },
+    "output": "The totals are not directly comparable because the reports cover different periods and count different orders. The earlier report covers three months, 1 January–31 March 2026, and counts all 480 orders placed, including cancellations. The newer report covers two months, 1 April–31 May 2026, and counts 290 shipped orders, excluding cancellations and orders still awaiting shipment. Comparing these totals alone does not establish an order trend; a valid comparison would need consistent time windows and counting rules."
+  },
+  {
+    "id": "T11",
+    "request": "Make this message more informative, not merely shorter: 'Your trial ends soon.' Context: this fictional service gives this recipient trial access through 23:59 UTC on 30 November 2026. Access stops at 00:00 UTC on 1 December unless the recipient activates a paid plan before then. Activating a paid plan is optional; the trial does not convert automatically and no automatic charge occurs. Write a clear customer message with the relevant timing and choice.",
+    "rubric": {
+      "invariants": [
+        "Trial access lasts through 23:59 UTC on 30 November 2026.",
+        "Access stops at 00:00 UTC on 1 December unless a paid plan is activated before then.",
+        "Paid activation is optional; no automatic conversion or charge.",
+        "Message adds the deadline, consequence, and choice to the vague original."
+      ],
+      "questions": [
+        {
+          "question": "When does access stop without paid activation?",
+          "answer": "00:00 UTC on 1 December 2026."
+        },
+        {
+          "question": "Will the recipient be charged automatically?",
+          "answer": "No."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Implies automatic billing or conversion.",
+        "Omits UTC or shifts the cutoff by a day.",
+        "Makes paid activation mandatory.",
+        "Keeps the message vague about when access ends."
+      ]
+    },
+    "output": "Your trial access lasts through 23:59 UTC on 30 November 2026. To keep access, activate a paid plan before 00:00 UTC on 1 December 2026. A paid plan is optional. If you do nothing, access stops at that time; your trial will not convert automatically, and you will not be charged automatically."
+  },
+  {
+    "id": "T12",
+    "request": "Review this status paragraph for unnecessary wording, but keep it unchanged if the detail is necessary: 'As of 16:00 UTC on 7 July 2026, 34 of the 50 scheduled inspections were complete. That count does not include inspections finished after 16:00. The team expects to complete the remaining 16 by 9 July; completion by that date has not yet been confirmed.'",
+    "rubric": {
+      "invariants": [
+        "34 of 50 inspections complete as of 16:00 UTC on 7 July 2026.",
+        "Later completions are excluded from that snapshot.",
+        "The remaining 16 are expected by 9 July, not confirmed complete.",
+        "Unchanged text is acceptable because the timing qualifications matter."
+      ],
+      "questions": [
+        {
+          "question": "Does the count include inspections completed after 16:00?",
+          "answer": "No."
+        },
+        {
+          "question": "Is completion of the remaining 16 by 9 July confirmed?",
+          "answer": "No, it is an expectation."
+        }
+      ],
+      "protected": [],
+      "hard_failures": [
+        "Treats the snapshot as an end-of-day or current total.",
+        "Claims the remaining inspections were completed.",
+        "Turns the expected date into a confirmed result."
+      ]
+    },
+    "output": "As of 16:00 UTC on 7 July 2026, 34 of the 50 scheduled inspections were complete. That count does not include inspections finished after 16:00. The team expects to complete the remaining 16 by 9 July; completion by that date has not yet been confirmed."
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "id": "D01",
+    "assessment_labels_changed": [
+      "D"
+    ],
+    "preference_changed": true,
+    "primary_preferred": [
+      "A",
+      "B"
+    ],
+    "reversed_preferred": [
+      "D",
+      "B",
+      "A"
+    ]
+  },
+  {
+    "id": "D02",
+    "assessment_labels_changed": [
+      "A",
+      "B"
+    ],
+    "preference_changed": true,
+    "primary_preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "reversed_preferred": [
+      "D",
+      "C"
+    ]
+  },
+  {
+    "id": "M01",
+    "assessment_labels_changed": [
+      "C"
+    ],
+    "preference_changed": false,
+    "primary_preferred": [
+      "A",
+      "B",
+      "D"
+    ],
+    "reversed_preferred": [
+      "D",
+      "B",
+      "A"
+    ]
+  },
+  {
+    "id": "F02",
+    "assessment_labels_changed": [
+      "C"
+    ],
+    "preference_changed": true,
+    "primary_preferred": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "reversed_preferred": [
+      "D",
+      "B",
+      "A"
+    ]
+  },
+  {
+    "id": "S10",
+    "assessment_labels_changed": [
+      "D"
+    ],
+    "preference_changed": false,
+    "primary_preferred": [
+      "A",
+      "B",
+      "C"
+    ],
+    "reversed_preferred": [
+      "C",
+      "B",
+      "A"
+    ]
+  },
+  {
+    "id": "V10",
+    "assessment_labels_changed": [
+      "B",
+      "D"
+    ],
+    "preference_changed": true,
+    "primary_preferred": [
+      "A",
+      "C"
+    ],
+    "reversed_preferred": [
+      "D",
+      "C",
+      "B",
+      "A"
+    ]
+  },
+  {
+    "id": "M10",
+    "assessment_labels_changed": [
+      "D"
+    ],
+    "preference_changed": false,
+    "primary_preferred": [
+      "A",
+      "B",
+      "C"
+    ],
+    "reversed_preferred": [
+      "C",
+      "B",
+      "A"
+    ]
+  }
+]

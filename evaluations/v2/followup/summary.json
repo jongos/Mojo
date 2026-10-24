@@ -1,0 +1,45 @@
+{
+  "regression-a": {
+    "cases": 30,
+    "scores": {
+      "clarity": 60,
+      "edit_restraint": 59,
+      "meaning": 60,
+      "usefulness": 60,
+      "voice_scope": 60
+    },
+    "comprehension_passes": 30,
+    "hard_failures": []
+  },
+  "regression-b": {
+    "cases": 30,
+    "scores": {
+      "clarity": 60,
+      "edit_restraint": 59,
+      "meaning": 59,
+      "usefulness": 60,
+      "voice_scope": 60
+    },
+    "comprehension_passes": 30,
+    "hard_failures": [
+      {
+        "id": "M08",
+        "failures": [
+          "Invented timing specificity: immediately preceding and following months are not established by the source."
+        ]
+      }
+    ]
+  },
+  "supplemental": {
+    "cases": 12,
+    "scores": {
+      "clarity": 24,
+      "edit_restraint": 24,
+      "meaning": 24,
+      "usefulness": 24,
+      "voice_scope": 24
+    },
+    "comprehension_passes": 12,
+    "hard_failures": []
+  }
+}
