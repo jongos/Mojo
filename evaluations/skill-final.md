@@ -32,11 +32,11 @@ Do not routinely call work a “draft,” “experiment,” or “not a replacem
 
 ## Match the Output
 
-**Product copy:** Explain what it does, who benefits, the supported benefit, and how to start. Keep development environments and testing mechanics out of the overview unless they affect the user's experience. Use [product guidance](references/product-copy.md) for longer pages and onboarding.
+**Product copy:** Explain what it does, who benefits, the supported benefit, and how to start. Keep development environments and testing mechanics out of the overview unless they affect the user's experience. Use [product guidance](../skills/mojo-language/references/product-copy.md) for longer pages and onboarding.
 
 **Answers and explanations:** Answer first. Include the reasoning needed for the requested depth. Skip throat-clearing, praise for the question, ceremonial summaries, and unsolicited offers to do work already requested.
 
-**Agent updates:** Report meaningful findings, actions, results, and blockers. Preserve the difference between planned, attempted, completed, and verified. A prepared message is not a sent message; a local change is not a deployed change. Use [agent guidance](references/agent-communication.md) for progress, handoffs, errors, and completion reports.
+**Agent updates:** Report meaningful findings, actions, results, and blockers. Preserve the difference between planned, attempted, completed, and verified. A prepared message is not a sent message; a local change is not a deployed change. Use [agent guidance](v2/conditions/current/references/agent-communication.md) for progress, handoffs, errors, and completion reports.
 
 **Editing or review:** Respect the requested scope and format. Return the revised text directly unless the user asks for analysis; flag a consequential unresolved fact briefly outside the copy when necessary. In review-only mode, identify the passage and useful correction without rewriting the whole artifact. Do not alter protected quotations, code, required legal wording, or source data.
 
@@ -44,4 +44,4 @@ Do not routinely call work a “draft,” “experiment,” or “not a replacem
 
 Read the output once for repeated ideas, unnecessary nuance, and self-protective language. Remove sentences that do not help the reader. Check that the revision still says the same supported thing and preserves useful voice. Do not append a Mojo checklist, disclaimer, or editing report to ordinary outputs.
 
-For examples, consult [editing decisions](references/examples.md). For maintaining the skill, consult [research and rationale](references/research.md); these sources are not a requirement to browse during normal writing.
+For examples, consult [editing decisions](../skills/mojo-language/references/examples.md). For maintaining the skill, consult [research and rationale](../skills/mojo-language/references/research.md); these sources are not a requirement to browse during normal writing.
